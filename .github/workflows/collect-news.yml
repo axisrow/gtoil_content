@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
+  # re-collect right after a merged change to the collectors or their sources
+  push:
+    branches: [main]
+    paths:
+      - scripts/fetch_rss.py
+      - scripts/fetch_competitors.py
+      - config/sources.yaml
+      - config/competitors.yaml
+      - .github/workflows/collect-news.yml
 
 permissions:
   contents: write

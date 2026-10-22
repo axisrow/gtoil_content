@@ -2,6 +2,9 @@
 # site     — официальный сайт (для России, если есть; иначе глобальный)
 # articles — раздел статей/новостей бренда: отсюда скилл oil-writer берёт идеи тем,
 #            а scripts/fetch_competitors.py (GitHub Actions) собирает свежие заголовки
+# rss      — лента статей сайта, если есть (пробуется первой)
+# keywords — брать только статьи, в заголовке которых есть эти слова (отсекает, напр., автоспорт)
+# Если в HTML раздела ссылок нет (список рисуется скриптом), сборщик ищет их в карте сайта.
 # checked  — как проверен адрес: search = найден поиском по домену (2026-10-22),
 #            known = общеизвестный глобальный сайт, не проверялся
 # Правило: идеи тем — да; копирование текста и упоминание конкурентов в статьях — нет.
@@ -26,7 +29,8 @@ asian:
     country: Южная Корея
     focus: моторные, трансмиссионные, индустриальные масла
     site: https://www.kixxoil.com/
-    articles: https://news.kixxoil.com/?lang=ru
+    articles: https://news.kixxoil.com/
+    rss: https://news.kixxoil.com/feed/
     checked: search
   - name: S-OIL SEVEN
     company: S-Oil Corporation
@@ -53,6 +57,7 @@ asian:
     focus: автомобильные и промышленные смазочные материалы
     site: https://www.eneos.us/
     articles: https://www.eneos.us/blog/
+    keywords: [oil, 0w, viscosity, synthetic, lubric, engine, "api s", ilsac]
     checked: search
     note: российского сайта не найдено, указан сайт ENEOS USA
   - name: Totachi

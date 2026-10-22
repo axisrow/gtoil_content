@@ -32,6 +32,7 @@ def main() -> None:
 
     cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8"))
     keywords = [k.lower() for k in cfg.get("keywords", [])]
+    exclude = [k.lower() for k in cfg.get("exclude", [])]
     cutoff = time.time() - args.hours * 3600
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -51,7 +52,10 @@ def main() -> None:
             if not url or url in seen or (ts and ts < cutoff):
                 continue
             title, summary = clean(e.get("title", ""), 300), clean(e.get("summary", ""))
-            if feed.get("filter") and keywords and not any(k in f"{title} {summary}".lower() for k in keywords):
+            text = f"{title} {summary}".lower()
+            if feed.get("filter") and keywords and not any(k in text for k in keywords):
+                continue
+            if any(k in text for k in exclude):
                 continue
             items.append({
                 "title": title,
