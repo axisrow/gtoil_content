@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "slug": "motor-oil-prices-up-39-percent",
+    "title": "Моторные масла за девять месяцев подорожали на 39%: что стоит за цифрой",
+    "date": "2026-10-22",
+    "rubric": "news",
+    "tags": [
+      "цены",
+      "рынок",
+      "базовые масла",
+      "Group III"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-22/01-motor-oil-prices-up-39-percent.md"
+  },
+  {
+    "slug": "chestny-znak-checkout-control",
+    "title": "Моторные масла теперь проверяются на кассе: что изменилось с 1 октября",
+    "date": "2026-10-22",
+    "rubric": "news",
+    "tags": [
+      "маркировка",
+      "Честный знак",
+      "контрафакт",
+      "законодательство"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-22/02-chestny-znak-checkout-control.md"
+  },
+  {
+    "slug": "base-oil-groups-explained",
+    "title": "Группы базовых масел I–V: из чего на самом деле сделано ваше масло",
+    "date": "2026-10-22",
+    "rubric": "deep",
+    "tags": [
+      "базовые масла",
+      "синтетика",
+      "ПАО",
+      "гидрокрекинг",
+      "API"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-22/03-base-oil-groups-explained.md"
+  },
+  {
+    "slug": "winter-oils-checklist",
+    "title": "Готовим машину к зиме: какое масло и смазки проверить до морозов",
+    "date": "2026-10-22",
+    "rubric": "expert",
+    "tags": [
+      "зима",
+      "вязкость",
+      "SAE",
+      "холодный пуск",
+      "трансмиссия",
+      "смазки"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-22/04-winter-oils-checklist.md"
+  },
+  {
+    "slug": "myth-mixing-oils",
+    "title": "Можно ли смешивать моторные масла разных марок",
+    "date": "2026-10-22",
+    "rubric": "myth",
+    "tags": [
+      "миф",
+      "совместимость",
+      "долив",
+      "FAQ"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-22/05-myth-mixing-oils.md"
+  }
+]
