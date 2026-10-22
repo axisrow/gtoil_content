@@ -1,0 +1,6 @@
+{
+  "extraKnownMarketplaces": {
+    "gtoil": { "source": { "source": "directory", "path": "./" } }
+  },
+  "enabledPlugins": { "oil@gtoil": true }
+}

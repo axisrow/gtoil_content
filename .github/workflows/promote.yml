@@ -1,0 +1,41 @@
+name: Promote
+
+# Merged article PR = approval: every draft that reaches main goes to the site.
+on:
+  push:
+    branches: [main]
+    paths: [drafts/**]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: promote
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install PyYAML==6.0.2
+      - run: python scripts/promote.py --all
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A drafts docs content
+          git diff --cached --quiet && exit 0
+          git commit -m "publish: $(date -u +%F)"
+          git pull --rebase origin main
+          git push
+  # commits made with GITHUB_TOKEN don't trigger pages.yml, so deploy explicitly
+  pages:
+    needs: promote
+    uses: ./.github/workflows/pages.yml

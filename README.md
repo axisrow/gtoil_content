@@ -9,34 +9,16 @@ scripts/promote.py ───────────────▶ docs/blog/po
 GitHub Pages ◀────────────────────  витрина + RSS-фид (задел под автопостинг)
 ```
 
-## Установка (один раз)
+## Облачный флоу (ничего локально)
 
-```bash
-git clone https://github.com/axisrow/gtoil_content && cd gtoil_content
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-```
+1. **Actions `Collect news`** каждые 6 ч кладут новости в `inbox/news/`.
+2. **Scheduled task Claude Code** каждое утро открывает облачную сессию, плагин `oil` (подключается автоматически через `.claude/settings.json`) пишет 5 статей и открывает PR «Статьи <дата>».
+3. **Ты в PR** (браузер/телефон): читаешь, правишь файлы прямо на GitHub, удаляешь неудачные статьи, жмёшь Merge.
+4. **Actions `Promote`** переносит смерженные черновики в `docs/blog/posts/` и деплоит **Pages**.
 
-В Claude Code (из папки репо):
-```
-/plugin marketplace add ./
-/plugin install oil@gtoil
-```
+Один раз на GitHub: **Settings → Pages → Source: GitHub Actions**; **Settings → Actions → General → Workflow permissions: Read and write**.
 
-На GitHub: **Settings → Pages → Source: GitHub Actions**, **Settings → Actions → General → Workflow permissions: Read and write**.
-
-## Каждый день
-
-```bash
-git pull                       # свежие новости от Actions
-claude "/oil:daily"            # 5 черновиков в drafts/<сегодня>/
-# читаешь, правишь, в нужных статьях status: draft → approved
-python3 scripts/promote.py     # approved → docs/blog/posts/
-mkdocs serve                   # (опц.) превью на http://127.0.0.1:8000
-git add -A && git commit -m "posts: $(date +%F)" && git push
-```
-
-Другие команды: `/oil:article <тема> [news|deep|expert|myth]`, `/oil:review drafts/…/file.md`.
+Команды плагина (в любой облачной сессии на этом репо): `/oil:daily`, `/oil:article <тема> [news|deep|expert|myth]`, `/oil:review <файл>`.
 
 ## Настройка
 - `config/sources.yaml` — RSS-ленты и ключевые слова.
