@@ -1,20 +1,27 @@
 ---
-title: "API SQ и ILSAC GF-7: что изменилось в новом стандарте моторных масел"
+title: 'API SQ и ILSAC GF-7: что изменилось в новом стандарте моторных масел'
 date: 2026-10-22
 rubric: deep
 categories:
-  - Матчасть
-tags: [API SQ, ILSAC GF-7, спецификации, LSPI, классификация]
-summary: "На канистрах всё чаще пишут API SQ и ILSAC GF-7. Разбираемся, чем новый стандарт отличается от API SP и GF-6, что такое GF-7A и GF-7B и нужно ли срочно переходить на новое масло."
+- Матчасть
+tags:
+- API SQ
+- ILSAC GF-7
+- спецификации
+- LSPI
+- классификация
+summary: На канистрах всё чаще пишут API SQ и ILSAC GF-7. Разбираемся, чем новый стандарт
+  отличается от API SP и GF-6, что такое GF-7A и GF-7B и нужно ли срочно переходить
+  на новое масло.
 sources:
-  - https://www.enginebuildermag.com/2025/01/api-announces-improved-gas-engine-oil-standards/
-  - https://www.motor.com/2025/03/understanding-the-new-ilsac-gf-7-motor-oil-category-qa-with-pennzoil-and-api/
-  - https://www.infineuminsight.com/en-gb/articles/ilsac-gf7-ready/
-  - https://petrocanadalubricants.com/knowledge-centre/expertqa/an-introduction-to-ilsac-gf-7
+- https://www.enginebuildermag.com/2025/01/api-announces-improved-gas-engine-oil-standards/
+- https://www.motor.com/2025/03/understanding-the-new-ilsac-gf-7-motor-oil-category-qa-with-pennzoil-and-api/
+- https://www.infineuminsight.com/en-gb/articles/ilsac-gf7-ready/
+- https://petrocanadalubricants.com/knowledge-centre/expertqa/an-introduction-to-ilsac-gf-7
 inspired_by:
-  - https://news.kixxoil.com/kixx-gx7-launch-synthetic-engine-oil/
-  - https://www.eneos.us/product/eneos-5w-30/
-status: draft
+- https://news.kixxoil.com/kixx-gx7-launch-synthetic-engine-oil/
+- https://www.eneos.us/product/eneos-5w-30/
+status: approved
 ---
 С весны 2025 года в США действует новый стандарт масел для бензиновых двигателей — API SQ и ILSAC GF-7. Теперь эти обозначения массово появляются и на канистрах в России. Разбираемся, что в нём нового и стоит ли менять привычное масло.
 

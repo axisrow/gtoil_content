@@ -1,15 +1,22 @@
 ---
-title: "Присадки в моторное масло: помогают или вредят"
+title: 'Присадки в моторное масло: помогают или вредят'
 date: 2026-10-22
 rubric: myth
 categories:
-  - Мифы
-tags: [миф, присадки, автохимия, износ, FAQ]
-summary: "«Добавь присадку — и масло станет лучше, а мотор помолодеет». Разбираемся, почему готовое масло уже содержит всё нужное и чем рискуют любители «улучшать» его из флакона."
+- Мифы
+tags:
+- миф
+- присадки
+- автохимия
+- износ
+- FAQ
+summary: «Добавь присадку — и масло станет лучше, а мотор помолодеет». Разбираемся,
+  почему готовое масло уже содержит всё нужное и чем рискуют любители «улучшать» его
+  из флакона.
 inspired_by:
-  - https://lukoil-masla.ru/ru/consumers/articles/oil-improvers
-  - https://www.liqui-moly.com/en/products/tips-and-topics/liqui-moly-oil-additive-the-classic-against-engine-wear.html
-status: draft
+- https://lukoil-masla.ru/ru/consumers/articles/oil-improvers
+- https://www.liqui-moly.com/en/products/tips-and-topics/liqui-moly-oil-additive-the-classic-against-engine-wear.html
+status: approved
 ---
 На полках автомагазинов десятки флаконов с обещаниями: «снижает износ», «восстанавливает компрессию», «реметаллизант», «увеличивает ресурс в 2 раза». Многие водители добавляют такие средства в свежее масло «для профилактики». Разбираемся, работает ли это.
 
