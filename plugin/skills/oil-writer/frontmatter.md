@@ -11,6 +11,8 @@ tags: [моторное масло, ACEA]
 summary: "Анонс до 280 знаков для соцсетей."
 sources:
   - https://example.com/article
+inspired_by:                # необязательно: статьи конкурентов, давшие идею (на сайте не выводятся)
+  - https://competitor.example/article
 status: draft               # draft → approved (человек) → published
 ---
 ```
