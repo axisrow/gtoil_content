@@ -1,19 +1,25 @@
 ---
-title: "Моторные масла за девять месяцев подорожали на 39%: что стоит за цифрой"
+title: 'Моторные масла за девять месяцев подорожали на 39%: что стоит за цифрой'
 date: 2026-10-22
 rubric: news
 categories:
-  - Новости
-tags: [цены, рынок, базовые масла, Group III]
-summary: "По данным ROSSKO, моторные масла в России за январь–сентябрь 2026 года подорожали на 39,3% — сильнее любых других автотоваров. Разбираемся, откуда рост и что будет дальше."
+- Новости
+tags:
+- цены
+- рынок
+- базовые масла
+- Group III
+summary: По данным ROSSKO, моторные масла в России за январь–сентябрь 2026 года подорожали
+  на 39,3% — сильнее любых других автотоваров. Разбираемся, откуда рост и что будет
+  дальше.
 sources:
-  - https://tmn.aif.ru/auto/motornye-masla-v-rossii-podorozhali-pochti-na-40-za-god
-  - https://auto.rambler.ru/novosti/57226781-sbylis-prognozy-ekspertov-avtotovary-v-rossii-podorozhali-do-40/
-  - https://www.niasam.ru/transport/nazvany-samye-podorozhavshie-avtozapchasti-v-2026-godu-283583.html
-  - https://www.lubesngreases.com/magazine/32_8/base-oils-under-pressure-hormuz-war-and-global-disruption/
-  - https://www.baseoilnews.com/europe-mideast-gulf-africa/mideast-gulf/shell-qatar-pearl-gtl-plant-halt-group-iii-base-oils-supply-march-2026
-  - https://ilma.org/base-oil-supply-crisis-continues-even-as-shipping-conditions-improve/
-status: draft
+- https://tmn.aif.ru/auto/motornye-masla-v-rossii-podorozhali-pochti-na-40-za-god
+- https://auto.rambler.ru/novosti/57226781-sbylis-prognozy-ekspertov-avtotovary-v-rossii-podorozhali-do-40/
+- https://www.niasam.ru/transport/nazvany-samye-podorozhavshie-avtozapchasti-v-2026-godu-283583.html
+- https://www.lubesngreases.com/magazine/32_8/base-oils-under-pressure-hormuz-war-and-global-disruption/
+- https://www.baseoilnews.com/europe-mideast-gulf-africa/mideast-gulf/shell-qatar-pearl-gtl-plant-halt-group-iii-base-oils-supply-march-2026
+- https://ilma.org/base-oil-supply-crisis-continues-even-as-shipping-conditions-improve/
+status: approved
 ---
 Моторные масла стали самой подорожавшей категорией автотоваров в России в 2026 году: по данным исследования «Барометр автозапчастей» дистрибьютора ROSSKO, за январь–сентябрь цены выросли на 39,3% год к году.
 

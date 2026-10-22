@@ -1,17 +1,23 @@
 ---
-title: "Моторные масла теперь проверяются на кассе: что изменилось с 1 октября"
+title: 'Моторные масла теперь проверяются на кассе: что изменилось с 1 октября'
 date: 2026-10-22
 rubric: news
 categories:
-  - Новости
-tags: [маркировка, Честный знак, контрафакт, законодательство]
-summary: "С 1 октября 2026 года для моторных масел и автохимии действует разрешительный режим: касса проверяет код «Честного знака» онлайн и не пробьёт товар, которого нет в системе."
+- Новости
+tags:
+- маркировка
+- Честный знак
+- контрафакт
+- законодательство
+summary: 'С 1 октября 2026 года для моторных масел и автохимии действует разрешительный
+  режим: касса проверяет код «Честного знака» онлайн и не пробьёт товар, которого
+  нет в системе.'
 sources:
-  - https://xn--80ajghhoc2aj1c8b.xn--p1ai/business/projects/autofluids/checkout/
-  - https://www.zr.ru/content/news/986453-falsifikat-ne-projdet-motorn/
-  - https://rg.ru/2026/10/01/eksperty-rg-obiasnili-chto-meniaetsia-s-1-oktiabria-v-sisteme-markirovki-tovarov.html
-  - https://newsroom24.ru/spb/news/details/2026/news_355092
-status: draft
+- https://xn--80ajghhoc2aj1c8b.xn--p1ai/business/projects/autofluids/checkout/
+- https://www.zr.ru/content/news/986453-falsifikat-ne-projdet-motorn/
+- https://rg.ru/2026/10/01/eksperty-rg-obiasnili-chto-meniaetsia-s-1-oktiabria-v-sisteme-markirovki-tovarov.html
+- https://newsroom24.ru/spb/news/details/2026/news_355092
+status: approved
 ---
 С 1 октября 2026 года моторные масла, автомобильные жидкости и смазочные материалы продаются в России в разрешительном режиме: перед пробитием чека касса онлайн сверяет код маркировки с системой «Честный знак» и блокирует продажу сомнительного товара.
 

@@ -1,17 +1,18 @@
 [
   {
-    "slug": "motor-oil-prices-up-39-percent",
-    "title": "Моторные масла за девять месяцев подорожали на 39%: что стоит за цифрой",
+    "slug": "base-oil-groups-explained",
+    "title": "Группы базовых масел I–V: из чего на самом деле сделано ваше масло",
     "date": "2026-10-22",
-    "rubric": "news",
+    "rubric": "deep",
     "tags": [
-      "цены",
-      "рынок",
       "базовые масла",
-      "Group III"
+      "синтетика",
+      "ПАО",
+      "гидрокрекинг",
+      "API"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-22/01-motor-oil-prices-up-39-percent.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-base-oil-groups-explained.md"
   },
   {
     "slug": "chestny-znak-checkout-control",
@@ -24,23 +25,36 @@
       "контрафакт",
       "законодательство"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-22/02-chestny-znak-checkout-control.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-chestny-znak-checkout-control.md"
   },
   {
-    "slug": "base-oil-groups-explained",
-    "title": "Группы базовых масел I–V: из чего на самом деле сделано ваше масло",
+    "slug": "motor-oil-prices-up-39-percent",
+    "title": "Моторные масла за девять месяцев подорожали на 39%: что стоит за цифрой",
     "date": "2026-10-22",
-    "rubric": "deep",
+    "rubric": "news",
     "tags": [
+      "цены",
+      "рынок",
       "базовые масла",
-      "синтетика",
-      "ПАО",
-      "гидрокрекинг",
-      "API"
+      "Group III"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-22/03-base-oil-groups-explained.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-motor-oil-prices-up-39-percent.md"
+  },
+  {
+    "slug": "myth-mixing-oils",
+    "title": "Можно ли смешивать моторные масла разных марок",
+    "date": "2026-10-22",
+    "rubric": "myth",
+    "tags": [
+      "миф",
+      "совместимость",
+      "долив",
+      "FAQ"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-myth-mixing-oils.md"
   },
   {
     "slug": "winter-oils-checklist",
@@ -55,21 +69,7 @@
       "трансмиссия",
       "смазки"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-22/04-winter-oils-checklist.md"
-  },
-  {
-    "slug": "myth-mixing-oils",
-    "title": "Можно ли смешивать моторные масла разных марок",
-    "date": "2026-10-22",
-    "rubric": "myth",
-    "tags": [
-      "миф",
-      "совместимость",
-      "долив",
-      "FAQ"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-22/05-myth-mixing-oils.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-winter-oils-checklist.md"
   }
 ]
