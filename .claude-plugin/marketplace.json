@@ -1,0 +1,11 @@
+{
+  "name": "gtoil",
+  "owner": { "name": "axisrow" },
+  "plugins": [
+    {
+      "name": "oil",
+      "source": "./plugin",
+      "description": "Ежедневная генерация статей о маслах и смазочных материалах"
+    }
+  ]
+}
