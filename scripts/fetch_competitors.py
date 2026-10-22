@@ -63,6 +63,21 @@ def slug_title(url: str) -> str:
     return re.sub(r"\.(html?|php)$", "", seg).replace("-", " ").replace("_", " ").strip()
 
 
+PAGINATION = re.compile(r"/(browse|page)/\d+(\.html?)?/?$|[?&]page=\d+")
+TEASER_META = re.compile(r"^\d{1,2}[./]\d{1,2}[./]\d{4}\s+(\d+\s*min\s+)?", re.I)  # "10/22/2026 5min "
+
+
+def clean(links: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """Drop pagination links and letterless titles ("2"), strip date/read-time prefixes."""
+    out = []
+    for url, title in links:
+        title = TEASER_META.sub("", title).strip()
+        if PAGINATION.search(url) or not re.search(r"[^\W\d_]", title):
+            continue
+        out.append((url, title))
+    return out
+
+
 def in_section(url: str, section: str) -> bool:
     """URL is an article below the section: /useful/ → /useful/x.html, /tips.html → /tips/x.html."""
     u, s = urlparse(url), urlparse(section)
@@ -149,6 +164,7 @@ def main() -> None:
             print(f"! {c['name']}: {e}")
             continue
         keywords = [k.lower() for k in c.get("keywords", [])]
+        links = clean(links)
         relevant = [(u, t) for u, t in links if not keywords or any(k in t.lower() for k in keywords)]
         new = [(u, t) for u, t in relevant if u not in seen]
         for url, title in new:
