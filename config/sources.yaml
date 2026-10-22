@@ -1,21 +1,27 @@
-# RSS-источники новостей. filter: true — брать только записи с ключевыми словами ниже.
-keywords: [lubricant, lubricants, motor oil, engine oil, base oil, grease, api sn, api sp, acea, ilsac,
-           масл, смазоч, присадк]
+# RSS-источники новостей.
+# filter: true — брать только записи с ключевыми словами из keywords.
+# exclude — отбрасывать записи (во всех лентах), где в заголовке/анонсе есть эти слова: не про масла.
+# Прямые ленты Lubes'n'Greases и Machinery Lubrication не парсятся (битый XML) или пустые,
+# поэтому их новости берём через Google News с оператором site:.
+keywords: [lubricant, lubricants, motor oil, engine oil, base oil, grease, api sn, api sp, api sq, acea, ilsac,
+           масл, смазоч, присадк, антифриз]
+exclude: [горюче-смазоч, гсм, взятк, уголовн, задержан, студент, вуз, товарооборот,
+          market research, market size, market report, market to 20, cagr, forecast to 20]
 
 feeds:
   - name: Lubes'n'Greases
-    url: https://www.lubesngreases.com/feed/
-  - name: Lube Report (Lubes'n'Greases)
-    url: https://www.lubesngreases.com/category/lube-report/feed/
-  - name: Machinery Lubrication
-    url: https://www.machinerylubrication.com/rss/
-    filter: true
+    url: https://news.google.com/rss/search?q=site:lubesngreases.com&hl=en-US&gl=US&ceid=US:en
   - name: Oil & Gas Journal
     url: https://www.ogj.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22refining-processing%22%7D
     filter: true
   - name: Google News — смазочные материалы
     url: https://news.google.com/rss/search?q=%D1%81%D0%BC%D0%B0%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B5+%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B&hl=ru&gl=RU&ceid=RU:ru
+    filter: true
   - name: Google News — моторное масло
     url: https://news.google.com/rss/search?q=%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D0%BD%D0%BE%D0%B5+%D0%BC%D0%B0%D1%81%D0%BB%D0%BE&hl=ru&gl=RU&ceid=RU:ru
+  - name: Google News — базовые масла
+    url: https://news.google.com/rss/search?q=%22%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5+%D0%BC%D0%B0%D1%81%D0%BB%D0%B0%22&hl=ru&gl=RU&ceid=RU:ru
   - name: Google News — lubricants industry
     url: https://news.google.com/rss/search?q=lubricants+industry&hl=en-US&gl=US&ceid=US:en
+  - name: Google News — base oil
+    url: https://news.google.com/rss/search?q=%22base+oil%22+OR+%22base+oils%22&hl=en-US&gl=US&ceid=US:en
