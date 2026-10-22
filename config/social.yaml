@@ -1,0 +1,104 @@
+# Соцсети для автопостинга через browser-use (scripts/social.py).
+#
+#   login_url    — куда открыть браузер для ручного входа (`social.py login <ключ>`)
+#   compose_url  — с какой страницы агент начинает публикацию
+#   domains      — куда агенту можно ходить при публикации (защита от «увода» на чужие сайты)
+#   instructions — как опубликовать пост, своими словами для агента
+#   max_len      — лимит текста; при превышении укорачивается summary
+#   url_len      — сколько символов сеть засчитывает за ссылку (если считает её фиксированной)
+#   template     — шаблон поста: {title} {summary} {url} {hashtags}
+#   hashtags     — сколько тегов статьи превратить в хэштеги (0 — без них)
+#   enabled      — публиковать ли без явного --to
+#
+# После `social.py login <ключ>` поставь enabled: true и проверь compose_url.
+
+defaults:
+  template: "{title}\n\n{summary}\n\n{url}\n\n{hashtags}"
+  hashtags: 3
+
+networks:
+  vk:
+    name: ВКонтакте
+    enabled: false
+    login_url: https://vk.com/
+    compose_url: https://vk.com/feed   # для сообщества — https://vk.com/<адрес_сообщества>
+    domains: ["*.vk.com"]
+    max_len: 4000
+    instructions: >
+      Кликни поле «Что у вас нового?» (на странице сообщества — поле записи на стене),
+      введи текст поста и нажми «Опубликовать».
+
+  telegram:
+    name: Telegram
+    enabled: false
+    login_url: https://web.telegram.org/k/
+    compose_url: https://web.telegram.org/k/#@your_channel   # замени на свой канал
+    domains: ["*.telegram.org"]
+    max_len: 4096
+    instructions: >
+      Открой чат канала, кликни поле «Message» / «Сообщение». Enter здесь сразу отправляет,
+      поэтому вводи текст по строкам, а переносы строк делай сочетанием Shift+Enter.
+      Отправь сообщение кнопкой отправки.
+
+  x:
+    name: X (Twitter)
+    enabled: false
+    login_url: https://x.com/i/flow/login
+    compose_url: https://x.com/compose/post
+    domains: ["*.x.com"]
+    max_len: 280
+    url_len: 23   # X считает любую ссылку за 23 символа
+    template: "{title}\n\n{url}"
+    hashtags: 0
+    instructions: >
+      В окне создания поста введи текст и нажми «Post» / «Опубликовать».
+
+  threads:
+    name: Threads
+    enabled: false
+    login_url: https://www.threads.com/login
+    compose_url: https://www.threads.com/
+    domains: ["*.threads.com", "*.threads.net"]
+    max_len: 500
+    instructions: >
+      Нажми «What's new?» / «Что нового?», введи текст и нажми «Post» / «Опубликовать».
+
+  linkedin:
+    name: LinkedIn
+    enabled: false
+    login_url: https://www.linkedin.com/login
+    compose_url: https://www.linkedin.com/feed/
+    domains: ["*.linkedin.com"]
+    max_len: 3000
+    instructions: >
+      Нажми «Start a post» / «Создать публикацию», введи текст и нажми «Post» / «Опубликовать».
+
+  facebook:
+    name: Facebook
+    enabled: false
+    login_url: https://www.facebook.com/
+    compose_url: https://www.facebook.com/   # для страницы — https://www.facebook.com/<страница>
+    domains: ["*.facebook.com"]
+    max_len: 5000
+    instructions: >
+      Нажми «What's on your mind?» / «Что у вас нового?», введи текст и нажми «Post» / «Опубликовать».
+
+  ok:
+    name: Одноклассники
+    enabled: false
+    login_url: https://ok.ru/
+    compose_url: https://ok.ru/   # для группы — https://ok.ru/group/<id>
+    domains: ["*.ok.ru"]
+    max_len: 4000
+    instructions: >
+      Кликни поле «Напишите заметку», введи текст и нажми «Поделиться».
+
+  dzen:
+    name: Дзен
+    enabled: false
+    login_url: https://dzen.ru/
+    compose_url: https://dzen.ru/profile/editor/your_channel   # Студия своего канала
+    domains: ["*.dzen.ru", "*.ya.ru", "*.yandex.ru"]
+    max_len: 4000
+    instructions: >
+      В Студии нажми «Создать» → «Пост», введи текст и нажми «Опубликовать».
