@@ -37,6 +37,7 @@ plugins:
       abstract_chars_count: 280
 markdown_extensions:
   - admonition
+  - attr_list
   - tables
   - toc:
       permalink: true
