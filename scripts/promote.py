@@ -12,14 +12,23 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="approve every draft (merged PR = approval)")
     args = ap.parse_args()
+    drafts = sorted((ROOT / "drafts").glob("*/*.md"))
+    # validate everything before moving anything: latin slugs, no collisions
+    slugs = {draft: slug_of(draft) for draft in drafts}
+    seen = {}
+    for draft, slug in slugs.items():
+        key = f"{draft.parent.name}-{slug}"
+        if key in seen:
+            raise ValueError(f"slug collision: {draft.name} and {seen[key].name} -> {key}.md")
+        seen[key] = draft
     moved = []
-    for draft in sorted((ROOT / "drafts").glob("*/*.md")):
+    for draft in drafts:
         meta, body = read_frontmatter(draft)
         if args.all:
             meta["status"] = "approved"
         elif meta.get("status") != "approved":
             continue
-        slug = slug_of(draft)
+        slug = slugs[draft]
         meta["slug"] = slug  # latin URL on Pages; same slug as content/index.json
         target = POSTS / f"{meta['date']}-{slug}.md"
         POSTS.mkdir(parents=True, exist_ok=True)
