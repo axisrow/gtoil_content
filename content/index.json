@@ -149,21 +149,6 @@
     "path": "docs/blog/posts/2026-10-22-winter-oils-checklist.md"
   },
   {
-    "slug": "hormuz-base-oil-prices",
-    "title": "Напряжение вокруг Ормузского пролива толкает цены на базовые масла",
-    "date": "2026-10-23",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "Ормузский пролив",
-      "Brent",
-      "цены",
-      "Group II"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-23/01-hormuz-base-oil-prices.md"
-  },
-  {
     "slug": "datacenter-liquid-cooling",
     "title": "Дата-центры переходят на жидкостное охлаждение: индустриальный тренд, о котором стоит знать",
     "date": "2026-10-23",
@@ -175,8 +160,23 @@
       "теплоносители",
       "ИИ"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-23/02-datacenter-liquid-cooling.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-datacenter-liquid-cooling.md"
+  },
+  {
+    "slug": "hormuz-base-oil-prices",
+    "title": "Напряжение вокруг Ормузского пролива толкает цены на базовые масла",
+    "date": "2026-10-23",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "Ормузский пролив",
+      "Brent",
+      "цены",
+      "Group II"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-hormuz-base-oil-prices.md"
   },
   {
     "slug": "oem-approvals-vs-api-acea",
@@ -190,8 +190,8 @@
       "API",
       "ACEA"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-23/03-oem-approvals-vs-api-acea.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-oem-approvals-vs-api-acea.md"
   },
   {
     "slug": "short-trips-oil-interval",
@@ -204,8 +204,8 @@
       "город",
       "тяжёлые условия"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-23/04-short-trips-oil-interval.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-short-trips-oil-interval.md"
   },
   {
     "slug": "thicker-oil-better-protection",
@@ -219,7 +219,7 @@
       "мифы",
       "защита двигателя"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-23/05-thicker-oil-better-protection.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-thicker-oil-better-protection.md"
   }
 ]
