@@ -22,6 +22,7 @@ inspired_by:
 - https://news.kixxoil.com/kixx-gx7-launch-synthetic-engine-oil/
 - https://www.eneos.us/product/eneos-5w-30/
 status: approved
+slug: api-sq-ilsac-gf-7-explained
 ---
 С весны 2025 года в США действует новый стандарт масел для бензиновых двигателей — API SQ и ILSAC GF-7. Теперь эти обозначения массово появляются и на канистрах в России. Разбираемся, что в нём нового и стоит ли менять привычное масло.
 

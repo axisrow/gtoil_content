@@ -16,6 +16,7 @@ summary: API и ACEA задают общий минимум качества д�
 inspired_by:
 - https://rolfoil.ru/articles/obrazovatelnye-stati/item-dopuski-vw-502-00-505-00-i-505-01-rasshifrovka-i-razlichiya/
 status: approved
+slug: oem-approvals-vs-api-acea
 ---
 На канистре рядом с привычными обозначениями API и ACEA часто стоит что-то вроде «VW 502 00» или «MB 229.5». Это допуски автопроизводителей — и для современных моторов они значат не меньше, а порой и больше, чем отраслевые классы.
 

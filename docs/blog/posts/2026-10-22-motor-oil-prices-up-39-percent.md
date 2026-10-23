@@ -20,6 +20,7 @@ sources:
 - https://www.baseoilnews.com/europe-mideast-gulf-africa/mideast-gulf/shell-qatar-pearl-gtl-plant-halt-group-iii-base-oils-supply-march-2026
 - https://ilma.org/base-oil-supply-crisis-continues-even-as-shipping-conditions-improve/
 status: approved
+slug: motor-oil-prices-up-39-percent
 ---
 Моторные масла стали самой подорожавшей категорией автотоваров в России в 2026 году: по данным исследования «Барометр автозапчастей» дистрибьютора ROSSKO, за январь–сентябрь цены выросли на 39,3% год к году.
 

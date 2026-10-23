@@ -20,6 +20,7 @@ def main() -> None:
         elif meta.get("status") != "approved":
             continue
         slug = slug_of(draft)
+        meta["slug"] = slug  # latin URL on Pages; same slug as content/index.json
         target = POSTS / f"{meta['date']}-{slug}.md"
         POSTS.mkdir(parents=True, exist_ok=True)
         write_frontmatter(target, meta, body)
