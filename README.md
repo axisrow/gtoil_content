@@ -25,26 +25,23 @@ GitHub Pages ◀────────────────────  в
 - `config/topics_backlog.md` — банк вечнозелёных тем.
 - `plugin/skills/oil-writer/style.md`, `rubrics.md` — голос и сетка рубрик.
 
-## Автопостинг в соцсети (browser-use)
+## Автопостинг в соцсети (Claude Code + browser-use)
 
-Агент [browser-use](https://github.com/browser-use/browser-use) на Claude открывает браузер под твоим аккаунтом и публикует анонсы статей с сайта. Запускается локально, на Mac: соцсети не любят входы с IP дата-центров, а куки — тот же пароль.
+Мозг — локальный Claude Code в headless-режиме (`claude -p`, работает под подпиской, ключ API не нужен), руки — скилл [browser-use](https://github.com/browser-use/browser-use): CDP-демон управляет твоим обычным Chrome, где сессии соцсетей уже живут. Запускается локально, на Mac: соцсети не любят входы с IP дата-центров.
 
 ```bash
-uv venv -p 3.12 && source .venv/bin/activate     # нужен Python 3.11+
-uv pip install -r requirements-social.txt
-cp .env.example .env                              # впиши ANTHROPIC_API_KEY
-
-python scripts/social.py login vk                 # откроется окно: войди руками (2FA, капча), Enter в терминале
-python scripts/social.py status                   # у каких сетей есть куки
-python scripts/social.py post --to vk --dry-run   # агент заполнит форму, но не нажмёт «Опубликовать»
-python scripts/social.py post --to vk,telegram    # статьи за последнюю дату
+python3 scripts/social.py status                   # сети из config/social.yaml
+python3 scripts/social.py post --to vk --dry-run   # агент заполнит форму, но не нажмёт «Опубликовать»
+python3 scripts/social.py post --to vk,telegram    # статьи за последнюю дату
 ```
 
-- **Куки** лежат в `.browser/storage_state.json` (каталог в `.gitignore`, права 700). Каждый запуск поднимает чистый профиль Chromium, подгружает их, а обновлённые сессии пишет обратно. Разлогинило — повтори `login`. Браузер берётся из Playwright Chromium или установленного Google Chrome; если нет ни того, ни другого, browser-use поставит Chromium сам.
+Зависимости: `claude` CLI (вход в Claude Code уже настроен) и `browser-use` CLI (ставится по его скиллу); из Python — только PyYAML, он уже в `requirements.txt`.
+
+- **Вход** отдельный не нужен: агент работает в твоём Chrome. Разлогинило — войди руками в браузер, скрипту сказать нечего.
 - **Сети** настраиваются в `config/social.yaml`: страница публикации (`compose_url` — своя группа или канал), инструкция агенту, лимит длины, шаблон поста, разрешённые домены. Новая сеть — новый блок в этом файле, код трогать не нужно. `enabled: true` — публиковать без `--to`.
 - **Журнал** `content/social.json`: что, куда и когда опубликовано. Повторно та же статья в ту же сеть не уйдёт (кроме `--force`). Журнал коммить.
-- Другие флаги: `post <файлы.md>`, `--date YYYY-MM-DD`, `--limit N`, `--headless`. Модель и глубину рассуждений задают `SOCIAL_MODEL` / `SOCIAL_EFFORT` в `.env`.
-- Капча, 2FA или форма входа во время публикации — агент останавливается и ничего не вводит. Телеметрию browser-use скрипт отключает.
+- Другие флаги: `post <файлы.md>`, `--date YYYY-MM-DD`, `--limit N`. Лимиты агента — `SOCIAL_MAX_TURNS` (ходов) и `SOCIAL_TIMEOUT` (секунд) в окружении.
+- Капча, 2FA или форма входа во время публикации — агент останавливается и ничего не вводит. Ему разрешены только команды `browser-use`, выйти на чужие домены инструкция запрещает.
 - Автоматизация браузера нарушает правила части площадок (X, LinkedIn, Meta), и аккаунт могут ограничить. Где есть официальный API (Telegram Bot API, VK API), надёжнее постить через него.
 
 ## Дальше

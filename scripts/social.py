@@ -1,42 +1,29 @@
 #!/usr/bin/env python3
-"""Post published articles to social networks through browser-use, logged in with saved cookies.
+"""Post published articles to social networks: Claude Code drives the user's own Chrome.
 
-  social.py login vk            open a browser, log in by hand, save cookies to .browser/storage_state.json
+  social.py status              show networks from config/social.yaml
   social.py post --to vk,x      post the latest articles; done pairs go to content/social.json
-  social.py status              which networks have saved cookies
+
+The brain is a headless `claude -p` run (subscription auth, no API key), the hands are the
+browser-use skill: a CDP daemon attached to the user's regular Chrome, where social logins
+already live. There is nothing to log in here.
 """
 import argparse
-import asyncio
 import json
 import os
 import re
+import subprocess
 import sys
-import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
 
 import yaml
-from dotenv import load_dotenv
-from pydantic import BaseModel
 
 from common import ROOT, read_frontmatter, slug_of
 
 CONFIG = ROOT / "config" / "social.yaml"
 POSTS = ROOT / "docs" / "blog" / "posts"
 LEDGER = ROOT / "content" / "social.json"
-STATE = ROOT / ".browser" / "storage_state.json"
-
-load_dotenv(ROOT / ".env")
-# browser-use phones home by default; the browser here carries live sessions, so opt out unless asked
-os.environ.setdefault("ANONYMIZED_TELEMETRY", "false")
-os.environ.setdefault("BROWSER_USE_CLOUD_SYNC", "false")
-
-
-class PostResult(BaseModel):
-    ok: bool
-    post_url: str | None = None
-    note: str = ""
 
 
 def load_networks() -> dict[str, dict]:
@@ -52,17 +39,15 @@ def save_ledger(ledger: dict) -> None:
     LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def slugify(title: str) -> str:
-    """Same as mkdocs-material's default post_slugify (pymdownx.slugs.slugify(case="lower"))."""
-    slug = re.sub(r"</?[^>]*>", "", unicodedata.normalize("NFC", title)).strip().lower()
-    return re.sub(r"[^\w\- ]", "", slug).replace(" ", "-")
+def post_url(meta: dict, slug: str) -> str:
+    """Site URL of a post, per `post_url_format: "{date}/{slug}"` in mkdocs.yml.
 
-
-def post_url(meta: dict) -> str:
-    """Site URL of a post, per `post_url_format: "{date}/{slug}"` in mkdocs.yml."""
+    The slug lives in the file name (mkdocs blog derives it from there, promote.py
+    guarantees it's latin); front-matter carries no slug.
+    """
     site = yaml.safe_load((ROOT / "mkdocs.yml").read_text(encoding="utf-8"))["site_url"].rstrip("/")
     date = str(meta["date"])[:10].replace("-", "/")
-    return f"{site}/blog/{date}/{meta.get('slug') or slugify(meta['title'])}/"
+    return f"{site}/blog/{date}/{slug}/"
 
 
 def hashtags(tags: list[str], limit: int) -> str:
@@ -70,11 +55,11 @@ def hashtags(tags: list[str], limit: int) -> str:
     return " ".join(f"#{t}" for t in tags if t)
 
 
-def render(meta: dict, net: dict) -> str:
+def render(meta: dict, net: dict, slug: str) -> str:
     fields = {
         "title": meta["title"],
         "summary": " ".join(meta["summary"].split()),
-        "url": post_url(meta),
+        "url": post_url(meta, slug),
         "hashtags": hashtags(meta.get("tags", []), net["hashtags"]),
     }
 
@@ -99,81 +84,53 @@ def render(meta: dict, net: dict) -> str:
     return text
 
 
-def make_browser(*, headless: bool, domains: list[str] | None = None, keep_alive: bool = False):
-    from browser_use import Browser
+def run_agent(task: str) -> str:
+    """Headless Claude Code with only the browser-use skill's Bash commands allowed."""
+    cmd = [
+        "claude", "-p", task,
+        "--allowedTools", "Bash(browser-use:*)",
+        "--max-turns", os.getenv("SOCIAL_MAX_TURNS", "40"),
+    ]
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT,
+                              timeout=int(os.getenv("SOCIAL_TIMEOUT", "900")))
+    except subprocess.TimeoutExpired:
+        return "RESULT: fail не уложился в SOCIAL_TIMEOUT"
+    if proc.returncode != 0:
+        tail = (proc.stderr.strip().splitlines() or ["без вывода"])[-1]
+        return f"RESULT: fail claude завершился с ошибкой: {tail}"
+    return proc.stdout
 
-    # browser-use rewrites STATE (plus a .bak) on every cookie change, so lock the directory, not the file
-    STATE.parent.mkdir(exist_ok=True)
-    STATE.parent.chmod(0o700)
-    # Fresh temp profile per run; the login lives in STATE, which browser-use loads on start
-    # and writes back whenever cookies change and on close.
-    return Browser(
-        storage_state=str(STATE),
-        user_data_dir=None,
-        headless=headless,
-        allowed_domains=domains,
-        keep_alive=keep_alive,
-    )
 
-
-def make_llm():
-    from browser_use import ChatAnthropic
-
-    return ChatAnthropic(
-        model=os.getenv("SOCIAL_MODEL", "claude-opus-5-5"),
-        max_tokens=16000,
-        # Besides thinking itself, this switches browser-use to tool_choice=auto;
-        # forced tool choice is rejected by current Claude models.
-        thinking={"type": "adaptive"},
-        output_config={"effort": os.getenv("SOCIAL_EFFORT", "medium")},
-        # Server-side retry on another model if a safety classifier declines a step.
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
-    )
+def agent_result(out: str) -> str:
+    """The `RESULT: ...` line the task demands as its last line; '' if the agent forgot it."""
+    found = re.findall(r"^\s*RESULT:\s*(.+)$", out, re.MULTILINE)
+    return found[-1].strip() if found else ""
 
 
 def task_for(net: dict, text: str, dry_run: bool) -> str:
-    final = (
-        "НЕ нажимай кнопку публикации: оставь заполненную форму и сразу заверши задачу с ok=true."
-        if dry_run
-        else "Опубликуй пост. Убедись, что он появился, и верни его ссылку в post_url (не нашёл — null)."
-    )
-    return f"""Ты публикуешь пост в {net['name']} от имени уже залогиненного аккаунта.
-Страница {net['compose_url']} уже открыта.
+    if dry_run:
+        final = "НЕ нажимай кнопку публикации: оставь заполненную форму и сразу заверши задачу."
+        ok_note = "форма заполнена, пост НЕ опубликован"
+    else:
+        final = "Опубликуй пост кнопкой публикации, убедись, что он появился, и достань ссылку на него."
+        ok_note = "пост опубликован: <ссылка на него>"
+    return f"""Ты публикуешь пост в {net['name']}. Управляй браузером пользователя через CDP-демон browser-use
+(скилл browser-use): Chrome уже открыт и залогинен, отдельно входить не нужно.
 
-1. {net['instructions'].strip()}
-2. Текст поста — всё между строками <<<POST и POST>>>. Введи его дословно, с теми же переносами строк, ничего не добавляя:
+1. Открой страницу публикации новой вкладкой: new_tab("{net['compose_url']}"), дальше работай в ней.
+2. {net['instructions'].strip()}
+3. Текст поста — всё между строками <<<POST и POST>>>. Введи его дословно, с теми же переносами строк,
+   ничего не добавляя и не исправляя:
 <<<POST
 {text}
 POST>>>
-3. {final}
+4. {final}
 
-Если видишь форму входа, капчу, подтверждение по SMS/2FA или проверку «вы не робот» — ничего не вводи и не обходи,
-заверши задачу с ok=false и опиши проблему в note. Не публикуй больше одного поста. Ничего не лайкай, не комментируй
-и не меняй настроек аккаунта."""
-
-
-async def publish(net: dict, text: str, *, llm, headless: bool, dry_run: bool) -> PostResult:
-    from browser_use import Agent
-
-    async def pause(_history) -> None:
-        await asyncio.to_thread(input, "  Форма заполнена, пост НЕ опубликован. Проверь окно браузера и нажми Enter… ")
-
-    agent = Agent(
-        task=task_for(net, text, dry_run),
-        llm=llm,
-        browser=make_browser(headless=headless, domains=net.get("domains")),
-        initial_actions=[{"navigate": {"url": net["compose_url"], "new_tab": False}}],
-        output_model_schema=PostResult,
-        use_thinking=False,  # adaptive thinking already covers it
-        use_judge=False,
-        register_done_callback=pause if dry_run else None,
-    )
-    history = await agent.run(max_steps=int(os.getenv("SOCIAL_MAX_STEPS", "40")))
-    result = history.structured_output
-    if result is None:
-        return PostResult(ok=False, note=history.final_result() or "агент не закончил задачу")
-    return result
+Не отходи от доменов {', '.join(net.get('domains') or [net['compose_url']])}: чужие страницы не открывай.
+Если видишь форму входа, капчу, 2FA или «вы не робот» — ничего не вводи и не обходи, заверши задачу.
+Не публикуй больше одного поста. Ничего не лайкай, не комментируй и не меняй настроек аккаунта.
+Последней строкой ответа выведи ровно одну строку: RESULT: ok ({ok_note}) или RESULT: fail <что случилось>."""
 
 
 def pick_posts(args, ledger: dict, targets: list[str]) -> list[Path]:
@@ -189,15 +146,13 @@ def pick_posts(args, ledger: dict, targets: list[str]) -> list[Path]:
     return picked[: args.limit] if args.limit else picked
 
 
-async def cmd_post(args, networks: dict) -> None:
+def cmd_post(args, networks: dict) -> None:
     targets = args.to.split(",") if args.to else [k for k, n in networks.items() if n.get("enabled")]
     unknown = [t for t in targets if t not in networks]
     if unknown:
         sys.exit(f"unknown networks: {', '.join(unknown)} (see config/social.yaml)")
     if not targets:
         sys.exit("no networks: pass --to vk,x or set enabled: true in config/social.yaml")
-    if not STATE.exists():
-        sys.exit("no saved login: run `python scripts/social.py login <network>` first")
 
     ledger = load_ledger()
     posts = pick_posts(args, ledger, targets)
@@ -205,7 +160,6 @@ async def cmd_post(args, networks: dict) -> None:
         print("nothing to post")
         return
 
-    llm = make_llm()
     failed = 0
     for path in posts:
         meta, _ = read_frontmatter(path)
@@ -214,15 +168,17 @@ async def cmd_post(args, networks: dict) -> None:
             if key in ledger.get(slug, {}) and not args.force:
                 continue
             net = networks[key]
-            text = render(meta, net)
+            text = render(meta, net, slug)
             print(f"\n== {slug} → {net['name']}{' (dry run)' if args.dry_run else ''}\n{text}\n")
-            result = await publish(net, text, llm=llm, headless=args.headless, dry_run=args.dry_run)
-            print(f"  ok={result.ok} url={result.post_url} {result.note}".rstrip())
-            if not result.ok:
+            out = run_agent(task_for(net, text, args.dry_run))
+            print("\n".join(f"  {line}" for line in out.strip().splitlines()))
+            answer = agent_result(out)
+            url = re.search(r"https?://\S+", answer.removeprefix("ok"))
+            if not answer.startswith("ok"):
                 failed += 1
-            elif not args.dry_run:
+            elif url and not args.dry_run:
                 ledger.setdefault(slug, {})[key] = {
-                    "url": result.post_url,
+                    "url": url.group(0).rstrip(").,"),
                     "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 }
                 save_ledger(ledger)
@@ -230,49 +186,27 @@ async def cmd_post(args, networks: dict) -> None:
         sys.exit(f"{failed} post(s) failed")
 
 
-async def cmd_login(args, networks: dict) -> None:
-    net = networks[args.network]
-    browser = make_browser(headless=False, keep_alive=True)
-    await browser.start()
-    await browser.navigate_to(net["login_url"])
-    await asyncio.to_thread(
-        input, f"Войди в {net['name']} в открывшемся окне (капча и 2FA — руками), затем нажми здесь Enter… "
-    )
-    await browser.kill()  # writes cookies to STATE
-    print(f"cookies saved to {STATE.relative_to(ROOT)}")
-
-
 def cmd_status(networks: dict) -> None:
-    cookies = json.loads(STATE.read_text(encoding="utf-8"))["cookies"] if STATE.exists() else []
     for key, net in networks.items():
-        hosts = [d.removeprefix("*.") for d in net.get("domains") or [urlparse(net["login_url"]).hostname]]
-        n = sum(1 for c in cookies for h in hosts if c["domain"].lstrip(".") == h or c["domain"].endswith("." + h))
-        print(f"{key:10} {'enabled ' if net.get('enabled') else 'disabled'}  cookies: {n}")
+        print(f"{key:10} {'enabled ' if net.get('enabled') else 'disabled'}  {net['compose_url']}")
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    lp = sub.add_parser("login", help="log in by hand and save cookies")
-    lp.add_argument("network")
     pp = sub.add_parser("post", help="post articles from docs/blog/posts")
     pp.add_argument("posts", nargs="*", help="post files (default: every post of --date)")
     pp.add_argument("--to", help="comma-separated network keys (default: enabled in config)")
     pp.add_argument("--date", help="YYYY-MM-DD (default: latest post date)")
     pp.add_argument("--limit", type=int, help="max posts this run")
     pp.add_argument("--dry-run", action="store_true", help="fill the form, don't publish")
-    pp.add_argument("--headless", action="store_true", help="hide the browser window")
     pp.add_argument("--force", action="store_true", help="post again even if content/social.json has it")
-    sub.add_parser("status", help="show networks and saved cookies")
+    sub.add_parser("status", help="show networks from config")
     args = ap.parse_args()
 
     networks = load_networks()
-    if args.cmd == "login":
-        if args.network not in networks:
-            sys.exit(f"unknown network {args.network!r}; known: {', '.join(networks)}")
-        asyncio.run(cmd_login(args, networks))
-    elif args.cmd == "post":
-        asyncio.run(cmd_post(args, networks))
+    if args.cmd == "post":
+        cmd_post(args, networks)
     else:
         cmd_status(networks)
 

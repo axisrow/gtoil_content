@@ -22,7 +22,7 @@ networks:
     enabled: false
     login_url: https://vk.com/
     compose_url: https://vk.com/feed   # для сообщества — https://vk.com/<адрес_сообщества>
-    domains: ["*.vk.com"]
+    domains: ["*.vk.com", "*.vk.ru"]   # vk.com редиректит на vk.ru
     max_len: 4000
     instructions: >
       Кликни поле «Что у вас нового?» (на странице сообщества — поле записи на стене),

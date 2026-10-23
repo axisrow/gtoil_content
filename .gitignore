@@ -4,4 +4,3 @@ __pycache__/
 site/
 .cache/
 .DS_Store
-.browser/

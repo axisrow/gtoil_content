@@ -6,5 +6,5 @@
 - `drafts/YYYY-MM-DD/` — черновики, приходят PR-ом от scheduled task. Merge PR = одобрение.
 - `promote.yml` (`scripts/promote.py --all`) переносит смерженные черновики в `docs/blog/posts/` и деплоит Pages.
 - `content/index.json` — реестр всех статей, обновлять через `scripts/index_add.py`.
-- `scripts/social.py` (browser-use) публикует статьи в соцсети с сохранёнными куками; сети — `config/social.yaml`, журнал — `content/social.json`. Запускается только локально, в облачной сессии кук нет.
-- Секреты — только `.env` / GitHub Secrets. Куки соцсетей — `.browser/`, никогда не коммитить.
+- `scripts/social.py` публикует статьи в соцсети через локальный Claude Code + CDP-демон browser-use (обычный Chrome пользователя, без API-ключей); сети — `config/social.yaml`, журнал — `content/social.json`. Запускается только локально, в облачной сессии браузера нет.
+- Секреты — только `.env` / GitHub Secrets.
