@@ -15,6 +15,7 @@ summary: 'Пробег — плохой единственный ориенти�
 sources:
 - https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VOUtadzBkN01Wcnd6c09yNXFxU2dfYllHbFJ6NFZtNUxINTFRb3lZU0FfNjhrdFhnWnFWbm41ejUwaU9EcWloNnBRck1sQW5reGZla0liMjI2ZzTSAVtBVV95cUxOVTlLWncwZDdNVnJ3enNPcjVxcVNnX2JZR2xSejRWbTVMSDUxUW95WVNBXzY4a3RYZ1pxVm5uNXo1MGlPRHFpaDZwUXJNbEFua3hmZWtJYjIyNmc0?oc=5
 status: approved
+slug: short-trips-oil-interval
 ---
 Автомобильные издания не раз обращали внимание на парадокс: машина ездит мало, а масло в ней «устаёт» быстрее, чем при ровных загородных поездках. Дело не в уловках сервисов — в коротких поездках меняется сама химия работы масла.
 

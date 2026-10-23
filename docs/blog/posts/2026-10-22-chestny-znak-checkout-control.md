@@ -18,6 +18,7 @@ sources:
 - https://rg.ru/2026/10/01/eksperty-rg-obiasnili-chto-meniaetsia-s-1-oktiabria-v-sisteme-markirovki-tovarov.html
 - https://newsroom24.ru/spb/news/details/2026/news_355092
 status: approved
+slug: chestny-znak-checkout-control
 ---
 С 1 октября 2026 года моторные масла, автомобильные жидкости и смазочные материалы продаются в России в разрешительном режиме: перед пробитием чека касса онлайн сверяет код маркировки с системой «Честный знак» и блокирует продажу сомнительного товара.
 

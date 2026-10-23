@@ -17,6 +17,7 @@ inspired_by:
 - https://lukoil-masla.ru/ru/consumers/articles/oil-improvers
 - https://www.liqui-moly.com/en/products/tips-and-topics/liqui-moly-oil-additive-the-classic-against-engine-wear.html
 status: approved
+slug: myth-oil-additives
 ---
 На полках автомагазинов десятки флаконов с обещаниями: «снижает износ», «восстанавливает компрессию», «реметаллизант», «увеличивает ресурс в 2 раза». Многие водители добавляют такие средства в свежее масло «для профилактики». Разбираемся, работает ли это.
 
