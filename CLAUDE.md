@@ -32,7 +32,7 @@ mkdocs serve                                      # локальный прос�
 
 - **Front-matter** (схема: `plugin/skills/oil-writer/frontmatter.md`) — обязательны `title`, `date`, `rubric` (news|deep|expert|myth), `summary` (≤280 знаков), `status` (draft → approved); `index_add.py` падает без них. Рубрика маппится в `categories`: news→Новости, deep→Матчасть, expert→Советы, myth→Мифы (другие запрещены в `mkdocs.yml`).
 - **Тело**: лид, затем `<!-- more -->` (blog-плагин требует отсечку анонса), основной текст без дубля `# Заголовок`. Непроверенные места — `<!-- CHECK: ... -->`.
-- **Слаг**: префикс `NN-` у черновиков / `YYYY-MM-DD-` у постов срезает `slug_of()` (`scripts/common.py`) — слаг должен сохраниться при переносе, по нему ключуется `content/index.json`. `promote.py` проставляет посту `slug` из имени файла — URL на Pages латиницей (`blog/<дата>/<слаг>/`).
+- **Слаг**: префикс `NN-` у черновиков / `YYYY-MM-DD-` у постов срезает `slug_of()` (`scripts/common.py`) — слаг должен сохраниться при переносе, по нему ключуется `content/index.json`. `promote.py` проставляет посту `slug` из имени файла — URL на Pages латиницей (`blog/<дата>/<слаг>/`); не-латинское или пустое имя черновика — ошибка `slug_of()`.
 - `content/index.json` — единственный реестр статей (дедуп, баланс рубрик); править только через `index_add.py`.
 
 ## Правила контента
