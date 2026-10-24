@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
+  # re-collect right after a merged change to the collectors or their sources
+  push:
+    branches: [main]
+    paths:
+      - scripts/fetch_rss.py
+      - scripts/fetch_competitors.py
+      - config/sources.yaml
+      - config/competitors.yaml
+      - .github/workflows/collect-news.yml
 
 permissions:
   contents: write
@@ -23,12 +32,13 @@ jobs:
           cache: pip
       - run: pip install feedparser==6.0.11 PyYAML==6.0.2
       - run: python scripts/fetch_rss.py --hours 48
+      - run: python scripts/fetch_competitors.py
       - name: Commit inbox
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add inbox/news
+          git add inbox/news inbox/competitors
           git diff --cached --quiet && exit 0
-          git commit -m "inbox: news $(date -u +%F\ %H:%M)"
+          git commit -m "inbox: news + competitors $(date -u +%F\ %H:%M)"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

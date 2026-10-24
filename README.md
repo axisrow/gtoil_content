@@ -23,6 +23,7 @@ GitHub Pages ◀────────────────────  в
 ## Настройка
 - `config/sources.yaml` — RSS-ленты и ключевые слова.
 - `config/topics_backlog.md` — банк вечнозелёных тем.
+- `config/competitors.yaml` — конкуренты GT OIL и их сайты; Actions собирают свежие статьи из их разделов в `inbox/competitors/` как идеи тем.
 - `plugin/skills/oil-writer/style.md`, `rubrics.md` — голос и сетка рубрик.
 
 ## Автопостинг в соцсети (/oil:social)

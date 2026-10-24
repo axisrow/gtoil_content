@@ -1,0 +1,143 @@
+# Конкуренты GT OIL (Hanval Inc., https://gtoil.ru/).
+# site     — официальный сайт (для России, если есть; иначе глобальный)
+# articles — раздел статей/новостей бренда: отсюда скилл oil-writer берёт идеи тем,
+#            а scripts/fetch_competitors.py (GitHub Actions) собирает свежие заголовки
+# rss      — лента статей сайта, если есть (пробуется первой)
+# keywords — брать только статьи, в заголовке которых есть эти слова (отсекает, напр., автоспорт)
+# Если в HTML раздела ссылок нет (список рисуется скриптом), сборщик ищет их в карте сайта.
+# checked  — как проверен адрес: search = найден поиском по домену (2026-10-22),
+#            known = общеизвестный глобальный сайт, не проверялся
+# Правило: идеи тем — да; копирование текста и упоминание конкурентов в статьях — нет.
+
+own:
+  name: GT OIL
+  company: Hanval Inc.
+  country: Южная Корея
+  site: https://gtoil.ru/
+  catalog: https://gtoil.ru/catalog/18-motornye_masla_dlya_avtomobiley/
+
+asian:
+  - name: ZIC
+    company: SK Enmove
+    country: Южная Корея
+    focus: моторные масла на собственных базовых маслах YUBASE; очень близкий по происхождению и ассортименту
+    site: https://zicoil.ru/
+    articles: https://zicoil.ru/useful/
+    checked: search
+  - name: Kixx
+    company: GS Caltex
+    country: Южная Корея
+    focus: моторные, трансмиссионные, индустриальные масла
+    site: https://www.kixxoil.com/
+    articles: https://news.kixxoil.com/
+    rss: https://news.kixxoil.com/feed/
+    keywords: [oil, engine, lubric, viscosity, "api s", ilsac, hybrid, pao, grease, coolant, antifreeze]
+    checked: search
+  - name: S-OIL SEVEN
+    company: S-Oil Corporation
+    country: Южная Корея
+    focus: легковые и коммерческий транспорт
+    site: https://www.s-oil7.com/
+    checked: search
+  - name: Hyundai XTeer
+    company: HD Hyundai Oilbank
+    country: Южная Корея
+    focus: широкий ассортимент, включая тяжёлую технику; один из самых близких аналогов
+    site: https://www.hd-hyundaioilbank.co.kr/eng/business/product/contentsid/658/index.do
+    checked: search
+    note: российского сайта не найдено
+  - name: Idemitsu
+    company: Idemitsu Lubricants Rus
+    country: Япония
+    focus: позиционирование для японских и азиатских автомобилей
+    site: https://idemitsu.ru/
+    checked: search
+  - name: ENEOS
+    company: ENEOS Corporation
+    country: Япония
+    focus: автомобильные и промышленные смазочные материалы
+    site: https://www.eneos.us/
+    articles: https://www.eneos.us/blog/
+    keywords: [oil, 0w, viscosity, synthetic, lubric, engine, "api s", ilsac]
+    checked: search
+    note: российского сайта не найдено, указан сайт ENEOS USA
+  - name: Totachi
+    company: Totachi Industrial
+    country: Япония
+    focus: масла, антифризы, автохимия для азиатского автопарка
+    site: https://www.totachi.ru/
+    checked: search
+
+russian:
+  - name: ЛУКОЙЛ
+    focus: лидер рынка РФ, почти полный ассортимент автомобильных и промышленных масел
+    site: https://lukoil-masla.ru/
+    articles: https://lukoil-masla.ru/ru/consumers/articles
+    checked: search
+  - name: SINTEC
+    company: Обнинскоргсинтез
+    focus: моторные масла и техжидкости в разных ценовых сегментах
+    site: https://obninskorgsintez.ru/
+    checked: search
+  - name: ROLF
+    focus: автомобильные масла, металлические канистры
+    site: https://rolfoil.ru/
+    articles: https://rolfoil.ru/articles/
+    checked: search
+  - name: G-Energy
+    company: Газпром нефть
+    focus: легковые, грузовые, спортивные автомобили
+    site: https://g-energy.org/
+    checked: search
+  - name: Gazpromneft
+    company: Газпром нефть
+    focus: массовый и промышленный сегменты, коммерческая техника
+    site: https://gazpromneft-oil.ru/
+    checked: search
+  - name: Rosneft
+    company: РН-Смазочные материалы
+    focus: автомобильные и индустриальные масла, широкая дистрибуция
+    site: https://rosneft-lubricants.ru/
+    checked: search
+  - name: TAKAYAMA
+    focus: моторные и трансмиссионные масла для массового покупателя
+    site: https://takayamaoil.ru/
+    articles: https://takayamaoil.ru/articles/
+    checked: search
+  - name: TEBOIL
+    focus: легковые и коммерческий транспорт
+    site: https://teboil.ru/
+    checked: search
+
+international:
+  - name: Shell
+    focus: Helix и Rimula, массовые и премиальные масла
+    site: https://www.shell.com/motorist/oils-lubricants/helix-for-cars.html
+    checked: search
+  - name: Mobil
+    company: ExxonMobil
+    focus: Mobil 1 и Mobil Delvac, премиум и коммерческий сегмент
+    site: https://www.mobil.com/
+    checked: known
+  - name: Castrol
+    focus: премиальные моторные масла, сильный бренд
+    site: https://www.castrol.com/ru_kz/central-asia/home.html
+    checked: search
+    note: русскоязычная версия для Центральной Азии
+  - name: Liqui Moly
+    country: Германия
+    focus: моторные масла, присадки, автохимия
+    site: https://www.liqui-moly.com/
+    articles: https://www.liqui-moly.com/en/products/tips-and-topics.html
+    checked: search
+  - name: Motul
+    country: Франция
+    focus: премиум, автоспорт и мототехника
+    site: https://www.motul.com/kz/ru
+    checked: search
+    note: русскоязычная версия для Казахстана
+  - name: Ravenol
+    country: Германия
+    focus: технически специализированные моторные и трансмиссионные масла
+    site: https://ravenol.ru/
+    checked: search

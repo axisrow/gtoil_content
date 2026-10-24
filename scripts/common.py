@@ -24,7 +24,10 @@ def write_frontmatter(path: Path, meta: dict, body: str) -> None:
 
 def slug_of(path: Path) -> str:
     """Strip the `NN-` (drafts) or `YYYY-MM-DD-` (posts) prefix from a file stem."""
-    return re.sub(r"^(\d{4}-\d{2}-\d{2}|\d{2})-", "", path.stem)
+    slug = re.sub(r"^(\d{4}-\d{2}-\d{2}|\d{2})-", "", path.stem)
+    if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", slug):
+        raise ValueError(f"{path.name}: slug '{slug}' is not latin — rename the draft to NN-latin-slug.md")
+    return slug
 
 
 def load_index() -> list[dict]:

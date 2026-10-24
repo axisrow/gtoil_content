@@ -1,5 +1,36 @@
 [
   {
+    "slug": "5w30-vs-5w40",
+    "title": "5W-30 или 5W-40: в чём реальная разница и что выбрать",
+    "date": "2026-10-22",
+    "rubric": "expert",
+    "tags": [
+      "вязкость",
+      "SAE",
+      "5W-30",
+      "5W-40",
+      "HTHS",
+      "выбор масла"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-5w30-vs-5w40.md"
+  },
+  {
+    "slug": "api-sq-ilsac-gf-7-explained",
+    "title": "API SQ и ILSAC GF-7: что изменилось в новом стандарте моторных масел",
+    "date": "2026-10-22",
+    "rubric": "deep",
+    "tags": [
+      "API SQ",
+      "ILSAC GF-7",
+      "спецификации",
+      "LSPI",
+      "классификация"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-api-sq-ilsac-gf-7-explained.md"
+  },
+  {
     "slug": "base-oil-groups-explained",
     "title": "Группы базовых масел I–V: из чего на самом деле сделано ваше масло",
     "date": "2026-10-22",
@@ -27,6 +58,36 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-22-chestny-znak-checkout-control.md"
+  },
+  {
+    "slug": "how-to-spot-fake-oil",
+    "title": "Как отличить оригинальное моторное масло от подделки",
+    "date": "2026-10-22",
+    "rubric": "expert",
+    "tags": [
+      "подделка",
+      "контрафакт",
+      "Честный знак",
+      "покупка масла"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-how-to-spot-fake-oil.md"
+  },
+  {
+    "slug": "hybrid-engine-oil",
+    "title": "Масло для гибрида: зачем 0W-16 и 0W-8 и чем гибрид тяжёл для масла",
+    "date": "2026-10-22",
+    "rubric": "deep",
+    "tags": [
+      "гибрид",
+      "0W-16",
+      "0W-8",
+      "низкая вязкость",
+      "JASO",
+      "SAE J300"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-hybrid-engine-oil.md"
   },
   {
     "slug": "motor-oil-prices-up-39-percent",
@@ -57,6 +118,21 @@
     "path": "docs/blog/posts/2026-10-22-myth-mixing-oils.md"
   },
   {
+    "slug": "myth-oil-additives",
+    "title": "Присадки в моторное масло: помогают или вредят",
+    "date": "2026-10-22",
+    "rubric": "myth",
+    "tags": [
+      "миф",
+      "присадки",
+      "автохимия",
+      "износ",
+      "FAQ"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-22-myth-oil-additives.md"
+  },
+  {
     "slug": "winter-oils-checklist",
     "title": "Готовим машину к зиме: какое масло и смазки проверить до морозов",
     "date": "2026-10-22",
@@ -71,6 +147,80 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-22-winter-oils-checklist.md"
+  },
+  {
+    "slug": "datacenter-liquid-cooling",
+    "title": "Дата-центры переходят на жидкостное охлаждение: индустриальный тренд, о котором стоит знать",
+    "date": "2026-10-23",
+    "rubric": "news",
+    "tags": [
+      "индустриальные масла",
+      "дата-центры",
+      "жидкостное охлаждение",
+      "теплоносители",
+      "ИИ"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-datacenter-liquid-cooling.md"
+  },
+  {
+    "slug": "hormuz-base-oil-prices",
+    "title": "Напряжение вокруг Ормузского пролива толкает цены на базовые масла",
+    "date": "2026-10-23",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "Ормузский пролив",
+      "Brent",
+      "цены",
+      "Group II"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-hormuz-base-oil-prices.md"
+  },
+  {
+    "slug": "oem-approvals-vs-api-acea",
+    "title": "Допуски автопроизводителей: зачем они, если есть API и ACEA",
+    "date": "2026-10-23",
+    "rubric": "deep",
+    "tags": [
+      "допуски",
+      "VW 502 00",
+      "VW 505 01",
+      "API",
+      "ACEA"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-oem-approvals-vs-api-acea.md"
+  },
+  {
+    "slug": "short-trips-oil-interval",
+    "title": "Короткие поездки: почему городской режим — «тяжёлые условия» для масла",
+    "date": "2026-10-23",
+    "rubric": "expert",
+    "tags": [
+      "интервал замены",
+      "короткие поездки",
+      "город",
+      "тяжёлые условия"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-short-trips-oil-interval.md"
+  },
+  {
+    "slug": "thicker-oil-better-protection",
+    "title": "Чем гуще масло, тем лучше защита: правда или миф",
+    "date": "2026-10-23",
+    "rubric": "myth",
+    "tags": [
+      "вязкость",
+      "SAE J300",
+      "HTHS",
+      "мифы",
+      "защита двигателя"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-23-thicker-oil-better-protection.md"
   },
   {
     "slug": "idle-warmup-myth",
