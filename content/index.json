@@ -71,5 +71,78 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-22-winter-oils-checklist.md"
+  },
+  {
+    "slug": "idle-warmup-myth",
+    "title": "Прогрев на холостых: зачем он был нужен карбюраторам и что делать с инжектором",
+    "date": "2026-10-24",
+    "rubric": "myth",
+    "tags": [
+      "прогрев",
+      "зима",
+      "инжектор",
+      "карбюратор",
+      "турбина"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-24/01-idle-warmup-myth.md"
+  },
+  {
+    "slug": "label-reading-api-acea",
+    "title": "Как читать этикетку канистры: SAE, API, ACEA и допуски",
+    "date": "2026-10-24",
+    "rubric": "deep",
+    "tags": [
+      "моторное масло",
+      "SAE",
+      "API",
+      "ACEA",
+      "допуски",
+      "ILSAC"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-24/02-label-reading-api-acea.md"
+  },
+  {
+    "slug": "viscosity-5w30-explained",
+    "title": "Что значат цифры 5W-30: как выбрать вязкость на зиму",
+    "date": "2026-10-24",
+    "rubric": "deep",
+    "tags": [
+      "моторное масло",
+      "SAE",
+      "вязкость",
+      "зима"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-24/03-viscosity-5w30-explained.md"
+  },
+  {
+    "slug": "oil-consumption-norms",
+    "title": "Расход масла: когда литр на 10 000 км — норма, а когда пора в сервис",
+    "date": "2026-10-24",
+    "rubric": "expert",
+    "tags": [
+      "моторное масло",
+      "расход масла",
+      "угар",
+      "диагностика"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-24/04-oil-consumption-norms.md"
+  },
+  {
+    "slug": "black-oil-myth",
+    "title": "Чёрное масло — значит пора менять?",
+    "date": "2026-10-24",
+    "rubric": "myth",
+    "tags": [
+      "моторное масло",
+      "замена масла",
+      "присадки",
+      "диагностика"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-24/05-black-oil-myth.md"
   }
 ]
