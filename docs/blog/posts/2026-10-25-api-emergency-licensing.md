@@ -1,20 +1,23 @@
 ---
-title: "Экстренное лицензирование API: перебои с базовыми маслами дошли до сертификации"
+title: 'Экстренное лицензирование API: перебои с базовыми маслами дошли до сертификации'
 date: 2026-10-25
 rubric: news
 categories:
-  - Новости
+- Новости
 tags:
-  - API
-  - базовые масла
-  - Group III
-  - поставки
-  - лицензирование
-summary: "Американский институт нефти на 90 дней с 1 октября ввёл экстренное лицензирование масел: перебои на НПЗ Ближнего Востока вызвали дефицит базовых масел группы III — основы «синтетики»."
+- API
+- базовые масла
+- Group III
+- поставки
+- лицензирование
+summary: 'Американский институт нефти на 90 дней с 1 октября ввёл экстренное лицензирование
+  масел: перебои на НПЗ Ближнего Востока вызвали дефицит базовых масел группы III
+  — основы «синтетики».'
 sources:
-  - https://www.truckinginfo.com/news/oil-crisis-squeezes-trucking-lubricant-supplies
-  - https://www.lubesngreases.com/bor-asia/weekly-asia-base-oil-price-report-125
-status: draft
+- https://www.truckinginfo.com/news/oil-crisis-squeezes-trucking-lubricant-supplies
+- https://www.lubesngreases.com/bor-asia/weekly-asia-base-oil-price-report-125
+status: approved
+slug: api-emergency-licensing
 ---
 
 Перебои с поставками базовых масел на Ближнем Востоке перешли из рыночной плоскости в отраслевую: American Petroleum Institute (API) — организация, которая выдаёт лицензии на классы качества моторных масел, — впервые за долгое время запустила экстренную процедуру лицензирования.

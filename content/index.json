@@ -296,20 +296,6 @@
     "path": "docs/blog/posts/2026-10-24-viscosity-5w30-explained.md"
   },
   {
-    "slug": "chestny-znak-autoservices",
-    "title": "Автосервисы обяжут отчитываться в «Честный знак»: что меняется с 1 марта 2027 года",
-    "date": "2026-10-25",
-    "rubric": "news",
-    "tags": [
-      "Честный знак",
-      "маркировка",
-      "автосервисы",
-      "регуляторика"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-25/01-chestny-znak-autoservices.md"
-  },
-  {
     "slug": "api-emergency-licensing",
     "title": "Экстренное лицензирование API: перебои с базовыми маслами дошли до сертификации",
     "date": "2026-10-25",
@@ -321,8 +307,22 @@
       "поставки",
       "лицензирование"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-25/02-api-emergency-licensing.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-25-api-emergency-licensing.md"
+  },
+  {
+    "slug": "chestny-znak-autoservices",
+    "title": "Автосервисы обяжут отчитываться в «Честный знак»: что меняется с 1 марта 2027 года",
+    "date": "2026-10-25",
+    "rubric": "news",
+    "tags": [
+      "Честный знак",
+      "маркировка",
+      "автосервисы",
+      "регуляторика"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-25-chestny-znak-autoservices.md"
   },
   {
     "slug": "gl4-vs-gl5-transmission",
@@ -336,8 +336,8 @@
       "КПП",
       "редуктор"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-25/03-gl4-vs-gl5-transmission.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-25-gl4-vs-gl5-transmission.md"
   },
   {
     "slug": "moto-oil-jaso-ma-mb",
@@ -351,8 +351,8 @@
       "моторное масло",
       "выбор масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-25/04-moto-oil-jaso-ma-mb.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-25-moto-oil-jaso-ma-mb.md"
   },
   {
     "slug": "synthetic-leaks-myth",
@@ -366,7 +366,7 @@
       "мифы",
       "уплотнения"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-25/05-synthetic-leaks-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-25-synthetic-leaks-myth.md"
   }
 ]
