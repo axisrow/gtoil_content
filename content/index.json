@@ -223,6 +223,20 @@
     "path": "docs/blog/posts/2026-10-23-thicker-oil-better-protection.md"
   },
   {
+    "slug": "black-oil-myth",
+    "title": "Чёрное масло — значит пора менять?",
+    "date": "2026-10-24",
+    "rubric": "myth",
+    "tags": [
+      "моторное масло",
+      "замена масла",
+      "присадки",
+      "диагностика"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-24-black-oil-myth.md"
+  },
+  {
     "slug": "idle-warmup-myth",
     "title": "Прогрев на холостых: зачем он был нужен карбюраторам и что делать с инжектором",
     "date": "2026-10-24",
@@ -234,8 +248,8 @@
       "карбюратор",
       "турбина"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-24/01-idle-warmup-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-24-idle-warmup-myth.md"
   },
   {
     "slug": "label-reading-api-acea",
@@ -250,22 +264,8 @@
       "допуски",
       "ILSAC"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-24/02-label-reading-api-acea.md"
-  },
-  {
-    "slug": "viscosity-5w30-explained",
-    "title": "Что значат цифры 5W-30: как выбрать вязкость на зиму",
-    "date": "2026-10-24",
-    "rubric": "deep",
-    "tags": [
-      "моторное масло",
-      "SAE",
-      "вязкость",
-      "зима"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-24/03-viscosity-5w30-explained.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-24-label-reading-api-acea.md"
   },
   {
     "slug": "oil-consumption-norms",
@@ -278,22 +278,22 @@
       "угар",
       "диагностика"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-24/04-oil-consumption-norms.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-24-oil-consumption-norms.md"
   },
   {
-    "slug": "black-oil-myth",
-    "title": "Чёрное масло — значит пора менять?",
+    "slug": "viscosity-5w30-explained",
+    "title": "Что значат цифры 5W-30: как выбрать вязкость на зиму",
     "date": "2026-10-24",
-    "rubric": "myth",
+    "rubric": "deep",
     "tags": [
       "моторное масло",
-      "замена масла",
-      "присадки",
-      "диагностика"
+      "SAE",
+      "вязкость",
+      "зима"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-24/05-black-oil-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-24-viscosity-5w30-explained.md"
   },
   {
     "slug": "chestny-znak-autoservices",
