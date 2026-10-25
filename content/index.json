@@ -294,5 +294,79 @@
     ],
     "status": "draft",
     "path": "drafts/2026-10-24/05-black-oil-myth.md"
+  },
+  {
+    "slug": "chestny-znak-autoservices",
+    "title": "Автосервисы обяжут отчитываться в «Честный знак»: что меняется с 1 марта 2027 года",
+    "date": "2026-10-25",
+    "rubric": "news",
+    "tags": [
+      "Честный знак",
+      "маркировка",
+      "автосервисы",
+      "регуляторика"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-25/01-chestny-znak-autoservices.md"
+  },
+  {
+    "slug": "api-emergency-licensing",
+    "title": "Экстренное лицензирование API: перебои с базовыми маслами дошли до сертификации",
+    "date": "2026-10-25",
+    "rubric": "news",
+    "tags": [
+      "API",
+      "базовые масла",
+      "Group III",
+      "поставки",
+      "лицензирование"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-25/02-api-emergency-licensing.md"
+  },
+  {
+    "slug": "gl4-vs-gl5-transmission",
+    "title": "GL-4 и GL-5: чем отличаются трансмиссионные масла и почему их нельзя путать",
+    "date": "2026-10-25",
+    "rubric": "deep",
+    "tags": [
+      "трансмиссионное масло",
+      "GL-4",
+      "GL-5",
+      "КПП",
+      "редуктор"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-25/03-gl4-vs-gl5-transmission.md"
+  },
+  {
+    "slug": "moto-oil-jaso-ma-mb",
+    "title": "Мотоциклетное масло: что значат JASO MA и MB и почему «автомобильное» вредит мокрому сцеплению",
+    "date": "2026-10-25",
+    "rubric": "expert",
+    "tags": [
+      "мотоцикл",
+      "JASO",
+      "мокрое сцепление",
+      "моторное масло",
+      "выбор масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-25/04-moto-oil-jaso-ma-mb.md"
+  },
+  {
+    "slug": "synthetic-leaks-myth",
+    "title": "Синтетика «выгоняет» течи: откуда взялся миф и что происходит на самом деле",
+    "date": "2026-10-25",
+    "rubric": "myth",
+    "tags": [
+      "синтетика",
+      "сальники",
+      "течь масла",
+      "мифы",
+      "уплотнения"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-25/05-synthetic-leaks-myth.md"
   }
 ]
