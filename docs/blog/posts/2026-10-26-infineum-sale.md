@@ -1,14 +1,23 @@
 ---
-title: "Shell и ExxonMobil ищут покупателя для Infineum: сделка около $8 млрд изменит рынок присадок"
+title: 'Shell и ExxonMobil ищут покупателя для Infineum: сделка около $8 млрд изменит
+  рынок присадок'
 date: 2026-10-26
 rubric: news
 categories:
-  - Новости
-tags: [присадки, Infineum, Shell, ExxonMobil, рынок смазочных материалов]
-summary: "Shell и ExxonMobil рассматривают продажу совместного предприятия Infineum — оценка около $8 млрд. Разбираем, что такая сделка значила бы для рынка присадок и моторных масел."
+- Новости
+tags:
+- присадки
+- Infineum
+- Shell
+- ExxonMobil
+- рынок смазочных материалов
+summary: Shell и ExxonMobil рассматривают продажу совместного предприятия Infineum
+  — оценка около $8 млрд. Разбираем, что такая сделка значила бы для рынка присадок
+  и моторных масел.
 sources:
-  - https://www.lubesngreases.com/category-article/breaking-news/shell-and-exxon-mull-infineum-sale/
-status: draft
+- https://www.lubesngreases.com/category-article/breaking-news/shell-and-exxon-mull-infineum-sale/
+status: approved
+slug: infineum-sale
 ---
 
 Shell и ExxonMobil изучают возможность продажи Infineum — совместного предприятия по производству присадок для топлив и смазочных материалов, в котором каждой из двух компаний принадлежит по 50%. По оценкам прессы, сделка может оценить бизнес примерно в $8 млрд. Об этом сообщает Lubes'n'Greases со ссылкой на источники, знакомые с ситуацией.

@@ -370,33 +370,18 @@
     "path": "docs/blog/posts/2026-10-25-synthetic-leaks-myth.md"
   },
   {
-    "slug": "infineum-sale",
-    "title": "Shell и ExxonMobil ищут покупателя для Infineum: сделка около $8 млрд изменит рынок присадок",
+    "slug": "engine-flush",
+    "title": "Промывка двигателя: когда она нужна, а когда только вредит",
     "date": "2026-10-26",
-    "rubric": "news",
+    "rubric": "expert",
     "tags": [
-      "присадки",
-      "Infineum",
-      "Shell",
-      "ExxonMobil",
-      "рынок смазочных материалов"
+      "промывка двигателя",
+      "замена масла",
+      "обслуживание",
+      "отложения"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-26/01-infineum-sale.md"
-  },
-  {
-    "slug": "uzbekneftegaz-sasol-base-oil",
-    "title": "Uzbekneftegaz и Sasol обсудили проект производства базовых масел в Узбекистане",
-    "date": "2026-10-26",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "GTL",
-      "Sasol",
-      "Uzbekneftegaz"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-26/02-uzbekneftegaz-sasol-base-oil.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-26-engine-flush.md"
   },
   {
     "slug": "hydraulic-hlp-hvlp-iso-4406",
@@ -410,22 +395,23 @@
       "ISO 4406",
       "индустриальные масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-26/03-hydraulic-hlp-hvlp-iso-4406.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-26-hydraulic-hlp-hvlp-iso-4406.md"
   },
   {
-    "slug": "engine-flush",
-    "title": "Промывка двигателя: когда она нужна, а когда только вредит",
+    "slug": "infineum-sale",
+    "title": "Shell и ExxonMobil ищут покупателя для Infineum: сделка около $8 млрд изменит рынок присадок",
     "date": "2026-10-26",
-    "rubric": "expert",
+    "rubric": "news",
     "tags": [
-      "промывка двигателя",
-      "замена масла",
-      "обслуживание",
-      "отложения"
+      "присадки",
+      "Infineum",
+      "Shell",
+      "ExxonMobil",
+      "рынок смазочных материалов"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-26/04-engine-flush.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-26-infineum-sale.md"
   },
   {
     "slug": "oil-change-low-mileage",
@@ -438,7 +424,21 @@
       "моточасы",
       "мифы"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-26/05-oil-change-low-mileage.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-26-oil-change-low-mileage.md"
+  },
+  {
+    "slug": "uzbekneftegaz-sasol-base-oil",
+    "title": "Uzbekneftegaz и Sasol обсудили проект производства базовых масел в Узбекистане",
+    "date": "2026-10-26",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "GTL",
+      "Sasol",
+      "Uzbekneftegaz"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-26-uzbekneftegaz-sasol-base-oil.md"
   }
 ]
