@@ -30,11 +30,13 @@ networks:
 
   telegram:
     name: Telegram
-    enabled: false
-    login_url: https://web.telegram.org/k/
-    compose_url: https://web.telegram.org/k/#@your_channel   # замени на свой канал
+    enabled: true
+    mode: bot                    # bot = автопостинг через Bot API (social.py send); browser-постинг — /oil:social
+    channel: "@gtoil_club"       # бот-админ канала с правом публикации; токен в секрете TELEGRAM_BOT_TOKEN
+    compose_url: https://web.telegram.org/k/#@gtoil_club   # для ручного режима через /oil:social
     domains: ["*.telegram.org"]
     max_len: 4096
+    template: "{title}\n\n{summary}\n\n👉 {url}\n\n{hashtags}"   # формат канала — design.md
     instructions: >
       Открой чат канала, кликни поле «Message» / «Сообщение». Enter здесь сразу отправляет,
       поэтому вводи текст по строкам, а переносы строк делай сочетанием Shift+Enter.

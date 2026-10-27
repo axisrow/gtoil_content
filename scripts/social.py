@@ -4,13 +4,19 @@
   social.py plan --to vk,x           print what to post: rendered texts, compose urls, instructions
   social.py done <slug> <net> <url>  record a successful post in content/social.json
   social.py status                   show networks from config/social.yaml
+  social.py send [net] [--dry-run]   send next unposted article via Bot API (networks with mode: bot)
 """
 import argparse
 import json
+import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 import yaml
 
@@ -136,6 +142,72 @@ def cmd_status(networks: dict) -> None:
         print(f"{key:10} {'enabled ' if net.get('enabled') else 'disabled'}  {net['compose_url']}")
 
 
+def tg_send(token: str, chat: str, text: str) -> dict:
+    """Bot API sendMessage. One retry on 429 with small retry_after.
+
+    ponytail: no send queue and no backoff ladder — one shot fits 5 posts/day;
+    add a queue when a network starts demanding more.
+    """
+    payload = urlencode({"chat_id": chat, "text": text}).encode()
+    body: dict = {}
+    for attempt in (1, 2):
+        req = Request(f"https://api.telegram.org/bot{token}/sendMessage", data=payload)
+        try:
+            with urlopen(req, timeout=30) as resp:
+                body = json.loads(resp.read())
+        except HTTPError as e:
+            body = json.loads(e.read())
+        if body.get("ok"):
+            return body["result"]
+        wait = (body.get("parameters") or {}).get("retry_after")
+        if not wait or wait > 60:
+            break
+        time.sleep(wait + 1)
+    sys.exit(f"sendMessage failed: {body.get('description')}")
+
+
+def cmd_send(args, networks: dict) -> None:
+    net = networks.get(args.network)
+    if net is None:
+        sys.exit(f"unknown network {args.network!r}; known: {', '.join(networks)}")
+    if net.get("mode") != "bot":
+        sys.exit(f"{args.network}: only networks with mode: bot can send (see config/social.yaml)")
+
+    ledger = load_ledger()
+    if args.slug:
+        posts = sorted(POSTS.glob(f"*-{args.slug}.md"))
+        if not posts:
+            sys.exit(f"no post file for slug {args.slug!r}")
+        if not args.force and args.network in ledger.get(args.slug, {}):
+            sys.exit(f"{args.slug} already posted to {args.network}: {ledger[args.slug][args.network]['url']}")
+    else:
+        args.posts, args.limit = [], 1
+        posts = pick_posts(args, ledger, [args.network])
+    if not posts:
+        print("nothing to post")
+        return
+
+    path = posts[0]
+    meta, _ = read_frontmatter(path)
+    slug = slug_of(path)
+    text = render(meta, net, slug)
+    if args.dry_run:
+        print(f"=== {slug} | {args.network} | dry run\n{text}")
+        return
+
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+    if not token:
+        sys.exit("TELEGRAM_BOT_TOKEN is not set")
+    message = tg_send(token, net["channel"], text)
+
+    ledger.setdefault(slug, {})[args.network] = {
+        "url": f"https://t.me/{net['channel'].lstrip('@')}/{message['message_id']}",
+        "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    save_ledger(ledger)
+    print(f"posted: {slug} → {args.network} {ledger[slug][args.network]['url']}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -149,6 +221,12 @@ def main() -> None:
     dp.add_argument("slug")
     dp.add_argument("network")
     dp.add_argument("url")
+    sp = sub.add_parser("send", help="send the next unposted article via Bot API (mode: bot networks)")
+    sp.add_argument("network", nargs="?", default="telegram")
+    sp.add_argument("--date", help="YYYY-MM-DD (default: latest post date)")
+    sp.add_argument("--slug", help="post exactly this slug (ignores date picking)")
+    sp.add_argument("--force", action="store_true", help="post even if already recorded in content/social.json")
+    sp.add_argument("--dry-run", action="store_true", help="print the rendered post, don't send")
     sub.add_parser("status", help="show networks from config")
     args = ap.parse_args()
 
@@ -157,6 +235,8 @@ def main() -> None:
         cmd_plan(args, networks)
     elif args.cmd == "done":
         cmd_done(args, networks)
+    elif args.cmd == "send":
+        cmd_send(args, networks)
     else:
         cmd_status(networks)
 

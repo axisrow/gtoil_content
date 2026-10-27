@@ -12,6 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 2. **Написание** — `/oil:daily` (5 статей по слотам из `rubrics.md`), `/oil:article <тема> [rubric]`, `/oil:review <файл>`. Черновики: `drafts/YYYY-MM-DD/NN-slug.md` (NN = 01..05); вечнозелёные темы — из `config/topics_backlog.md` (после использования отметить `[x]`).
 3. **Одобрение** — черновики приезжают PR-ом «Статьи YYYY-MM-DD» от scheduled task; merge PR = одобрение всех оставшихся в нём статей (неудачные человек удаляет до мержа).
 4. **Публикация** — push в main с изменениями в `drafts/**` запускает `promote.yml`: `scripts/promote.py --all` переносит черновики в `docs/blog/posts/YYYY-MM-DD-slug.md`, обновляет индекс, коммитит и явно вызывает `pages.yml` (коммит с GITHUB_TOKEN сам `pages.yml` не триггерит).
+5. **TG-канал** — cron `tg-publish.yml` (09:00–21:00 МСК) постит анонсы в @gtoil_club через Bot API: `scripts/social.py send` берёт первую статью последних дней без записи `telegram` в `content/social.json`. Формат постов — `design.md`; токен бота — секрет `TELEGRAM_BOT_TOKEN`.
 
 ## Команды
 
@@ -24,6 +25,9 @@ python3 scripts/dedup.py "<заголовок>"            # exit 1 = уже е�
 python3 scripts/index_add.py drafts/<дата>/*.md   # добавить/обновить записи в content/index.json
 python3 scripts/promote.py --all                  # drafts → docs/blog/posts + индекс (локально;
                                                   # без --all — только черновики со status: approved)
+python3 scripts/social.py send --dry-run          # превью следующего поста в @gtoil_club
+python3 scripts/social.py send                    # отправить следующий пост через Bot API
+                                                  # (env TELEGRAM_BOT_TOKEN; журнал — content/social.json)
 mkdocs build --strict                             # сборка сайта, как в CI Pages
 mkdocs serve                                      # локальный просмотр
 ```
