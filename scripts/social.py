@@ -166,6 +166,17 @@ def tg_send(token: str, chat: str, text: str) -> dict:
     sys.exit(f"sendMessage failed: {body.get('description')}")
 
 
+def load_dotenv() -> None:
+    """Load KEY=VALUE pairs from .env in the repo root (missing keys only, no echo)."""
+    env = ROOT / ".env"
+    if not env.exists():
+        return
+    for line in env.read_text(encoding="utf-8").splitlines():
+        key, _, value = line.strip().partition("=")
+        if key and value and key not in os.environ:
+            os.environ[key] = value
+
+
 def cmd_send(args, networks: dict) -> None:
     net = networks.get(args.network)
     if net is None:
@@ -231,6 +242,7 @@ def main() -> None:
     args = ap.parse_args()
 
     networks = load_networks()
+    load_dotenv()
     if args.cmd == "plan":
         cmd_plan(args, networks)
     elif args.cmd == "done":

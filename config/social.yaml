@@ -36,7 +36,8 @@ networks:
     compose_url: https://web.telegram.org/k/#@gtoil_club   # для ручного режима через /oil:social
     domains: ["*.telegram.org"]
     max_len: 4096
-    template: "{title}\n\n{summary}\n\n👉 {url}\n\n{hashtags}"   # формат канала — design.md
+    template: "{title}\n\n{summary}"   # ссылки на github.io — служебные, в канал нельзя (design.md);
+                                        # TODO: перед включением cron — рендер полного текста статьи в send
     instructions: >
       Открой чат канала, кликни поле «Message» / «Сообщение». Enter здесь сразу отправляет,
       поэтому вводи текст по строкам, а переносы строк делай сочетанием Shift+Enter.
