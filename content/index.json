@@ -452,8 +452,8 @@
       "ФТС",
       "моторное масло"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-27/01-customs-oil-seizure.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-27-customs-oil-seizure.md"
   },
   {
     "slug": "grease-nlgi",
@@ -466,8 +466,22 @@
       "загуститель",
       "литиевая смазка"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-27/02-grease-nlgi.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-27-grease-nlgi.md"
+  },
+  {
+    "slug": "synth-to-mineral-myth",
+    "title": "Переход с синтетики на минералку посадит двигатель: разбираем миф",
+    "date": "2026-10-27",
+    "rubric": "myth",
+    "tags": [
+      "синтетика",
+      "минералка",
+      "мифы",
+      "базовые масла"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-27-synth-to-mineral-myth.md"
   },
   {
     "slug": "tbn-tan",
@@ -481,8 +495,8 @@
       "ресурс масла",
       "анализ масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-27/03-tbn-tan.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-27-tbn-tan.md"
   },
   {
     "slug": "used-oil-analysis-fleet",
@@ -496,21 +510,7 @@
       "диагностика",
       "интервалы замены"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-27/04-used-oil-analysis-fleet.md"
-  },
-  {
-    "slug": "synth-to-mineral-myth",
-    "title": "Переход с синтетики на минералку посадит двигатель: разбираем миф",
-    "date": "2026-10-27",
-    "rubric": "myth",
-    "tags": [
-      "синтетика",
-      "минералка",
-      "мифы",
-      "базовые масла"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-27/05-synth-to-mineral-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-27-used-oil-analysis-fleet.md"
   }
 ]
