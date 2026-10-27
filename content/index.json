@@ -440,5 +440,77 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-26-uzbekneftegaz-sasol-base-oil.md"
+  },
+  {
+    "slug": "customs-oil-seizure",
+    "title": "ФТС изъяла в Подмосковье контрабандное масло на 9 млн рублей: под видом синтетики была минералка",
+    "date": "2026-10-27",
+    "rubric": "news",
+    "tags": [
+      "контрабанда",
+      "подделки",
+      "ФТС",
+      "моторное масло"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-27/01-customs-oil-seizure.md"
+  },
+  {
+    "slug": "grease-nlgi",
+    "title": "Пластичные смазки: как читать класс NLGI и почему загуститель важнее базы",
+    "date": "2026-10-27",
+    "rubric": "deep",
+    "tags": [
+      "пластичные смазки",
+      "NLGI",
+      "загуститель",
+      "литиевая смазка"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-27/02-grease-nlgi.md"
+  },
+  {
+    "slug": "tbn-tan",
+    "title": "Щелочное число (TBN) и кислотное число (TAN): что они говорят о ресурсе масла",
+    "date": "2026-10-27",
+    "rubric": "deep",
+    "tags": [
+      "TBN",
+      "TAN",
+      "щелочное число",
+      "ресурс масла",
+      "анализ масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-27/03-tbn-tan.md"
+  },
+  {
+    "slug": "used-oil-analysis-fleet",
+    "title": "Анализ работающего масла: когда он выгоден автопарку",
+    "date": "2026-10-27",
+    "rubric": "expert",
+    "tags": [
+      "анализ масла",
+      "автопарк",
+      "TBN",
+      "диагностика",
+      "интервалы замены"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-27/04-used-oil-analysis-fleet.md"
+  },
+  {
+    "slug": "synth-to-mineral-myth",
+    "title": "Переход с синтетики на минералку посадит двигатель: разбираем миф",
+    "date": "2026-10-27",
+    "rubric": "myth",
+    "tags": [
+      "синтетика",
+      "минералка",
+      "мифы",
+      "базовые масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-27/05-synth-to-mineral-myth.md"
   }
 ]
