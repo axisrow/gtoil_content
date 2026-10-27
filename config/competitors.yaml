@@ -8,6 +8,9 @@
 # checked  — как проверен адрес: search = найден поиском по домену (2026-10-22),
 #            known = общеизвестный глобальный сайт, не проверялся
 # Правило: идеи тем — да; копирование текста и упоминание конкурентов в статьях — нет.
+# Расширение 2026-10-27: список максимально широкий (все сегменты, все глобальные бренды,
+# бюджетные РФ). Ушедшие из РФ записаны без `articles` — это справочные записи, сборщик
+# их пропускает; вернутся на полку — добавим раздел и сбор пойдёт сам.
 
 own:
   name: GT OIL
@@ -33,12 +36,14 @@ asian:
     rss: https://news.kixxoil.com/feed/
     keywords: [oil, engine, lubric, viscosity, "api s", ilsac, hybrid, pao, grease, coolant, antifreeze]
     checked: search
+    note: прямой аналог — корейская синтетика того же сегмента
   - name: S-OIL SEVEN
     company: S-Oil Corporation
     country: Южная Корея
     focus: легковые и коммерческий транспорт
     site: https://www.s-oil7.com/
     checked: search
+    note: прямой аналог — корейская базовая группа (S-Oil), та же полка
   - name: Hyundai XTeer
     company: HD Hyundai Oilbank
     country: Южная Корея
@@ -67,6 +72,20 @@ asian:
     focus: масла, антифризы, автохимия для азиатского автопарка
     site: https://www.totachi.ru/
     checked: search
+    note: прямой аналог — та же ниша «азиатская синтетика для японских авто»
+  - name: Petronas
+    company: Petronas Lubricants International
+    country: Малайзия
+    focus: легковые (Syntium), коммерческий транспорт, индустриальные
+    site: https://www.petronaslubricants.com/
+    checked: known
+    note: ушёл из РФ, продаётся у дистрибьюторов (Italy-oil и др.)
+  - name: Liby
+    company: Liby Lubricants
+    country: Китай
+    focus: бюджетные легковые и коммерческие масла, активно продвигается в РФ
+    checked: search
+    note: ru-сайт не найден поиском (2026-10-27); следить за появлением
 
 russian:
   - name: ЛУКОЙЛ
@@ -108,6 +127,34 @@ russian:
     focus: легковые и коммерческий транспорт
     site: https://teboil.ru/
     checked: search
+  - name: Татнефть
+    company: ПАО «Татнефть» (Татнефть-Смазочные материалы)
+    country: Россия
+    focus: легковые (Luxe PAO, TANECO), грузовые, трансмиссионные
+    site: https://oil.tatneft.ru/
+    checked: search
+    note: раздела новостей на сайте масел нет — справочная запись
+  - name: Luxe
+    company: Delfin Group
+    country: Россия
+    focus: бюджетные и средние легковые масла, автохимия
+    site: https://www.luxe-oil.ru/
+    checked: search
+    note: раздел новостей не найден (sitemap 404, 2026-10-27)
+  - name: Felix
+    company: «Тосол-Синтез»
+    country: Россия
+    focus: бюджетные легковые масла и антифризы
+    site: https://www.t-s.ru/
+    checked: search
+    note: SSL-сертификат сайта протух (2026-10-27); collector не соберёт, следить
+  - name: Spectrol
+    country: Россия
+    focus: бюджетные легковые масла, антифризы, ATF
+    site: https://spectrol.ru/
+    articles: https://spectrol.ru/news/
+    checked: search
+    note: новости редкие (последняя 03.2024), но раздел живой
 
 international:
   - name: Shell
@@ -141,3 +188,137 @@ international:
     focus: технически специализированные моторные и трансмиссионные масла
     site: https://ravenol.ru/
     checked: search
+  - name: Mannol
+    company: SCT-Vertriebs GmbH
+    country: Германия
+    focus: "массовый бюджетный сегмент: моторные, трансмиссионные, индустриальные, автохимия"
+    site: https://mannol.de/ru/
+    checked: search
+    note: жив и широко представлен в РФ (дистрибьютор АО «НЛК», mannolrus.ru)
+  - name: Wolf
+    company: Wolf Oil Corporation
+    country: Бельгия
+    focus: легковые (OfficialTech), коммерческий транспорт
+    site: https://ru.wolflubes.com/ru-ru/
+    articles: https://ru.wolflubes.com/ru-ru/news
+    checked: search
+    note: русскоязычная версия официального сайта живая
+  - name: Valvoline
+    company: Valvoline Global Operations
+    country: США
+    focus: легковые (SynPower), коммерческий (Premium Blue)
+    site: https://www.valvolineglobal.com/ru-ru/
+    checked: known
+    note: официально ушёл из РФ; продаётся у дистрибьюторов (valvoline-oil.ru и др.)
+  - name: TotalEnergies
+    company: TotalEnergies (бренды Quartz и Elf)
+    country: Франция
+    focus: легковые (Quartz, Elf), коммерческий транспорт
+    site: https://www.totalenergies.com/
+    checked: known
+    note: ушёл из РФ; параллельный импорт
+  - name: Eni
+    company: Eni S.p.A. (Eni Lubricants, бывш. Agip)
+    country: Италия
+    focus: легковые (i-Sint), коммерческий транспорт
+    site: https://www.enilubricants.com/
+    checked: known
+    note: ушёл из РФ; параллельный импорт
+  - name: Fuchs
+    company: FUCHS PETROLUB SE (линейка Titan)
+    country: Германия
+    focus: индустриальные + легковые (Titan)
+    site: https://www.fuchs.com/ru/ru/
+    checked: known
+    note: индустриальное направление в РФ частично работает
+  - name: Comma
+    company: Comma Oil & Chemicals
+    country: Великобритания
+    focus: бюджетные легковые и коммерческие масла
+    site: https://www.commaoil.com/
+    checked: known
+    note: представлен у дистрибьюторов РФ
+  - name: Kroon Oil
+    company: Kroon-Oil B.V.
+    country: Нидерланды
+    focus: легковые, коммерческий транспорт, индустриальные
+    site: https://www.kroon-oil.com/
+    checked: known
+    note: нишевый импорт
+  - name: Orlen Platinum
+    company: Orlen (бывш. Basen Orlen Oil)
+    country: Польша
+    focus: бюджетные легковые (Platinum MaxExpert), коммерческий транспорт
+    site: https://www.orlen.pl/
+    checked: known
+    note: представлен в РФ у дистрибьюторов
+  - name: MOL
+    company: MOL Lubricants
+    country: Венгрия
+    focus: легковые, коммерческий транспорт
+    site: https://mol-lubricants.hu/
+    checked: known
+    note: нишевый импорт
+  - name: Amsoil
+    company: AMSOIL INC.
+    country: США
+    focus: премиальная синтетика, ценовой ориентир премиум-потолка
+    site: https://www.amsoil.com/
+    checked: known
+    note: в РФ только параллельный импорт, ценовой ориентир «премиум-потолка»
+  - name: Millers Oils
+    company: Millers Oils Ltd
+    country: Великобритания
+    focus: премиум и автоспорт, нанотехнологичные масла
+    site: https://www.millersoils.co.uk/
+    checked: known
+    note: нишевый импорт
+  - name: Repsol
+    company: Repsol S.A.
+    country: Испания
+    focus: легковые (Elit), мото, автоспорт
+    site: https://www.repsol.com/
+    checked: known
+    note: ушёл из РФ; параллельный импорт
+  - name: Pennzoil
+    company: Shell plc (SOPUS)
+    country: США
+    focus: легковые (PurePlus синтетика)
+    site: https://www.pennzoil.com/
+    checked: known
+    note: ушёл из РФ; параллельный импорт
+  - name: Havoline
+    company: Chevron Corporation
+    country: США
+    focus: легковые и коммерческий транспорт
+    site: https://havoline.com/
+    checked: known
+    note: ушёл из РФ; параллельный импорт
+  - name: Petro-Canada Lubricants
+    company: Suncor Energy
+    country: Канада
+    focus: легковые, коммерческий, индустриальные (PURITY)
+    site: https://lubricants.petro-canada.com/
+    checked: known
+    note: нишевый импорт
+  - name: BP
+    company: bp p.l.c. (линейка Visco)
+    country: Великобритания
+    focus: легковые (Visco), коммерческий транспорт
+    site: https://www.bp.com/
+    checked: known
+    note: ушёл из РФ; параллельный импорт
+  - name: XADO
+    company: XADO Chemical Group
+    country: Украина
+    focus: масла Atomic Oil с ревитализантом, присадки
+    site: https://xado.com/
+    checked: known
+    note: в РФ продаётся через маркетплейсы; общеизвестный бренд присадок+масел
+  - name: Eurol
+    company: Eurol B.V.
+    country: Нидерланды
+    focus: легковые, мото, индустриальные; спортивные линейки
+    site: https://www.eurol.com/
+    checked: known
+    note: нишевый импорт
