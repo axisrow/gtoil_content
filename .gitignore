@@ -5,3 +5,4 @@ site/
 .cache/
 .DS_Store
 data/
+.tg-agent-global
