@@ -399,21 +399,6 @@
     "path": "docs/blog/posts/2026-10-26-hydraulic-hlp-hvlp-iso-4406.md"
   },
   {
-    "slug": "infineum-sale",
-    "title": "Shell и ExxonMobil ищут покупателя для Infineum: сделка около $8 млрд изменит рынок присадок",
-    "date": "2026-10-26",
-    "rubric": "news",
-    "tags": [
-      "присадки",
-      "Infineum",
-      "Shell",
-      "ExxonMobil",
-      "рынок смазочных материалов"
-    ],
-    "status": "approved",
-    "path": "docs/blog/posts/2026-10-26-infineum-sale.md"
-  },
-  {
     "slug": "oil-change-low-mileage",
     "title": "Машина мало ездит — масло менять не нужно? Почему время старит масло сильнее пробега",
     "date": "2026-10-26",
@@ -426,20 +411,6 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-26-oil-change-low-mileage.md"
-  },
-  {
-    "slug": "uzbekneftegaz-sasol-base-oil",
-    "title": "Uzbekneftegaz и Sasol обсудили проект производства базовых масел в Узбекистане",
-    "date": "2026-10-26",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "GTL",
-      "Sasol",
-      "Uzbekneftegaz"
-    ],
-    "status": "approved",
-    "path": "docs/blog/posts/2026-10-26-uzbekneftegaz-sasol-base-oil.md"
   },
   {
     "slug": "customs-oil-seizure",
@@ -514,20 +485,6 @@
     "path": "docs/blog/posts/2026-10-27-used-oil-analysis-fleet.md"
   },
   {
-    "slug": "gazpromneft-compressor-pao-synth",
-    "title": "«Газпромнефть-СМ» начала выпуск синтетических компрессорных масел с работой при –50 °C",
-    "date": "2026-10-28",
-    "rubric": "news",
-    "tags": [
-      "компрессорное масло",
-      "индустриальные масла",
-      "синтетические масла",
-      "Газпромнефть-СМ"
-    ],
-    "status": "approved",
-    "path": "docs/blog/posts/2026-10-28-gazpromneft-compressor-pao-synth.md"
-  },
-  {
     "slug": "hths-explained",
     "title": "HTHS: почему масла с одинаковым SAE ведут себя по-разному при рабочей температуре",
     "date": "2026-10-28",
@@ -541,21 +498,6 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-28-hths-explained.md"
-  },
-  {
-    "slug": "sk-enmove-group-iii",
-    "title": "Перебои с базовыми маслами группы III: европейские мощности SK Enmove стали ценнее",
-    "date": "2026-10-28",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "группа III",
-      "SK Enmove",
-      "Yubase",
-      "рынок"
-    ],
-    "status": "approved",
-    "path": "docs/blog/posts/2026-10-28-sk-enmove-group-iii.md"
   },
   {
     "slug": "topup-vs-change",
