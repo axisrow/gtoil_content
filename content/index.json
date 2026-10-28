@@ -524,23 +524,8 @@
       "синтетические масла",
       "Газпромнефть-СМ"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-28/01-gazpromneft-compressor-pao-synth.md"
-  },
-  {
-    "slug": "sk-enmove-group-iii",
-    "title": "Перебои с базовыми маслами группы III: европейские мощности SK Enmove стали ценнее",
-    "date": "2026-10-28",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "группа III",
-      "SK Enmove",
-      "Yubase",
-      "рынок"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-28/02-sk-enmove-group-iii.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-28-gazpromneft-compressor-pao-synth.md"
   },
   {
     "slug": "hths-explained",
@@ -554,8 +539,38 @@
       "вязкость",
       "моторное масло"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-28/03-hths-explained.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-28-hths-explained.md"
+  },
+  {
+    "slug": "sk-enmove-group-iii",
+    "title": "Перебои с базовыми маслами группы III: европейские мощности SK Enmove стали ценнее",
+    "date": "2026-10-28",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "группа III",
+      "SK Enmove",
+      "Yubase",
+      "рынок"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-28-sk-enmove-group-iii.md"
+  },
+  {
+    "slug": "topup-vs-change",
+    "title": "Долил — и можно не менять? Почему доливка не заменяет замену масла",
+    "date": "2026-10-28",
+    "rubric": "myth",
+    "tags": [
+      "моторное масло",
+      "доливка",
+      "замена масла",
+      "щелочное число",
+      "шлам"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-28-topup-vs-change.md"
   },
   {
     "slug": "turbo-startstop-oil",
@@ -570,22 +585,7 @@
       "LSPI",
       "интервалы замены"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-28/04-turbo-startstop-oil.md"
-  },
-  {
-    "slug": "topup-vs-change",
-    "title": "Долил — и можно не менять? Почему доливка не заменяет замену масла",
-    "date": "2026-10-28",
-    "rubric": "myth",
-    "tags": [
-      "моторное масло",
-      "доливка",
-      "замена масла",
-      "щелочное число",
-      "шлам"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-28/05-topup-vs-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-28-turbo-startstop-oil.md"
   }
 ]

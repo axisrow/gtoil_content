@@ -1,14 +1,23 @@
 ---
-title: "Перебои с базовыми маслами группы III: европейские мощности SK Enmove стали ценнее"
+title: 'Перебои с базовыми маслами группы III: европейские мощности SK Enmove стали
+  ценнее'
 date: 2026-10-28
 rubric: news
 categories:
-  - Новости
-tags: [базовые масла, группа III, SK Enmove, Yubase, рынок]
-summary: "На фоне сбоев ближневосточных поставок европейские клиенты всё чаще обращаются к SK Enmove — об этом 21 октября писала Dong-A Ilbo. Разбираем, почему группа III — самое уязвимое звено рынка базовых масел."
+- Новости
+tags:
+- базовые масла
+- группа III
+- SK Enmove
+- Yubase
+- рынок
+summary: На фоне сбоев ближневосточных поставок европейские клиенты всё чаще обращаются
+  к SK Enmove — об этом 21 октября писала Dong-A Ilbo. Разбираем, почему группа III
+  — самое уязвимое звено рынка базовых масел.
 sources:
-  - https://jobbersworld.com/2026/10/26/sk-enmoves-european-base-oil-operations-gain-importance-amid-group-iii-supply-disruptions
-status: draft
+- https://jobbersworld.com/2026/10/26/sk-enmoves-european-base-oil-operations-gain-importance-amid-group-iii-supply-disruptions
+status: approved
+slug: sk-enmove-group-iii
 ---
 
 Европейские клиенты всё чаще обращаются к SK Enmove на фоне продолжающихся сбоев поставок базовых масел с Ближнего Востока — об этом 21 октября писала корейская Dong-A Ilbo. Обзор ситуации опубликовал JobbersWorld.
