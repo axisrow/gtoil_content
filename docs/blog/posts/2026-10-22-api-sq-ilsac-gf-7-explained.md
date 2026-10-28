@@ -16,8 +16,6 @@ summary: На канистрах всё чаще пишут API SQ и ILSAC GF-7
 sources:
 - https://www.enginebuildermag.com/2025/01/api-announces-improved-gas-engine-oil-standards/
 - https://www.motor.com/2025/03/understanding-the-new-ilsac-gf-7-motor-oil-category-qa-with-pennzoil-and-api/
-- https://www.infineuminsight.com/en-gb/articles/ilsac-gf7-ready/
-- https://petrocanadalubricants.com/knowledge-centre/expertqa/an-introduction-to-ilsac-gf-7
 inspired_by:
 - https://news.kixxoil.com/kixx-gx7-launch-synthetic-engine-oil/
 - https://www.eneos.us/product/eneos-5w-30/
