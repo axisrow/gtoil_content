@@ -1,15 +1,25 @@
 ---
-title: "Электромобилям нужен свой пакет смазок: STLE выпустила отчёт о жидкостях для редукторов EV"
+title: 'Электромобилям нужен свой пакет смазок: STLE выпустила отчёт о жидкостях для
+  редукторов EV'
 date: 2026-10-29
 rubric: news
 categories:
-  - Новости
-tags: [электромобили, e-fluids, редуктор, STLE, тренды, трансмиссионные масла]
-summary: "Отчёт STLE: обычные трансмиссионные масла не подходят редукторам электромобилей — высокие обороты, паразитные токи и баланс КПД, ресурса и электросвойств. Рынок e-fluids быстро растёт."
+- Новости
+tags:
+- электромобили
+- e-fluids
+- редуктор
+- STLE
+- тренды
+- трансмиссионные масла
+summary: 'Отчёт STLE: обычные трансмиссионные масла не подходят редукторам электромобилей
+  — высокие обороты, паразитные токи и баланс КПД, ресурса и электросвойств. Рынок
+  e-fluids быстро растёт.'
 sources:
-  - https://www.worktruckonline.com/news/new-stle-special-report-examines-next-generation-gear-lubricants-for-electric-vehicles
-  - https://www.fortunebusinessinsights.com/electric-vehicle-fluids-market-115439
-status: draft
+- https://www.worktruckonline.com/news/new-stle-special-report-examines-next-generation-gear-lubricants-for-electric-vehicles
+- https://www.fortunebusinessinsights.com/electric-vehicle-fluids-market-115439
+status: approved
+slug: ev-gear-fluids
 ---
 
 Редуктор электромобиля — не «уменьшенная коробка передач»: обороты, нагрузки и паразитные токи делают обычные трансмиссионные масла для него непригодными. Общество трибологов и инженеров по смазочным материалам (STLE) выпустило отчёт Next-Generation Gear Lubricants for Electric Vehicles о том, как под эти задачи создают новые жидкости.
