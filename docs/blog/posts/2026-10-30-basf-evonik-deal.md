@@ -1,15 +1,24 @@
 ---
-title: "BASF предлагает за Evonik 11,2 млрд евро: крупное объединение в спецхимии"
+title: 'BASF предлагает за Evonik 11,2 млрд евро: крупное объединение в спецхимии'
 date: 2026-10-30
 rubric: news
 categories:
-  - Новости
-tags: [BASF, Evonik, спецхимия, присадки, рынок, консолидация]
-summary: "BASF подняла предложение за Evonik до 24 евро за акцию — около 11,2 млрд евро после отказа на прошлую цену. Для рынка смазочных материалов это сигнал: консолидация доходит до поставщиков компонентов."
+- Новости
+tags:
+- BASF
+- Evonik
+- спецхимия
+- присадки
+- рынок
+- консолидация
+summary: 'BASF подняла предложение за Evonik до 24 евро за акцию — около 11,2 млрд
+  евро после отказа на прошлую цену. Для рынка смазочных материалов это сигнал: консолидация
+  доходит до поставщиков компонентов.'
 sources:
-  - https://www.reuters.com/legal/transactional/basf-raises-evonik-offer-over-11-billion-bloomberg-news-reports-2026-10-23
-  - https://live.euronext.com/en/financial-news/basf-raises-evonik-offer-eu24-share-sources-say
-status: draft
+- https://www.reuters.com/legal/transactional/basf-raises-evonik-offer-over-11-billion-bloomberg-news-reports-2026-10-23
+- https://live.euronext.com/en/financial-news/basf-raises-evonik-offer-eu24-share-sources-say
+status: approved
+slug: basf-evonik-deal
 ---
 
 Химический гигант BASF повысил предложение о покупке Evonik: по сообщениям Bloomberg и Reuters, новая цена — 24 евро за акцию, что оценивает компанию примерно в 11,2 миллиарда евро. Первое предложение около 22,15 евро за акцию (10,3 миллиарда) Evonik отклонила как заниженное.

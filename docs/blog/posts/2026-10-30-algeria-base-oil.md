@@ -1,14 +1,23 @@
 ---
-title: "Алжир выходит на рынок базовых масел: в Арзеве построят завод Group II и III"
+title: 'Алжир выходит на рынок базовых масел: в Арзеве построят завод Group II и III'
 date: 2026-10-30
 rubric: news
 categories:
-  - Новости
-tags: [базовые масла, Group II, Group III, Алжир, Sonatrach, поставки]
-summary: "Sonatrach готовит на НПЗ Арзев установку базовых масел Group II/III вместо действующей группы I. Четыре подрядчика уже прошли квалификацию. Что это значит для рынка поставок."
+- Новости
+tags:
+- базовые масла
+- Group II
+- Group III
+- Алжир
+- Sonatrach
+- поставки
+summary: Sonatrach готовит на НПЗ Арзев установку базовых масел Group II/III вместо
+  действующей группы I. Четыре подрядчика уже прошли квалификацию. Что это значит
+  для рынка поставок.
 sources:
-  - https://www.lubesngreases.com/lubereport-americas/11_44/algerias-arzew-refinery-furthers-base-oil-supply-plans
-status: draft
+- https://www.lubesngreases.com/lubereport-americas/11_44/algerias-arzew-refinery-furthers-base-oil-supply-plans
+status: approved
+slug: algeria-base-oil
 ---
 
 Алжирская государственная Sonatrach продвигает проект установки базовых масел групп II и III на НПЗ Арзев — сегодня там работает лишь небольшое производство группы I. По данным издания MEED, на которые ссылается Lubes'n'Greases в материале от 28 октября 2026 года, к участию в проекте допущены четыре подрядчика.

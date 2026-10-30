@@ -613,6 +613,22 @@
     "path": "docs/blog/posts/2026-10-29-ev-gear-fluids.md"
   },
   {
+    "slug": "additive-package",
+    "title": "Пакет присадок: моющие, диспергирующие, ZDDP и модификаторы трения",
+    "date": "2026-10-30",
+    "rubric": "deep",
+    "tags": [
+      "присадки",
+      "ZDDP",
+      "моющие",
+      "диспергирующие",
+      "модификаторы трения",
+      "моторное масло"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-30-additive-package.md"
+  },
+  {
     "slug": "algeria-base-oil",
     "title": "Алжир выходит на рынок базовых масел: в Арзеве построят завод Group II и III",
     "date": "2026-10-30",
@@ -625,8 +641,8 @@
       "Sonatrach",
       "поставки"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-30/01-algeria-base-oil.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-30-algeria-base-oil.md"
   },
   {
     "slug": "basf-evonik-deal",
@@ -641,40 +657,8 @@
       "рынок",
       "консолидация"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-30/02-basf-evonik-deal.md"
-  },
-  {
-    "slug": "additive-package",
-    "title": "Пакет присадок: моющие, диспергирующие, ZDDP и модификаторы трения",
-    "date": "2026-10-30",
-    "rubric": "deep",
-    "tags": [
-      "присадки",
-      "ZDDP",
-      "моющие",
-      "диспергирующие",
-      "модификаторы трения",
-      "моторное масло"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-30/03-additive-package.md"
-  },
-  {
-    "slug": "oil-storage",
-    "title": "Хранение масла в гараже и на складе: сколько живёт канистра",
-    "date": "2026-10-30",
-    "rubric": "expert",
-    "tags": [
-      "хранение масла",
-      "срок годности",
-      "канистра",
-      "бочки",
-      "склад",
-      "автопарк"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-30/04-oil-storage.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-30-basf-evonik-deal.md"
   },
   {
     "slug": "high-mileage-thick-oil",
@@ -689,7 +673,23 @@
       "угар масла",
       "допуски"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-30/05-high-mileage-thick-oil.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-30-high-mileage-thick-oil.md"
+  },
+  {
+    "slug": "oil-storage",
+    "title": "Хранение масла в гараже и на складе: сколько живёт канистра",
+    "date": "2026-10-30",
+    "rubric": "expert",
+    "tags": [
+      "хранение масла",
+      "срок годности",
+      "канистра",
+      "бочки",
+      "склад",
+      "автопарк"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-30-oil-storage.md"
   }
 ]
