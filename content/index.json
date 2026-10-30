@@ -611,5 +611,85 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-29-ev-gear-fluids.md"
+  },
+  {
+    "slug": "algeria-base-oil",
+    "title": "Алжир выходит на рынок базовых масел: в Арзеве построят завод Group II и III",
+    "date": "2026-10-30",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "Group II",
+      "Group III",
+      "Алжир",
+      "Sonatrach",
+      "поставки"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-30/01-algeria-base-oil.md"
+  },
+  {
+    "slug": "basf-evonik-deal",
+    "title": "BASF предлагает за Evonik 11,2 млрд евро: крупное объединение в спецхимии",
+    "date": "2026-10-30",
+    "rubric": "news",
+    "tags": [
+      "BASF",
+      "Evonik",
+      "спецхимия",
+      "присадки",
+      "рынок",
+      "консолидация"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-30/02-basf-evonik-deal.md"
+  },
+  {
+    "slug": "additive-package",
+    "title": "Пакет присадок: моющие, диспергирующие, ZDDP и модификаторы трения",
+    "date": "2026-10-30",
+    "rubric": "deep",
+    "tags": [
+      "присадки",
+      "ZDDP",
+      "моющие",
+      "диспергирующие",
+      "модификаторы трения",
+      "моторное масло"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-30/03-additive-package.md"
+  },
+  {
+    "slug": "oil-storage",
+    "title": "Хранение масла в гараже и на складе: сколько живёт канистра",
+    "date": "2026-10-30",
+    "rubric": "expert",
+    "tags": [
+      "хранение масла",
+      "срок годности",
+      "канистра",
+      "бочки",
+      "склад",
+      "автопарк"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-30/04-oil-storage.md"
+  },
+  {
+    "slug": "high-mileage-thick-oil",
+    "title": "Старому двигателю нужно более густое масло: разбираем миф о «возрастных» моторах",
+    "date": "2026-10-30",
+    "rubric": "myth",
+    "tags": [
+      "мифы",
+      "вязкость",
+      "пробег",
+      "высокопробегные масла",
+      "угар масла",
+      "допуски"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-30/05-high-mileage-thick-oil.md"
   }
 ]
