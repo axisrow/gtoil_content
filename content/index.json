@@ -691,5 +691,73 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-10-30-oil-storage.md"
+  },
+  {
+    "slug": "lanxess-bpcl-industrial",
+    "title": "LANXESS и BPCL будут вместе развивать индустриальные смазки в Индии",
+    "date": "2026-10-31",
+    "rubric": "news",
+    "tags": [
+      "индустриальные масла",
+      "присадки",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-31/01-lanxess-bpcl-industrial.md"
+  },
+  {
+    "slug": "lube-market-conference",
+    "title": "6 ноября в Москве — юбилейная конференция «Производство и рынок смазочных материалов»",
+    "date": "2026-10-31",
+    "rubric": "news",
+    "tags": [
+      "рынок",
+      "конференция",
+      "индустриальные масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-31/02-lube-market-conference.md"
+  },
+  {
+    "slug": "lspi-explained",
+    "title": "LSPI: ранняя вспышка в турбомоторе и как с ней научились справляться",
+    "date": "2026-10-31",
+    "rubric": "deep",
+    "tags": [
+      "LSPI",
+      "турбомотор",
+      "API SP",
+      "ILSAC GF-6"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-31/03-lspi-explained.md"
+  },
+  {
+    "slug": "oil-manual-guide",
+    "title": "Как выбрать масло по руководству по эксплуатации: пошаговый порядок",
+    "date": "2026-10-31",
+    "rubric": "expert",
+    "tags": [
+      "выбор масла",
+      "руководство",
+      "допуски",
+      "вязкость"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-31/04-oil-manual-guide.md"
+  },
+  {
+    "slug": "seasonal-oil-change",
+    "title": "Зимой — «зимнее», летом — «летнее»: нужна ли сезонная замена масла",
+    "date": "2026-10-31",
+    "rubric": "myth",
+    "tags": [
+      "сезонная замена",
+      "вязкость",
+      "SAE",
+      "всесезонные масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-10-31/05-seasonal-oil-change.md"
   }
 ]
