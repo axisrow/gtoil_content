@@ -1,18 +1,21 @@
 ---
-title: 'LANXESS и BPCL будут вместе развивать индустриальные смазки в Индии'
+title: LANXESS и BPCL будут вместе развивать индустриальные смазки в Индии
 date: 2026-10-31
 rubric: news
 categories:
-  - Новости
+- Новости
 tags:
-  - индустриальные масла
-  - присадки
-  - рынок
-summary: 'LANXESS India и государственная Bharat Petroleum подписали меморандум о сотрудничестве в индустриальных смазках: присадочные технологии и формуляции — от немецкого химика, базовые масла и производство — от индийской госкомпании.'
+- индустриальные масла
+- присадки
+- рынок
+summary: 'LANXESS India и государственная Bharat Petroleum подписали меморандум о
+  сотрудничестве в индустриальных смазках: присадочные технологии и формуляции — от
+  немецкого химика, базовые масла и производство — от индийской госкомпании.'
 sources:
-  - https://themachinemaker.com/news/lanxess-and-bpcl-sign-mou-to-explore-cooperation-in-industrial-lubricants-and-specialty-fluids
-  - https://chemicals.economictimes.indiatimes.com/news/petrochemicals/lanxess-bpcl-map-out-india-push-in-advanced-lubricant-technologies/135300281
-status: draft
+- https://themachinemaker.com/news/lanxess-and-bpcl-sign-mou-to-explore-cooperation-in-industrial-lubricants-and-specialty-fluids
+- https://chemicals.economictimes.indiatimes.com/news/petrochemicals/lanxess-bpcl-map-out-india-push-in-advanced-lubricant-technologies/135300281
+status: approved
+slug: lanxess-bpcl-industrial
 ---
 
 Немецкий производитель смазочных присадок LANXESS и индийская государственная Bharat Petroleum (BPCL) договорились о долгосрочном сотрудничестве в индустриальных смазочных материалах: подписан меморандум о взаимопонимании между LANXESS India Private Limited и BPCL.

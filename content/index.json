@@ -702,21 +702,8 @@
       "присадки",
       "рынок"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-31/01-lanxess-bpcl-industrial.md"
-  },
-  {
-    "slug": "lube-market-conference",
-    "title": "6 ноября в Москве — юбилейная конференция «Производство и рынок смазочных материалов»",
-    "date": "2026-10-31",
-    "rubric": "news",
-    "tags": [
-      "рынок",
-      "конференция",
-      "индустриальные масла"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-10-31/02-lube-market-conference.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-31-lanxess-bpcl-industrial.md"
   },
   {
     "slug": "lspi-explained",
@@ -729,8 +716,21 @@
       "API SP",
       "ILSAC GF-6"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-31/03-lspi-explained.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-31-lspi-explained.md"
+  },
+  {
+    "slug": "lube-market-conference",
+    "title": "6 ноября в Москве — юбилейная конференция «Производство и рынок смазочных материалов»",
+    "date": "2026-10-31",
+    "rubric": "news",
+    "tags": [
+      "рынок",
+      "конференция",
+      "индустриальные масла"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-31-lube-market-conference.md"
   },
   {
     "slug": "oil-manual-guide",
@@ -743,8 +743,8 @@
       "допуски",
       "вязкость"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-31/04-oil-manual-guide.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-31-oil-manual-guide.md"
   },
   {
     "slug": "seasonal-oil-change",
@@ -757,7 +757,7 @@
       "SAE",
       "всесезонные масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-10-31/05-seasonal-oil-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-10-31-seasonal-oil-change.md"
   }
 ]
