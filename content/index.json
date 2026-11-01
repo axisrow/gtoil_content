@@ -772,38 +772,8 @@
       "группа III",
       "рынок"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-01/01-base-oil-diversification.md"
-  },
-  {
-    "slug": "shear-stability-vii",
-    "title": "Почему масло разжижается с пробегом: вязкостные модификаторы и сдвиговая стабильность",
-    "date": "2026-11-01",
-    "rubric": "deep",
-    "tags": [
-      "вязкостные модификаторы",
-      "сдвиговая стабильность",
-      "вязкость",
-      "HTHS",
-      "матчасть"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-01/02-shear-stability-vii.md"
-  },
-  {
-    "slug": "saps-explained",
-    "title": "Сульфатная зольность, фосфор и сера: что такое SAPS и почему их ограничивают",
-    "date": "2026-11-01",
-    "rubric": "deep",
-    "tags": [
-      "SAPS",
-      "ACEA",
-      "катализатор",
-      "сажевый фильтр",
-      "зольность"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-01/03-saps-explained.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-01-base-oil-diversification.md"
   },
   {
     "slug": "industrial-gear-oil-guide",
@@ -817,8 +787,23 @@
       "индустриальные масла",
       "FZG"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-01/04-industrial-gear-oil-guide.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-01-industrial-gear-oil-guide.md"
+  },
+  {
+    "slug": "saps-explained",
+    "title": "Сульфатная зольность, фосфор и сера: что такое SAPS и почему их ограничивают",
+    "date": "2026-11-01",
+    "rubric": "deep",
+    "tags": [
+      "SAPS",
+      "ACEA",
+      "катализатор",
+      "сажевый фильтр",
+      "зольность"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-01-saps-explained.md"
   },
   {
     "slug": "semi-synthetic-myth",
@@ -831,7 +816,22 @@
       "гидрокрекинг",
       "выбор масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-01/05-semi-synthetic-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-01-semi-synthetic-myth.md"
+  },
+  {
+    "slug": "shear-stability-vii",
+    "title": "Почему масло разжижается с пробегом: вязкостные модификаторы и сдвиговая стабильность",
+    "date": "2026-11-01",
+    "rubric": "deep",
+    "tags": [
+      "вязкостные модификаторы",
+      "сдвиговая стабильность",
+      "вязкость",
+      "HTHS",
+      "матчасть"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-01-shear-stability-vii.md"
   }
 ]

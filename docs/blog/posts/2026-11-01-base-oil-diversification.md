@@ -1,15 +1,24 @@
 ---
-title: "Ближневосточный риск стал долгосрочным: рынок базовых масел ищет запасные площадки"
+title: 'Ближневосточный риск стал долгосрочным: рынок базовых масел ищет запасные
+  площадки'
 date: 2026-11-01
 rubric: news
 categories:
-  - Новости
-tags: [базовые масла, Ближний Восток, логистика, группа III, рынок]
-summary: "Азиатские импортёры ищут альтернативные площадки поставок базовых масел: перебои с Ближнего Востока тянутся с весны, а дефицит группы III закрывать новыми мощностями не раньше 2027 года."
+- Новости
+tags:
+- базовые масла
+- Ближний Восток
+- логистика
+- группа III
+- рынок
+summary: 'Азиатские импортёры ищут альтернативные площадки поставок базовых масел:
+  перебои с Ближнего Востока тянутся с весны, а дефицит группы III закрывать новыми
+  мощностями не раньше 2027 года.'
 sources:
-  - https://ilma.org/ilma-engages-doe-on-base-oil-supply-disruptions-amid-middle-east-conflict
-  - https://news.google.com/rss/articles/CBMiZEFVX3lxTE93QUY2azQxRTE5U0c4dUdEamFXUXh4S2hKTzNOeDZzVi1qTzdDTnNvU2FqZzYyLXk4TzdXSGIydXdxWGFEWTVLUzBsSHExQ3NTZW5hclJJVU1IMGVldXduSE9uVGU?oc=5
-status: draft
+- https://ilma.org/ilma-engages-doe-on-base-oil-supply-disruptions-amid-middle-east-conflict
+- https://news.google.com/rss/articles/CBMiZEFVX3lxTE93QUY2azQxRTE5U0c4dUdEamFXUXh4S2hKTzNOeDZzVi1qTzdDTnNvU2FqZzYyLXk4TzdXSGIydXdxWGFEWTVLUzBsSHExQ3NTZW5hclJJVU1IMGVldXduSE9uVGU?oc=5
+status: approved
+slug: base-oil-diversification
 ---
 
 Рынок базовых масел перестаёт считать ближневосточные перебои временной проблемой. 30 октября азиатская деловая пресса писала о том, что внимание импортёров сместилось к диверсификации производственных площадок — поначалу запасные источники сырья рассматривали как временную меру, теперь их закладывают в долгосрочную стратегию.
