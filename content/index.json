@@ -835,6 +835,21 @@
     "path": "docs/blog/posts/2026-11-01-shear-stability-vii.md"
   },
   {
+    "slug": "emulsion-on-dipstick-myth",
+    "title": "Белая эмульсия на щупе и под крышкой: конденсат или течь антифриза",
+    "date": "2026-11-02",
+    "rubric": "myth",
+    "tags": [
+      "эмульсия",
+      "конденсат",
+      "прокладка ГБЦ",
+      "диагностика",
+      "короткие поездки"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-02-emulsion-on-dipstick-myth.md"
+  },
+  {
     "slug": "gf6b-retired-gf7b",
     "title": "GF-6B ушёл в историю: масла 0W-16 теперь лицензируются только под ILSAC GF-7B",
     "date": "2026-11-02",
@@ -846,23 +861,8 @@
       "API SQ",
       "спецификации"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-02/01-gf6b-retired-gf7b.md"
-  },
-  {
-    "slug": "oil-cooling-function",
-    "title": "Как моторное масло охлаждает двигатель: форсунки поршней, турбина и теплообменник",
-    "date": "2026-11-02",
-    "rubric": "deep",
-    "tags": [
-      "охлаждение двигателя",
-      "форсунки поршней",
-      "турбина",
-      "теплообменник",
-      "матчасть"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-02/02-oil-cooling-function.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-02-gf6b-retired-gf7b.md"
   },
   {
     "slug": "noack-volatility",
@@ -877,8 +877,23 @@
       "расход масла",
       "матчасть"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-02/03-noack-volatility.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-02-noack-volatility.md"
+  },
+  {
+    "slug": "oil-cooling-function",
+    "title": "Как моторное масло охлаждает двигатель: форсунки поршней, турбина и теплообменник",
+    "date": "2026-11-02",
+    "rubric": "deep",
+    "tags": [
+      "охлаждение двигателя",
+      "форсунки поршней",
+      "турбина",
+      "теплообменник",
+      "матчасть"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-02-oil-cooling-function.md"
   },
   {
     "slug": "small-engine-oil-guide",
@@ -892,98 +907,7 @@
       "SAE 30",
       "2T"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-02/04-small-engine-oil-guide.md"
-  },
-  {
-    "slug": "emulsion-on-dipstick-myth",
-    "title": "Белая эмульсия на щупе и под крышкой: конденсат или течь антифриза",
-    "date": "2026-11-02",
-    "rubric": "myth",
-    "tags": [
-      "эмульсия",
-      "конденсат",
-      "прокладка ГБЦ",
-      "диагностика",
-      "короткие поездки"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-02/05-emulsion-on-dipstick-myth.md"
-  },
-  {
-    "slug": "fake-oil-riga-italy",
-    "title": "Подпольный цех в Риге разливал поддельное масло для магазинов Италии: изъято 140 000 литров",
-    "date": "2026-11-03",
-    "rubric": "news",
-    "tags": [
-      "контрафакт",
-      "подделки масел",
-      "Латвия",
-      "Честный ЗНАК"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-03/01-fake-oil-riga-italy.md"
-  },
-  {
-    "slug": "cold-start-ccs-mrv",
-    "title": "Что происходит с маслом при −30: CCS, MRV и почему «первая цифра» не вся правда",
-    "date": "2026-11-03",
-    "rubric": "deep",
-    "tags": [
-      "низкотемпературные свойства",
-      "CCS",
-      "MRV",
-      "холодный пуск",
-      "SAE J300",
-      "зима"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-03/02-cold-start-ccs-mrv.md"
-  },
-  {
-    "slug": "api-diesel-ck4-fa4",
-    "title": "Дизельные классы API: CK-4 и FA-4 — в чём разница и почему их нельзя менять местами",
-    "date": "2026-11-03",
-    "rubric": "deep",
-    "tags": [
-      "API CK-4",
-      "API FA-4",
-      "дизель",
-      "коммерческий транспорт",
-      "HTHS",
-      "спецификации"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-03/03-api-diesel-ck4-fa4.md"
-  },
-  {
-    "slug": "diy-oil-change-checklist",
-    "title": "Замена масла своими руками: чек-лист, чтобы не заплатить дважды",
-    "date": "2026-11-03",
-    "rubric": "expert",
-    "tags": [
-      "замена масла",
-      "масляный фильтр",
-      "своими руками",
-      "чек-лист",
-      "утилизация"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-03/04-diy-oil-change-checklist.md"
-  },
-  {
-    "slug": "expensive-oil-worth-it",
-    "title": "Дорогое масло — значит лучшее? За что вы платите на самом деле",
-    "date": "2026-11-03",
-    "rubric": "myth",
-    "tags": [
-      "цена масла",
-      "допуски",
-      "API SP",
-      "синтетика",
-      "выбор масла"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-03/05-expensive-oil-worth-it.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-02-small-engine-oil-guide.md"
   }
 ]

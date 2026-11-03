@@ -1,17 +1,25 @@
 ---
-title: "GF-6B ушёл в историю: масла 0W-16 теперь лицензируются только под ILSAC GF-7B"
+title: 'GF-6B ушёл в историю: масла 0W-16 теперь лицензируются только под ILSAC GF-7B'
 date: 2026-11-02
 rubric: news
 categories:
-  - Новости
-tags: [ILSAC GF-7B, GF-6B, 0W-16, API SQ, спецификации]
-summary: "С 1 октября 2026 года закрыто лицензирование ILSAC GF-6B — единственного класса для сверхмаловязких масел 0W-16. Теперь такие масла выпускаются только под GF-7B внутри поколения GF-7 (API SQ)."
+- Новости
+tags:
+- ILSAC GF-7B
+- GF-6B
+- 0W-16
+- API SQ
+- спецификации
+summary: С 1 октября 2026 года закрыто лицензирование ILSAC GF-6B — единственного
+  класса для сверхмаловязких масел 0W-16. Теперь такие масла выпускаются только под
+  GF-7B внутри поколения GF-7 (API SQ).
 sources:
-  - https://frontier.ro/en/standards/ilsac/ilsac-gf-6b
-  - https://www.enginebuildermag.com/2025/01/api-announces-improved-gas-engine-oil-standards/
-  - https://www.motor.com/2025/03/understanding-the-new-ilsac-gf-7-motor-oil-category-qa-with-pennzoil-and-api/
-  - https://e-catalog.com/list/723/pr-55126
-status: draft
+- https://frontier.ro/en/standards/ilsac/ilsac-gf-6b
+- https://www.enginebuildermag.com/2025/01/api-announces-improved-gas-engine-oil-standards/
+- https://www.motor.com/2025/03/understanding-the-new-ilsac-gf-7-motor-oil-category-qa-with-pennzoil-and-api/
+- https://e-catalog.com/list/723/pr-55126
+status: approved
+slug: gf6b-retired-gf7b
 ---
 С 1 октября 2026 года ILSAC прекратила лицензирование класса GF-6B — единственной категории, под которой выпускались сверхмаловязкие масла SAE 0W-16. Их место в системе занял GF-7B — часть нового поколения спецификаций, действующего с весны 2025 года.
 
