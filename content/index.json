@@ -833,5 +833,81 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-01-shear-stability-vii.md"
+  },
+  {
+    "slug": "gf6b-retired-gf7b",
+    "title": "GF-6B ушёл в историю: масла 0W-16 теперь лицензируются только под ILSAC GF-7B",
+    "date": "2026-11-02",
+    "rubric": "news",
+    "tags": [
+      "ILSAC GF-7B",
+      "GF-6B",
+      "0W-16",
+      "API SQ",
+      "спецификации"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-02/01-gf6b-retired-gf7b.md"
+  },
+  {
+    "slug": "oil-cooling-function",
+    "title": "Как моторное масло охлаждает двигатель: форсунки поршней, турбина и теплообменник",
+    "date": "2026-11-02",
+    "rubric": "deep",
+    "tags": [
+      "охлаждение двигателя",
+      "форсунки поршней",
+      "турбина",
+      "теплообменник",
+      "матчасть"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-02/02-oil-cooling-function.md"
+  },
+  {
+    "slug": "noack-volatility",
+    "title": "Испаряемость по NOACK: почему масло уходит из двигателя, а не сгорает",
+    "date": "2026-11-02",
+    "rubric": "deep",
+    "tags": [
+      "NOACK",
+      "испаряемость",
+      "базовые масла",
+      "ПАО",
+      "расход масла",
+      "матчасть"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-02/03-noack-volatility.md"
+  },
+  {
+    "slug": "small-engine-oil-guide",
+    "title": "Масло для снегоуборщика и садовой техники: четырёхтактные и двухтактные моторы",
+    "date": "2026-11-02",
+    "rubric": "expert",
+    "tags": [
+      "садовая техника",
+      "снегоуборщик",
+      "двухтактные двигатели",
+      "SAE 30",
+      "2T"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-02/04-small-engine-oil-guide.md"
+  },
+  {
+    "slug": "emulsion-on-dipstick-myth",
+    "title": "Белая эмульсия на щупе и под крышкой: конденсат или течь антифриза",
+    "date": "2026-11-02",
+    "rubric": "myth",
+    "tags": [
+      "эмульсия",
+      "конденсат",
+      "прокладка ГБЦ",
+      "диагностика",
+      "короткие поездки"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-02/05-emulsion-on-dipstick-myth.md"
   }
 ]
