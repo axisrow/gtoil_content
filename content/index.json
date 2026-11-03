@@ -909,5 +909,81 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-02-small-engine-oil-guide.md"
+  },
+  {
+    "slug": "api-diesel-ck4-fa4",
+    "title": "Дизельные классы API: CK-4 и FA-4 — в чём разница и почему их нельзя менять местами",
+    "date": "2026-11-03",
+    "rubric": "deep",
+    "tags": [
+      "API CK-4",
+      "API FA-4",
+      "дизель",
+      "коммерческий транспорт",
+      "HTHS",
+      "спецификации"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-03-api-diesel-ck4-fa4.md"
+  },
+  {
+    "slug": "cold-start-ccs-mrv",
+    "title": "Что происходит с маслом при −30: CCS, MRV и почему «первая цифра» не вся правда",
+    "date": "2026-11-03",
+    "rubric": "deep",
+    "tags": [
+      "низкотемпературные свойства",
+      "CCS",
+      "MRV",
+      "холодный пуск",
+      "SAE J300",
+      "зима"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-03-cold-start-ccs-mrv.md"
+  },
+  {
+    "slug": "diy-oil-change-checklist",
+    "title": "Замена масла своими руками: чек-лист, чтобы не заплатить дважды",
+    "date": "2026-11-03",
+    "rubric": "expert",
+    "tags": [
+      "замена масла",
+      "масляный фильтр",
+      "своими руками",
+      "чек-лист",
+      "утилизация"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-03-diy-oil-change-checklist.md"
+  },
+  {
+    "slug": "expensive-oil-worth-it",
+    "title": "Дорогое масло — значит лучшее? За что вы платите на самом деле",
+    "date": "2026-11-03",
+    "rubric": "myth",
+    "tags": [
+      "цена масла",
+      "допуски",
+      "API SP",
+      "синтетика",
+      "выбор масла"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-03-expensive-oil-worth-it.md"
+  },
+  {
+    "slug": "fake-oil-riga-italy",
+    "title": "Подпольный цех в Риге разливал поддельное масло для магазинов Италии: изъято 140 000 литров",
+    "date": "2026-11-03",
+    "rubric": "news",
+    "tags": [
+      "контрафакт",
+      "подделки масел",
+      "Латвия",
+      "Честный ЗНАК"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-03-fake-oil-riga-italy.md"
   }
 ]
