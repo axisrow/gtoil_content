@@ -56,10 +56,23 @@ def hashtags(tags: list[str], limit: int) -> str:
     return " ".join(f"#{t}" for t in tags if t)
 
 
-def render(meta: dict, net: dict, slug: str) -> str:
+def load_body(path: Path) -> str:
+    """Full article text for posts that carry it (telegram): front-matter, CHECK
+    comments and the <!-- more --> cut stripped, headings left as plain lines."""
+    raw = path.read_text(encoding="utf-8")
+    raw = re.sub(r"\A---\n.*?\n---\n", "", raw, flags=re.S)
+    raw = re.sub(r"<!-- CHECK:.*?-->", "", raw, flags=re.S)
+    raw = raw.replace("<!-- more -->", "")
+    raw = re.sub(r"(?m)^##\s+", "", raw)
+    raw = raw.replace("**", "")
+    return re.sub(r"\n{3,}", "\n\n", raw).strip()
+
+
+def render(meta: dict, net: dict, slug: str, body: str = "") -> str:
     fields = {
         "title": meta["title"],
         "summary": " ".join(meta["summary"].split()),
+        "body": body,
         "url": post_url(meta, slug),
         "hashtags": hashtags(meta.get("tags", []), net["hashtags"]),
     }
@@ -72,8 +85,15 @@ def render(meta: dict, net: dict, slug: str) -> str:
         return len(text.replace(fields["url"], "x" * net["url_len"])) if net.get("url_len") else len(text)
 
     text, limit = fmt(), net.get("max_len")
+    if limit and size(text) > limit and fields["body"]:
+        # trim the body first (when the template carries it), then the summary,
+        # then drop hashtags; title and link stay intact
+        keep = len(fields["body"]) - (size(text) - limit) - 1
+        if keep > 0:
+            fields["body"] = fields["body"][:keep].rstrip() + "…"
+            text = fmt()
     if limit and size(text) > limit:
-        # trim the summary first, then drop hashtags; title and link stay intact
+        # ponytail: teaser fallback when the full body cannot fit the limit
         keep = len(fields["summary"]) - (size(text) - limit) - 1
         fields["summary"] = fields["summary"][:keep].rstrip() + "…" if keep > 0 else ""
         text = fmt()
@@ -122,7 +142,7 @@ def cmd_plan(args, networks: dict) -> None:
             print(f"compose: {net['compose_url']}")
             print(f"domains: {', '.join(net.get('domains') or [])}")
             print(f"instructions: {net['instructions'].strip()}")
-            print(f"<<<POST\n{render(meta, net, slug)}\nPOST>>>\n")
+            print(f"<<<POST\n{render(meta, net, slug, load_body(path))}\nPOST>>>\n")
 
 
 def cmd_done(args, networks: dict) -> None:
@@ -201,7 +221,7 @@ def cmd_send(args, networks: dict) -> None:
     path = posts[0]
     meta, _ = read_frontmatter(path)
     slug = slug_of(path)
-    text = render(meta, net, slug)
+    text = render(meta, net, slug, load_body(path))
     if args.dry_run:
         print(f"=== {slug} | {args.network} | dry run\n{text}")
         return
