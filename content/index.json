@@ -987,20 +987,6 @@
     "path": "docs/blog/posts/2026-11-03-fake-oil-riga-italy.md"
   },
   {
-    "slug": "infineum-mumbai-office",
-    "title": "Infineum открывает новый офис в Мумбаи: присадочный бизнес смещается к растущим рынкам",
-    "date": "2026-11-04",
-    "rubric": "news",
-    "tags": [
-      "присадки",
-      "Infineum",
-      "Индия",
-      "рынок"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-04/01-infineum-mumbai-office.md"
-  },
-  {
     "slug": "compressor-oil-guide",
     "title": "Компрессорные масла: почему винтовому компрессору нельзя лить моторное",
     "date": "2026-11-04",
@@ -1012,8 +998,8 @@
       "ISO 6743-3",
       "винтовой компрессор"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-04/02-compressor-oil-guide.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-04-compressor-oil-guide.md"
   },
   {
     "slug": "grease-thickener-compatibility",
@@ -1027,8 +1013,22 @@
       "NLGI",
       "шприцевание"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-04/03-grease-thickener-compatibility.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-04-grease-thickener-compatibility.md"
+  },
+  {
+    "slug": "infineum-mumbai-office",
+    "title": "Infineum открывает новый офис в Мумбаи: присадочный бизнес смещается к растущим рынкам",
+    "date": "2026-11-04",
+    "rubric": "news",
+    "tags": [
+      "присадки",
+      "Infineum",
+      "Индия",
+      "рынок"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-04-infineum-mumbai-office.md"
   },
   {
     "slug": "lpg-engine-oil",
@@ -1042,8 +1042,8 @@
       "интервалы замены",
       "нитрация"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-04/04-lpg-engine-oil.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-04-lpg-engine-oil.md"
   },
   {
     "slug": "racing-oil-myth",
@@ -1058,7 +1058,7 @@
       "ACEA",
       "трек-день"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-04/05-racing-oil-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-04-racing-oil-myth.md"
   }
 ]

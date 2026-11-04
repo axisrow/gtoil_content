@@ -1,18 +1,22 @@
 ---
-title: "Infineum открывает новый офис в Мумбаи: присадочный бизнес смещается к растущим рынкам"
+title: 'Infineum открывает новый офис в Мумбаи: присадочный бизнес смещается к растущим
+  рынкам'
 date: 2026-11-04
 rubric: news
 categories:
-  - Новости
+- Новости
 tags:
-  - присадки
-  - Infineum
-  - Индия
-  - рынок
-summary: "Infineum 2 ноября открыла новый офис в Мумбаи и укрепляет производство в Паталганге: Индия — третий рынок автомобилей и смазочных материалов в мире с ростом спроса более 3% в год."
+- присадки
+- Infineum
+- Индия
+- рынок
+summary: 'Infineum 2 ноября открыла новый офис в Мумбаи и укрепляет производство в
+  Паталганге: Индия — третий рынок автомобилей и смазочных материалов в мире с ростом
+  спроса более 3% в год.'
 sources:
-  - https://www.prnewswire.com/apac/news-releases/infineum-expands-india-footprint-with-new-mumbai-office-as-demand-for-high-performance-lubricants-grows-302926348.html
-status: draft
+- https://www.prnewswire.com/apac/news-releases/infineum-expands-india-footprint-with-new-mumbai-office-as-demand-for-high-performance-lubricants-grows-302926348.html
+status: approved
+slug: infineum-mumbai-office
 ---
 
 Infineum — один из крупнейших мировых производителей присадок к смазочным материалам — 2 ноября 2026 года открыл новые офисные помещения в Мумбаи, в деловом районе Андери Ист. Компания напрямую называет цель шага: рост индийского рынка. По данным Infineum, Индия — третий по величине рынок автомобилей и смазочных материалов в мире, а спрос на смазочные материалы там прогнозируется растущим более чем на 3% в год в течение следующего десятилетия.
