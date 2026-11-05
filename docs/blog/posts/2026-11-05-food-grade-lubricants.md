@@ -1,14 +1,22 @@
 ---
-title: "Пищевые смазки: что такое NSF H1 и почему этот рынок растёт на 4,5% в год"
+title: 'Пищевые смазки: что такое NSF H1 и почему этот рынок растёт на 4,5% в год'
 date: 2026-11-05
 rubric: news
 categories:
-  - Новости
-tags: [пищевые смазки, NSF H1, индустриальные масла, рынок, HACCP]
-summary: "По прогнозу IndexBox, рынок смазок для пищевых производств вырастет к 2035 году в полтора раза. Объясняем, что такое классы NSF H1/H2/H3 и зачем это знать закупщику."
+- Новости
+tags:
+- пищевые смазки
+- NSF H1
+- индустриальные масла
+- рынок
+- HACCP
+summary: По прогнозу IndexBox, рынок смазок для пищевых производств вырастет к 2035
+  году в полтора раза. Объясняем, что такое классы NSF H1/H2/H3 и зачем это знать
+  закупщику.
 sources:
-  - https://www.indexbox.io/blog/food-grade-lubricants-market-forecast-to-2035-driven-by-expansion-of-global-food-processing-and-rising-hygiene-standards
-status: draft
+- https://www.indexbox.io/blog/food-grade-lubricants-market-forecast-to-2035-driven-by-expansion-of-global-food-processing-and-rising-hygiene-standards
+status: approved
+slug: food-grade-lubricants
 ---
 
 Рынок смазочных материалов для пищевых производств — гидравлика, редукторы, конвейеры, консистентные смазки — растёт быстрее общего рынка индустриальных смазок. По прогнозу IndexBox, с 2026 по 2035 год сегмент прибавит в среднем около 4,5% в год и вырастет в полтора раза: индекс объёма достигнет 155 при 2025 годе, принятом за 100.

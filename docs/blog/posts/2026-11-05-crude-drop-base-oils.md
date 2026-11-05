@@ -1,15 +1,24 @@
 ---
-title: "Нефть теряет 7% на новостях о переговорах с Ираном: что это значит для цен на масла"
+title: 'Нефть теряет 7% на новостях о переговорах с Ираном: что это значит для цен
+  на масла'
 date: 2026-11-05
 rubric: news
 categories:
-  - Новости
-tags: [нефть, Brent, Ормузский пролив, базовые масла, цены]
-summary: "Brent опустилась до минимумов с середины октября на надеждах на завершение иранской войны. Разбираем, как перелом на нефтяном рынке дойдёт до цен на базовые и моторные масла."
+- Новости
+tags:
+- нефть
+- Brent
+- Ормузский пролив
+- базовые масла
+- цены
+summary: Brent опустилась до минимумов с середины октября на надеждах на завершение
+  иранской войны. Разбираем, как перелом на нефтяном рынке дойдёт до цен на базовые
+  и моторные масла.
 sources:
-  - https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war
-  - https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01
-status: draft
+- https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war
+- https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01
+status: approved
+slug: crude-drop-base-oils
 ---
 
 Нефтяной рынок резко развернулся: за выходные Brent потеряла более 7%, а 2 ноября опускалась до 105,55 доллара за баррель — минимума более чем за две недели. Повод — не данные по добыче, а дипломатия: появились признаки того, что восьмимесячная война с Ираном может закончиться переговорами.

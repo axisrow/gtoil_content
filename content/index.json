@@ -1073,8 +1073,8 @@
       "базовые масла",
       "цены"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-05/01-crude-drop-base-oils.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-05-crude-drop-base-oils.md"
   },
   {
     "slug": "food-grade-lubricants",
@@ -1088,8 +1088,8 @@
       "рынок",
       "HACCP"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-05/02-food-grade-lubricants.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-05-food-grade-lubricants.md"
   },
   {
     "slug": "gas-engine-oils",
@@ -1104,8 +1104,8 @@
       "нитрация",
       "TBN"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-05/03-gas-engine-oils.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-05-gas-engine-oils.md"
   },
   {
     "slug": "oil-overfill",
@@ -1119,8 +1119,8 @@
       "замена масла",
       "сажевый фильтр"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-05/04-oil-overfill.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-05-oil-overfill.md"
   },
   {
     "slug": "oil-pressure-lamp",
@@ -1134,7 +1134,7 @@
       "миф",
       "холодный пуск"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-05/05-oil-pressure-lamp.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-05-oil-pressure-lamp.md"
   }
 ]
