@@ -1060,5 +1060,81 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-04-racing-oil-myth.md"
+  },
+  {
+    "slug": "crude-drop-base-oils",
+    "title": "Нефть теряет 7% на новостях о переговорах с Ираном: что это значит для цен на масла",
+    "date": "2026-11-05",
+    "rubric": "news",
+    "tags": [
+      "нефть",
+      "Brent",
+      "Ормузский пролив",
+      "базовые масла",
+      "цены"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-05/01-crude-drop-base-oils.md"
+  },
+  {
+    "slug": "food-grade-lubricants",
+    "title": "Пищевые смазки: что такое NSF H1 и почему этот рынок растёт на 4,5% в год",
+    "date": "2026-11-05",
+    "rubric": "news",
+    "tags": [
+      "пищевые смазки",
+      "NSF H1",
+      "индустриальные масла",
+      "рынок",
+      "HACCP"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-05/02-food-grade-lubricants.md"
+  },
+  {
+    "slug": "gas-engine-oils",
+    "title": "Газопоршневые электростанции: почему стационарному газовому двигателю нужно особое масло",
+    "date": "2026-11-05",
+    "rubric": "deep",
+    "tags": [
+      "газовые двигатели",
+      "ГПУ",
+      "газопоршневые",
+      "зольность",
+      "нитрация",
+      "TBN"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-05/03-gas-engine-oils.md"
+  },
+  {
+    "slug": "oil-overfill",
+    "title": "Перелив масла выше MAX: чем это опасно и как убрать лишнее",
+    "date": "2026-11-05",
+    "rubric": "expert",
+    "tags": [
+      "уровень масла",
+      "перелив",
+      "щуп",
+      "замена масла",
+      "сажевый фильтр"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-05/04-oil-overfill.md"
+  },
+  {
+    "slug": "oil-pressure-lamp",
+    "title": "Загорелась лампа давления масла: почему «дотянуть до дома» — худший из планов",
+    "date": "2026-11-05",
+    "rubric": "myth",
+    "tags": [
+      "давление масла",
+      "лампа",
+      "диагностика",
+      "миф",
+      "холодный пуск"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-05/05-oil-pressure-lamp.md"
   }
 ]
