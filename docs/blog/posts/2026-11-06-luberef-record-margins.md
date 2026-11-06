@@ -1,19 +1,23 @@
 ---
-title: "Маржа базовых масел поставила рекорд: прибыль Luberef за девять месяцев выросла на 105%"
+title: 'Маржа базовых масел поставила рекорд: прибыль Luberef за девять месяцев выросла
+  на 105%'
 date: 2026-11-06
 rubric: news
 categories:
-  - Новости
+- Новости
 tags:
-  - базовые масла
-  - Luberef
-  - Saudi Aramco
-  - рынок
-summary: "Saudi Aramco Base Oil Company — Luberef отчиталась о росте чистой прибыли на 105% за девять месяцев 2026 года. Разбираем, что это говорит о рынке базовых масел и ценах на готовые масла."
+- базовые масла
+- Luberef
+- Saudi Aramco
+- рынок
+summary: Saudi Aramco Base Oil Company — Luberef отчиталась о росте чистой прибыли
+  на 105% за девять месяцев 2026 года. Разбираем, что это говорит о рынке базовых
+  масел и ценах на готовые масла.
 sources:
-  - https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3950311:0-saudi-aramco-base-oil-company-luberef-higher-base-oil-margins-lifted-9m-net-income-105-growth-ii-shutdown-shifts-to-h1-2027
-  - https://www.lubesngreases.com/lubereport-americas/11_32/luberef-profit-surges-as-margins-hit-record-highs
-status: draft
+- https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3950311:0-saudi-aramco-base-oil-company-luberef-higher-base-oil-margins-lifted-9m-net-income-105-growth-ii-shutdown-shifts-to-h1-2027
+- https://www.lubesngreases.com/lubereport-americas/11_32/luberef-profit-surges-as-margins-hit-record-highs
+status: approved
+slug: luberef-record-margins
 ---
 
 Чистая прибыль Saudi Aramco Base Oil Company — Luberef, одного из крупнейших производителей базовых масел Группы II на Ближнем Востоке, за первые девять месяцев 2026 года выросла на 105% — до 1,53 млрд саудовских риалов. Свободный денежный поток за тот же период составил 1,4 млрд риалов. Компания прямо связывает рост с укреплением маржи на базовые масла и попутные продукты.

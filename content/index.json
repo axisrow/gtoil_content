@@ -1138,48 +1138,6 @@
     "path": "docs/blog/posts/2026-11-05-oil-pressure-lamp.md"
   },
   {
-    "slug": "luberef-record-margins",
-    "title": "Маржа базовых масел поставила рекорд: прибыль Luberef за девять месяцев выросла на 105%",
-    "date": "2026-11-06",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "Luberef",
-      "Saudi Aramco",
-      "рынок"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-06/01-luberef-record-margins.md"
-  },
-  {
-    "slug": "ms-study-lubricants",
-    "title": "Работа с маслами и смазками связали с риском рассеянного склероза: итоги шведского исследования",
-    "date": "2026-11-06",
-    "rubric": "news",
-    "tags": [
-      "охрана труда",
-      "исследования",
-      "СОЖ",
-      "гидравлическое масло"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-06/02-ms-study-lubricants.md"
-  },
-  {
-    "slug": "oil-filter-anatomy",
-    "title": "Масляный фильтр изнутри: перепускной клапан, антидренаж и почему фильтр — половина замены",
-    "date": "2026-11-06",
-    "rubric": "deep",
-    "tags": [
-      "масляный фильтр",
-      "моторное масло",
-      "перепускной клапан",
-      "система смазки"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-06/03-oil-filter-anatomy.md"
-  },
-  {
     "slug": "atf-oil-change",
     "title": "Замена масла в АКПП: частичная, полная и когда вообще не стоит лезть",
     "date": "2026-11-06",
@@ -1190,8 +1148,8 @@
       "трансмиссия",
       "замена масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-06/04-atf-oil-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-06-atf-oil-change.md"
   },
   {
     "slug": "break-in-first-oil-change",
@@ -1204,7 +1162,49 @@
       "замена масла",
       "моторное масло"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-06/05-break-in-first-oil-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-06-break-in-first-oil-change.md"
+  },
+  {
+    "slug": "luberef-record-margins",
+    "title": "Маржа базовых масел поставила рекорд: прибыль Luberef за девять месяцев выросла на 105%",
+    "date": "2026-11-06",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "Luberef",
+      "Saudi Aramco",
+      "рынок"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-06-luberef-record-margins.md"
+  },
+  {
+    "slug": "ms-study-lubricants",
+    "title": "Работа с маслами и смазками связали с риском рассеянного склероза: итоги шведского исследования",
+    "date": "2026-11-06",
+    "rubric": "news",
+    "tags": [
+      "охрана труда",
+      "исследования",
+      "СОЖ",
+      "гидравлическое масло"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-06-ms-study-lubricants.md"
+  },
+  {
+    "slug": "oil-filter-anatomy",
+    "title": "Масляный фильтр изнутри: перепускной клапан, антидренаж и почему фильтр — половина замены",
+    "date": "2026-11-06",
+    "rubric": "deep",
+    "tags": [
+      "масляный фильтр",
+      "моторное масло",
+      "перепускной клапан",
+      "система смазки"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-06-oil-filter-anatomy.md"
   }
 ]
