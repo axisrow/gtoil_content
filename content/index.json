@@ -1206,5 +1206,89 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-06-oil-filter-anatomy.md"
+  },
+  {
+    "slug": "rospotrebnadzor-blocked-oils",
+    "title": "Кассы заблокировали 2 млн упаковок нелегальных масел за один месяц",
+    "date": "2026-11-08",
+    "rubric": "news",
+    "tags": [
+      "маркировка",
+      "Честный знак",
+      "контрафакт",
+      "рынок масел"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-08/01-rospotrebnadzor-blocked-oils.md"
+  },
+  {
+    "slug": "ester-base-oil-group-v",
+    "title": "Эстеры в моторном масле: что даёт группа V и зачем её подмешивают к ПАО",
+    "date": "2026-11-08",
+    "rubric": "deep",
+    "tags": [
+      "базовые масла",
+      "эстеры",
+      "ПАО",
+      "синтетика"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-08/02-ester-base-oil-group-v.md"
+  },
+  {
+    "slug": "savita-india-lubricants-expansion",
+    "title": "Индия наращивает выпуск смазочных материалов: Savita расширит мощности на 50%",
+    "date": "2026-11-08",
+    "rubric": "news",
+    "tags": [
+      "рынок масел",
+      "Индия",
+      "эстеры",
+      "базовые масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-08/02-savita-india-lubricants-expansion.md"
+  },
+  {
+    "slug": "oil-foaming-antifoam",
+    "title": "Вспенивание масла: откуда берётся пена и почему она заканчивается масляным голоданием",
+    "date": "2026-11-08",
+    "rubric": "deep",
+    "tags": [
+      "моторное масло",
+      "вспенивание",
+      "антипенные присадки",
+      "давление масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-08/03-oil-foaming-antifoam.md"
+  },
+  {
+    "slug": "used-car-oil-inspection",
+    "title": "Покупаем б/у автомобиль: как по маслу и сервисной истории оценить мотор",
+    "date": "2026-11-08",
+    "rubric": "expert",
+    "tags": [
+      "моторное масло",
+      "покупка авто",
+      "диагностика",
+      "щуп"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-08/04-used-car-oil-inspection.md"
+  },
+  {
+    "slug": "ev-no-oil-myth",
+    "title": "«Электромобилю масло не нужно»: что на самом деле смазывается в EV",
+    "date": "2026-11-08",
+    "rubric": "myth",
+    "tags": [
+      "электромобили",
+      "редуктор",
+      "трансмиссионное масло",
+      "смазочные материалы"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-08/05-ev-no-oil-myth.md"
   }
 ]
