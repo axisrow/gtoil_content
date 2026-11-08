@@ -1,15 +1,23 @@
 ---
-title: "Индия наращивает выпуск смазочных материалов: Savita расширит мощности на 50%"
+title: 'Индия наращивает выпуск смазочных материалов: Savita расширит мощности на
+  50%'
 date: 2026-11-08
 rubric: news
 categories:
-  - Новости
-tags: [рынок масел, Индия, эстеры, базовые масла]
-summary: "Индийский производитель Savita Oil Technologies отчитался о рекордной выручке и объявил о расширении производства масел на 50%. Ставка — на эстерные линейки и жидкости для электротранспорта."
+- Новости
+tags:
+- рынок масел
+- Индия
+- эстеры
+- базовые масла
+summary: Индийский производитель Savita Oil Technologies отчитался о рекордной выручке
+  и объявил о расширении производства масел на 50%. Ставка — на эстерные линейки и
+  жидкости для электротранспорта.
 sources:
-  - https://scanx.trade/stock-market-news/companies/savita-oil-technologies-q2fy27-results-net-profit-surges-394-yoy/55252580
-  - https://www.multibagg.ai/market-pulse/articles/savita-oil-technologies-limited-plans-announcement-cmw3iudfj003jjk2ryoqlcyic
-status: draft
+- https://scanx.trade/stock-market-news/companies/savita-oil-technologies-q2fy27-results-net-profit-surges-394-yoy/55252580
+- https://www.multibagg.ai/market-pulse/articles/savita-oil-technologies-limited-plans-announcement-cmw3iudfj003jjk2ryoqlcyic
+status: approved
+slug: savita-india-lubricants-expansion
 ---
 
 Индийский производитель смазочных материалов и специальных масел Savita Oil Technologies объявил о планах расширить производство готовых масел на 50% и удвоить выпуск жидкости для дизельных систем SCR. Решение объявлено по итогам рекордного квартала, а главной ставкой роста компания называет эстерные продукты — от моторных линеек до хладагентов для батарей электромобилей.
