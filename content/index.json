@@ -1292,21 +1292,6 @@
     "path": "drafts/2026-11-08/02-ester-base-oil-group-v.md"
   },
   {
-    "slug": "luberef-growth2-group-iii-2027",
-    "title": "Luberef сдвинула запуск мощностей Group III на 2027 год — дефицит сырья для синтетики продлится",
-    "date": "2026-11-09",
-    "rubric": "news",
-    "tags": [
-      "базовое масло",
-      "Group III",
-      "синтетика",
-      "цены",
-      "Luberef"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-09/01-luberef-growth2-group-iii-2027.md"
-  },
-  {
     "slug": "ford-ecoboost-shlam",
     "title": "Два раза за 113 000 км: разборка V6 Ford EcoBoost показала мотор, полностью залитый шламом",
     "date": "2026-11-09",
@@ -1318,23 +1303,23 @@
       "шлам",
       "покупка авто"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-09/02-ford-ecoboost-shlam.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-09-ford-ecoboost-shlam.md"
   },
   {
-    "slug": "transmission-oil-sulfur-smell",
-    "title": "Почему трансмиссионное масло пахнет серой: что стоит за резким запахом",
+    "slug": "luberef-growth2-group-iii-2027",
+    "title": "Luberef сдвинула запуск мощностей Group III на 2027 год — дефицит сырья для синтетики продлится",
     "date": "2026-11-09",
-    "rubric": "deep",
+    "rubric": "news",
     "tags": [
-      "трансмиссионное масло",
-      "противозадирные присадки",
-      "жёлтые металлы",
-      "синхронизаторы",
-      "КПП"
+      "базовое масло",
+      "Group III",
+      "синтетика",
+      "цены",
+      "Luberef"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-09/03-transmission-oil-sulfur-smell.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-09-luberef-growth2-group-iii-2027.md"
   },
   {
     "slug": "moto-winter-storage-oil-change",
@@ -1348,8 +1333,23 @@
       "консервация двигателя",
       "fogging oil"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-09/04-moto-winter-storage-oil-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-09-moto-winter-storage-oil-change.md"
+  },
+  {
+    "slug": "transmission-oil-sulfur-smell",
+    "title": "Почему трансмиссионное масло пахнет серой: что стоит за резким запахом",
+    "date": "2026-11-09",
+    "rubric": "deep",
+    "tags": [
+      "трансмиссионное масло",
+      "противозадирные присадки",
+      "жёлтые металлы",
+      "синхронизаторы",
+      "КПП"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-09-transmission-oil-sulfur-smell.md"
   },
   {
     "slug": "varnish-hydraulics-turbines",
@@ -1363,7 +1363,7 @@
       "турбинные масла",
       "анализ масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-09/05-varnish-hydraulics-turbines.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-09-varnish-hydraulics-turbines.md"
   }
 ]

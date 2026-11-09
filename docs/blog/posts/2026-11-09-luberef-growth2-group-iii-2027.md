@@ -1,15 +1,25 @@
 ---
-title: "Luberef сдвинула запуск мощностей Group III на 2027 год — дефицит сырья для синтетики продлится"
+title: Luberef сдвинула запуск мощностей Group III на 2027 год — дефицит сырья для
+  синтетики продлится
 date: 2026-11-09
 rubric: news
 categories:
-  - Новости
-tags: [базовое масло, Group III, синтетика, цены, Luberef]
-summary: "Luberef (Saudi Aramco Base Oil) перенесла запуск проекта Growth2 на первое полугодие 2027 года и снизила прогноз продаж 2026 года до 1,04 млн тонн. Новые мощности Group III заработают позже — дефицит сырья для синтетики и высокие цены сохранятся минимум ещё год."
+- Новости
+tags:
+- базовое масло
+- Group III
+- синтетика
+- цены
+- Luberef
+summary: Luberef (Saudi Aramco Base Oil) перенесла запуск проекта Growth2 на первое
+  полугодие 2027 года и снизила прогноз продаж 2026 года до 1,04 млн тонн. Новые мощности
+  Group III заработают позже — дефицит сырья для синтетики и высокие цены сохранятся
+  минимум ещё год.
 sources:
-  - https://finance.yahoo.com/markets/stocks/articles/saudi-aramco-oil-co-luberef-030941314.html
-  - https://www.baseoilnews.com/weekly-review/base-oils-and-lubricants-weekly-global-market-review/base-oils-and-lubricants-weekly-global-market-review-6-nov-26
-status: draft
+- https://finance.yahoo.com/markets/stocks/articles/saudi-aramco-oil-co-luberef-030941314.html
+- https://www.baseoilnews.com/weekly-review/base-oils-and-lubricants-weekly-global-market-review/base-oils-and-lubricants-weekly-global-market-review-6-nov-26
+status: approved
+slug: luberef-growth2-group-iii-2027
 ---
 
 Saudi Aramco Base Oil (Luberef) перенесла плановую остановку по проекту Growth2 с октября 2026 года на первое полугодие 2027-го и снизила прогноз продаж до 1,04 млн тонн. Новые мощности по выпуску базового масла Group III — основы современной синтетики — заработают позже обещанного.

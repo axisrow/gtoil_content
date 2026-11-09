@@ -1,21 +1,25 @@
 ---
-title: "Лаковые отложения в гидравлике и турбинах: прозрачное масло не значит чистое"
+title: 'Лаковые отложения в гидравлике и турбинах: прозрачное масло не значит чистое'
 date: 2026-11-09
 rubric: myth
 categories:
-  - Мифы
+- Мифы
 tags:
-  - varnish
-  - лаковые отложения
-  - гидравлические масла
-  - турбинные масла
-  - анализ масла
-summary: "Прозрачное масло в гидросистеме или турбине может быть уже окисленным: продукты окисления растворены и на глаз не видны. Разбираем, что такое лаковые отложения (varnish), чем они опасны для золотников и подшипников и как их выявляет лабораторный анализ масла."
+- varnish
+- лаковые отложения
+- гидравлические масла
+- турбинные масла
+- анализ масла
+summary: 'Прозрачное масло в гидросистеме или турбине может быть уже окисленным: продукты
+  окисления растворены и на глаз не видны. Разбираем, что такое лаковые отложения
+  (varnish), чем они опасны для золотников и подшипников и как их выявляет лабораторный
+  анализ масла.'
 sources:
-  - https://precisionlubrication.com/articles/hydraulic-system-varnish
-  - https://malinangrltd.com/blog/understanding-varnish-in-turbine-oil.html
-  - https://biokem.com.au/turbine-servo-valve-sticking-varnish-causes-solutions
-status: draft
+- https://precisionlubrication.com/articles/hydraulic-system-varnish
+- https://malinangrltd.com/blog/understanding-varnish-in-turbine-oil.html
+- https://biokem.com.au/turbine-servo-valve-sticking-varnish-causes-solutions
+status: approved
+slug: varnish-hydraulics-turbines
 ---
 
 Прозрачность масла в гидросистеме или турбине говорит лишь о том, что в нём нет видимых твёрдых частиц. Самое коварное загрязнение — лаковые отложения (varnish) — опасно именно потому, что в пробирке его не видно.

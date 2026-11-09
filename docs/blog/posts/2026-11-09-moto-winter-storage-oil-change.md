@@ -1,20 +1,23 @@
 ---
-title: "Мотоцикл уходит на зимовку: зачем менять масло осенью, а не весной"
+title: 'Мотоцикл уходит на зимовку: зачем менять масло осенью, а не весной'
 date: 2026-11-09
 rubric: expert
 categories:
-  - Советы
+- Советы
 tags:
-  - мотоцикл
-  - зимнее хранение
-  - замена масла
-  - консервация двигателя
-  - fogging oil
-summary: "Старое масло всю зиму работает против мотоцикла: кислоты и влага разъедают подшипники и распредвал. Чек-лист консервации: свежее масло до простоя, fogging oil, топливо, аккумулятор, шины и место хранения."
+- мотоцикл
+- зимнее хранение
+- замена масла
+- консервация двигателя
+- fogging oil
+summary: 'Старое масло всю зиму работает против мотоцикла: кислоты и влага разъедают
+  подшипники и распредвал. Чек-лист консервации: свежее масло до простоя, fogging
+  oil, топливо, аккумулятор, шины и место хранения.'
 sources:
-  - https://www.revzilla.com/common-tread/how-to-winterize-your-motorcycle
-  - https://www.revzilla.com/common-tread/how-not-to-winterize-your-bike-9-mistakes-riders-make
-status: draft
+- https://www.revzilla.com/common-tread/how-to-winterize-your-motorcycle
+- https://www.revzilla.com/common-tread/how-not-to-winterize-your-bike-9-mistakes-riders-make
+status: approved
+slug: moto-winter-storage-oil-change
 ---
 
 Если мотоцикл встаёт на прикол до весны, замена масла — первое, что стоит сделать осенью, а не откладывать до первого выезда: месяцы простоя отработанное масло работает против двигателя. Ниже — порядок консервации, одинаковый для дорожной и внедорожной техники.

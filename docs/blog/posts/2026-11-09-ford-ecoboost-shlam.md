@@ -1,17 +1,26 @@
 ---
-title: "Два раза за 113 000 км: разборка V6 Ford EcoBoost показала мотор, полностью залитый шламом"
+title: 'Два раза за 113 000 км: разборка V6 Ford EcoBoost показала мотор, полностью
+  залитый шламом'
 date: 2026-11-09
 rubric: news
 categories:
-  - Новости
-tags: [моторное масло, Ford EcoBoost, замена масла, шлам, покупка авто]
-summary: "Механик Эрик Берг разобрал трёхлитровый V6 EcoBoost Lincoln Aviator 2021 года: 113 000 км, всего две замены масла по Carfax, провернутый вкладыш и шлам во всех полостях. Что происходит внутри мотора, когда замены пропускают."
+- Новости
+tags:
+- моторное масло
+- Ford EcoBoost
+- замена масла
+- шлам
+- покупка авто
+summary: 'Механик Эрик Берг разобрал трёхлитровый V6 EcoBoost Lincoln Aviator 2021
+  года: 113 000 км, всего две замены масла по Carfax, провернутый вкладыш и шлам во
+  всех полостях. Что происходит внутри мотора, когда замены пропускают.'
 sources:
-  - https://auto.ru/mag/article/video-chto-budet-s-motorom-esli-za-112-tysyach
-  - https://auto.mail.ru/article/133906-dvigatel-ford-proshel-113-tyis-km-s-dvumya-zamenami-masla-chto-s-motorom
-  - https://www.youtube.com/watch?v=XRKDLO2A_9g
-  - https://autos.yahoo.com/ownership/articles/2-oil-changes-carfax-70-122650760.html
-status: draft
+- https://auto.ru/mag/article/video-chto-budet-s-motorom-esli-za-112-tysyach
+- https://auto.mail.ru/article/133906-dvigatel-ford-proshel-113-tyis-km-s-dvumya-zamenami-masla-chto-s-motorom
+- https://www.youtube.com/watch?v=XRKDLO2A_9g
+- https://autos.yahoo.com/ownership/articles/2-oil-changes-carfax-70-122650760.html
+status: approved
+slug: ford-ecoboost-shlam
 ---
 
 Американский механик Эрик Берг с YouTube-канала I Do Cars разобрал трёхлитровый V6 EcoBoost от Lincoln Aviator 2021 года: за весь пробег владелец, по истории Carfax, менял масло всего дважды. Внутри — мотор, залитый шламом, и провернутый шатунный вкладыш.
