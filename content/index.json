@@ -1290,5 +1290,80 @@
     ],
     "status": "draft",
     "path": "drafts/2026-11-08/02-ester-base-oil-group-v.md"
+  },
+  {
+    "slug": "luberef-growth2-group-iii-2027",
+    "title": "Luberef сдвинула запуск мощностей Group III на 2027 год — дефицит сырья для синтетики продлится",
+    "date": "2026-11-09",
+    "rubric": "news",
+    "tags": [
+      "базовое масло",
+      "Group III",
+      "синтетика",
+      "цены",
+      "Luberef"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-09/01-luberef-growth2-group-iii-2027.md"
+  },
+  {
+    "slug": "ford-ecoboost-shlam",
+    "title": "Два раза за 113 000 км: разборка V6 Ford EcoBoost показала мотор, полностью залитый шламом",
+    "date": "2026-11-09",
+    "rubric": "news",
+    "tags": [
+      "моторное масло",
+      "Ford EcoBoost",
+      "замена масла",
+      "шлам",
+      "покупка авто"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-09/02-ford-ecoboost-shlam.md"
+  },
+  {
+    "slug": "transmission-oil-sulfur-smell",
+    "title": "Почему трансмиссионное масло пахнет серой: что стоит за резким запахом",
+    "date": "2026-11-09",
+    "rubric": "deep",
+    "tags": [
+      "трансмиссионное масло",
+      "противозадирные присадки",
+      "жёлтые металлы",
+      "синхронизаторы",
+      "КПП"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-09/03-transmission-oil-sulfur-smell.md"
+  },
+  {
+    "slug": "moto-winter-storage-oil-change",
+    "title": "Мотоцикл уходит на зимовку: зачем менять масло осенью, а не весной",
+    "date": "2026-11-09",
+    "rubric": "expert",
+    "tags": [
+      "мотоцикл",
+      "зимнее хранение",
+      "замена масла",
+      "консервация двигателя",
+      "fogging oil"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-09/04-moto-winter-storage-oil-change.md"
+  },
+  {
+    "slug": "varnish-hydraulics-turbines",
+    "title": "Лаковые отложения в гидравлике и турбинах: прозрачное масло не значит чистое",
+    "date": "2026-11-09",
+    "rubric": "myth",
+    "tags": [
+      "varnish",
+      "лаковые отложения",
+      "гидравлические масла",
+      "турбинные масла",
+      "анализ масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-09/05-varnish-hydraulics-turbines.md"
   }
 ]
