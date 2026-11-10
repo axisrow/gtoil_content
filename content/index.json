@@ -1365,5 +1365,77 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-09-varnish-hydraulics-turbines.md"
+  },
+  {
+    "slug": "synthetic-base-fluids-market-2035",
+    "title": "Синтетические базовые масла до 2035 года: рост рынка уходит в электромобили",
+    "date": "2026-11-10",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "синтетика",
+      "электромобили",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-10/01-synthetic-base-fluids-market-2035.md"
+  },
+  {
+    "slug": "flash-point-fuel-dilution",
+    "title": "Температура вспышки: почему масло пахнет соляркой и что это говорит о моторе",
+    "date": "2026-11-10",
+    "rubric": "deep",
+    "tags": [
+      "моторное масло",
+      "температура вспышки",
+      "дизель",
+      "разжижение топливом",
+      "анализ масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-10/02-flash-point-fuel-dilution.md"
+  },
+  {
+    "slug": "viscosity-index",
+    "title": "Индекс вязкости: почему одно масло меняет вязкость медленнее другого",
+    "date": "2026-11-10",
+    "rubric": "deep",
+    "tags": [
+      "моторное масло",
+      "индекс вязкости",
+      "базовые масла",
+      "SAE"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-10/03-viscosity-index.md"
+  },
+  {
+    "slug": "high-mileage-oil",
+    "title": "Мотор с пробегом за 150 000 км: как меняется выбор масла",
+    "date": "2026-11-10",
+    "rubric": "expert",
+    "tags": [
+      "моторное масло",
+      "большой пробег",
+      "расход масла",
+      "интервал замены",
+      "допуски"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-10/04-high-mileage-oil.md"
+  },
+  {
+    "slug": "oem-branded-oil",
+    "title": "«Оригинальное масло» от автопроизводителя: кто его на самом деле делает",
+    "date": "2026-11-10",
+    "rubric": "myth",
+    "tags": [
+      "моторное масло",
+      "допуски",
+      "оригинал",
+      "гарантия"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-10/05-oem-branded-oil.md"
   }
 ]
