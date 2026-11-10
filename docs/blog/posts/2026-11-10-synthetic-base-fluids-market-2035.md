@@ -3,19 +3,22 @@ title: 'Синтетические базовые масла до 2035 года:
 date: 2026-11-10
 rubric: news
 categories:
-  - Новости
+- Новости
 tags:
-  - базовые масла
-  - синтетика
-  - электромобили
-  - рынок
-summary: 'Аналитики связывают рост рынка синтетических базовых масел до 2035 года с терморегулированием электромобилей и спросом на высокоэффективные смазки. Что это значит для обычного покупателя масла.'
+- базовые масла
+- синтетика
+- электромобили
+- рынок
+summary: Аналитики связывают рост рынка синтетических базовых масел до 2035 года с
+  терморегулированием электромобилей и спросом на высокоэффективные смазки. Что это
+  значит для обычного покупателя масла.
 sources:
-  - https://www.indexbox.io/blog/product/synthetic-base-fluids
-  - https://www.precedenceresearch.com/base-oil-market
-  - https://www.marketresearchfuture.com/reports/base-oil-market-10686
-  - https://klinegroup.com/energy/from-ice-to-ev-fluids-global-base-oil-demand
-status: draft
+- https://www.indexbox.io/blog/product/synthetic-base-fluids
+- https://www.precedenceresearch.com/base-oil-market
+- https://www.marketresearchfuture.com/reports/base-oil-market-10686
+- https://klinegroup.com/energy/from-ice-to-ev-fluids-global-base-oil-demand
+status: approved
+slug: synthetic-base-fluids-market-2035
 ---
 
 7 ноября аналитическая компания IndexBox опубликовала прогноз рынка синтетических базовых жидкостей до 2035 года: главным драйвером роста названы системы терморегулирования электромобилей и спрос на высокоэффективные смазочные материалы, а рост стоимости рынка всё сильнее отрывается от традиционных объёмов продаж моторных масел.
