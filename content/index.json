@@ -1448,21 +1448,8 @@
       "рынок",
       "Египет"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-11/01-amoc-profit-9m.md"
-  },
-  {
-    "slug": "wet-wire-drawing-lubricants",
-    "title": "Смазки для мокрого волочения проволоки: рынок оценили в 155 млн долларов",
-    "date": "2026-11-11",
-    "rubric": "news",
-    "tags": [
-      "индустриальные смазки",
-      "металлообработка",
-      "рынок"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-11/02-wet-wire-drawing-lubricants.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-11-amoc-profit-9m.md"
   },
   {
     "slug": "gearbox-oil-basics",
@@ -1475,8 +1462,8 @@
       "ISO VG",
       "FZG"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-11/03-gearbox-oil-basics.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-11-gearbox-oil-basics.md"
   },
   {
     "slug": "remote-start-winter-guide",
@@ -1489,8 +1476,8 @@
       "прогрев",
       "аккумулятор"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-11/04-remote-start-winter-guide.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-11-remote-start-winter-guide.md"
   },
   {
     "slug": "seasonal-viscosity-myth",
@@ -1503,7 +1490,20 @@
       "зима",
       "всесезонное масло"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-11/05-seasonal-viscosity-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-11-seasonal-viscosity-myth.md"
+  },
+  {
+    "slug": "wet-wire-drawing-lubricants",
+    "title": "Смазки для мокрого волочения проволоки: рынок оценили в 155 млн долларов",
+    "date": "2026-11-11",
+    "rubric": "news",
+    "tags": [
+      "индустриальные смазки",
+      "металлообработка",
+      "рынок"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-11-wet-wire-drawing-lubricants.md"
   }
 ]
