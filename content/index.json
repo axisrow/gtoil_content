@@ -1437,5 +1437,73 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-10-viscosity-index.md"
+  },
+  {
+    "slug": "amoc-profit-9m",
+    "title": "Прибыль египетского AMOC за девять месяцев выросла на 154%",
+    "date": "2026-11-11",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "рынок",
+      "Египет"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-11/01-amoc-profit-9m.md"
+  },
+  {
+    "slug": "wet-wire-drawing-lubricants",
+    "title": "Смазки для мокрого волочения проволоки: рынок оценили в 155 млн долларов",
+    "date": "2026-11-11",
+    "rubric": "news",
+    "tags": [
+      "индустриальные смазки",
+      "металлообработка",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-11/02-wet-wire-drawing-lubricants.md"
+  },
+  {
+    "slug": "gearbox-oil-basics",
+    "title": "Редукторные масла: почему зубчатая передача не двигатель",
+    "date": "2026-11-11",
+    "rubric": "deep",
+    "tags": [
+      "редукторные масла",
+      "индустриальные масла",
+      "ISO VG",
+      "FZG"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-11/03-gearbox-oil-basics.md"
+  },
+  {
+    "slug": "remote-start-winter-guide",
+    "title": "Автозапуск зимой: как настроить ночные прогревы без вреда для мотора",
+    "date": "2026-11-11",
+    "rubric": "expert",
+    "tags": [
+      "зима",
+      "автозапуск",
+      "прогрев",
+      "аккумулятор"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-11/04-remote-start-winter-guide.md"
+  },
+  {
+    "slug": "seasonal-viscosity-myth",
+    "title": "Масло надо менять «на зиму»: почему раньше было нужно, а сейчас — нет",
+    "date": "2026-11-11",
+    "rubric": "myth",
+    "tags": [
+      "SAE",
+      "вязкость",
+      "зима",
+      "всесезонное масло"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-11/05-seasonal-viscosity-myth.md"
   }
 ]
