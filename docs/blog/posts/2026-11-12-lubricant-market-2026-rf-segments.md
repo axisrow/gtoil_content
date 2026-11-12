@@ -1,14 +1,23 @@
 ---
-title: "0W-20 стал самым быстрорастущим сегментом: итоги конференции Lubricant Market 2026"
+title: '0W-20 стал самым быстрорастущим сегментом: итоги конференции Lubricant Market
+  2026'
 date: 2026-11-12
 rubric: news
 categories:
-  - Новости
-tags: [рынок, 0W-20, розница, цены, конференция]
-summary: "Рынок смазочных материалов РФ в 2026 году стоит на месте по объёму, но быстро меняется по составу: продажи 0W-20 в литрах выросли на 24%, масла 2Т/4Т — на 16,1% в деньгах, средняя цена литра — 715 рублей."
+- Новости
+tags:
+- рынок
+- 0W-20
+- розница
+- цены
+- конференция
+summary: 'Рынок смазочных материалов РФ в 2026 году стоит на месте по объёму, но быстро
+  меняется по составу: продажи 0W-20 в литрах выросли на 24%, масла 2Т/4Т — на 16,1%
+  в деньгах, средняя цена литра — 715 рублей.'
 sources:
-  - https://5koleso.ru/avtopark/novosti-komtransa/kakie-segmenty-smazochnyh-materialov-v-liderah-rynka-reportazh-s-konferenczii-lubricant-market-2026/
-status: draft
+- https://5koleso.ru/avtopark/novosti-komtransa/kakie-segmenty-smazochnyh-materialov-v-liderah-rynka-reportazh-s-konferenczii-lubricant-market-2026/
+status: approved
+slug: lubricant-market-2026-rf-segments
 ---
 
 В Москве прошла двадцатая юбилейная конференция «Производство и рынок смазочных материалов» (Lubricant Market), которую организует компания RPI. Главный вывод по рынку: объёмы стабильны, но состав покупок быстро меняется — покупатель уходит в маловязкие масла и тратит больше за литр.

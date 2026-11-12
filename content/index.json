@@ -1518,39 +1518,8 @@
       "дефицит",
       "поставки"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-12/01-calumet-specialty-base-oil-margins.md"
-  },
-  {
-    "slug": "lubricant-market-2026-rf-segments",
-    "title": "0W-20 стал самым быстрорастущим сегментом: итоги конференции Lubricant Market 2026",
-    "date": "2026-11-12",
-    "rubric": "news",
-    "tags": [
-      "рынок",
-      "0W-20",
-      "розница",
-      "цены",
-      "конференция"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-12/02-lubricant-market-2026-rf-segments.md"
-  },
-  {
-    "slug": "engine-oil-overheating",
-    "title": "Перегрев двигателя: что высокая температура делает с моторным маслом",
-    "date": "2026-11-12",
-    "rubric": "deep",
-    "tags": [
-      "перегрев",
-      "окисление",
-      "температура",
-      "шлам",
-      "лаковые отложения",
-      "турбина"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-12/03-engine-oil-overheating.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-12-calumet-specialty-base-oil-margins.md"
   },
   {
     "slug": "chassis-greasing-guide",
@@ -1565,8 +1534,39 @@
       "обслуживание",
       "кардан"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-12/04-chassis-greasing-guide.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-12-chassis-greasing-guide.md"
+  },
+  {
+    "slug": "engine-oil-overheating",
+    "title": "Перегрев двигателя: что высокая температура делает с моторным маслом",
+    "date": "2026-11-12",
+    "rubric": "deep",
+    "tags": [
+      "перегрев",
+      "окисление",
+      "температура",
+      "шлам",
+      "лаковые отложения",
+      "турбина"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-12-engine-oil-overheating.md"
+  },
+  {
+    "slug": "lubricant-market-2026-rf-segments",
+    "title": "0W-20 стал самым быстрорастущим сегментом: итоги конференции Lubricant Market 2026",
+    "date": "2026-11-12",
+    "rubric": "news",
+    "tags": [
+      "рынок",
+      "0W-20",
+      "розница",
+      "цены",
+      "конференция"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-12-lubricant-market-2026-rf-segments.md"
   },
   {
     "slug": "wrong-viscosity-myth",
@@ -1581,7 +1581,7 @@
       "холодный пуск",
       "допуски"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-12/05-wrong-viscosity-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-12-wrong-viscosity-myth.md"
   }
 ]
