@@ -1586,7 +1586,7 @@
   },
   {
     "slug": "base-oil-cargo-through-hormuz",
-    "title": "Груз Group III прошёл через Ормузский пролив: первая поставка после месяца блокировки",
+    "title": "Груз Group III прошёл через Ормузский пролив: канал поставок приоткрылся",
     "date": "2026-11-13",
     "rubric": "news",
     "tags": [
@@ -1595,8 +1595,8 @@
       "Ормузский пролив",
       "цены"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-13/01-base-oil-cargo-through-hormuz.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-13-base-oil-cargo-through-hormuz.md"
   },
   {
     "slug": "graphene-additive-mexico",
@@ -1609,23 +1609,22 @@
       "дизель",
       "топливная экономичность"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-13/02-graphene-additive-mexico.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-13-graphene-additive-mexico.md"
   },
   {
-    "slug": "soot-in-diesel-oil",
-    "title": "Сажа в дизельном масле: как мотор производит абразив и что делает масло",
+    "slug": "oil-filter-every-other-change",
+    "title": "Масляный фильтр можно менять через раз: почему это плохая экономия",
     "date": "2026-11-13",
-    "rubric": "deep",
+    "rubric": "myth",
     "tags": [
-      "дизель",
-      "сажа",
-      "диспергирующие присадки",
-      "TBN",
-      "анализ масла"
+      "масляный фильтр",
+      "замена масла",
+      "перепускной клапан",
+      "экономия"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-13/03-soot-in-diesel-oil.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-13-oil-filter-every-other-change.md"
   },
   {
     "slug": "oil-leaks-typical-spots",
@@ -1639,21 +1638,22 @@
       "вентиляция картера",
       "диагностика"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-13/04-oil-leaks-typical-spots.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-13-oil-leaks-typical-spots.md"
   },
   {
-    "slug": "oil-filter-every-other-change",
-    "title": "Масляный фильтр можно менять через раз: почему это плохая экономия",
+    "slug": "soot-in-diesel-oil",
+    "title": "Сажа в дизельном масле: как мотор производит абразив и что делает масло",
     "date": "2026-11-13",
-    "rubric": "myth",
+    "rubric": "deep",
     "tags": [
-      "масляный фильтр",
-      "замена масла",
-      "перепускной клапан",
-      "экономия"
+      "дизель",
+      "сажа",
+      "диспергирующие присадки",
+      "TBN",
+      "анализ масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-13/05-oil-filter-every-other-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-13-soot-in-diesel-oil.md"
   }
 ]

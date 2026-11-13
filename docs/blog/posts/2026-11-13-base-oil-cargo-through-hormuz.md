@@ -1,15 +1,22 @@
 ---
-title: "Груз Group III прошёл через Ормузский пролив: канал поставок приоткрылся"
+title: 'Груз Group III прошёл через Ормузский пролив: канал поставок приоткрылся'
 date: 2026-11-13
 rubric: news
 categories:
-  - Новости
-tags: [базовые масла, Group III, Ормузский пролив, цены]
-summary: "Lubes'n'Greases сообщила: дистрибьютор провёл судно с базовым маслом Group III производства Adnoc через Ормузский пролив — редкая проводка после месяцев перебоев. Что это меняет для рынка синтетики."
+- Новости
+tags:
+- базовые масла
+- Group III
+- Ормузский пролив
+- цены
+summary: 'Lubes''n''Greases сообщила: дистрибьютор провёл судно с базовым маслом Group
+  III производства Adnoc через Ормузский пролив — редкая проводка после месяцев перебоев.
+  Что это меняет для рынка синтетики.'
 sources:
-  - https://www.lubesngreases.com/magazine/32_11/november-2026-base-oil-report-video
-  - https://www.chemanalyst.com/NewsAndDeals/NewsDetails/china-white-oil-market-faces-rising-feedstock-costs-45079
-status: draft
+- https://www.lubesngreases.com/magazine/32_11/november-2026-base-oil-report-video
+- https://www.chemanalyst.com/NewsAndDeals/NewsDetails/china-white-oil-market-faces-rising-feedstock-costs-45079
+status: approved
+slug: base-oil-cargo-through-hormuz
 ---
 После месяцев, когда Ормузский пролив был практически непроходим для танкеров, через него снова прошёл груз базового масла. О судне с группой III производства Adnoc из Абу-Даби, направляющемся в США, сообщило ноябрьское видеообозрение базовых масел Lubes'n'Greases. Для рынка синтетики это первый сигнал о том, что дефицитная артерия может начать работать.
 
