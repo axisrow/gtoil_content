@@ -1655,5 +1655,79 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-13-soot-in-diesel-oil.md"
+  },
+  {
+    "slug": "rf-motor-oil-market-crpt",
+    "title": "Две трети рынка: оператор маркировки посчитал долю отечественных моторных масел",
+    "date": "2026-11-14",
+    "rubric": "news",
+    "tags": [
+      "рынок РФ",
+      "маркировка",
+      "Честный знак",
+      "цены"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-14/01-rf-motor-oil-market-crpt.md"
+  },
+  {
+    "slug": "bio-lubricants-market-2030",
+    "title": "Био-смазки дойдут до 4,34 млрд долларов к 2030 году",
+    "date": "2026-11-14",
+    "rubric": "news",
+    "tags": [
+      "био-смазки",
+      "рынок",
+      "эфиры",
+      "гидравлика",
+      "экология"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-14/02-bio-lubricants-market-2030.md"
+  },
+  {
+    "slug": "stuck-piston-rings",
+    "title": "Закоксованные кольца: почему мотор начинает есть масло после 100 000 км",
+    "date": "2026-11-14",
+    "rubric": "deep",
+    "tags": [
+      "поршневые кольца",
+      "расход масла",
+      "закоксовка",
+      "лаки",
+      "ЦПГ"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-14/03-stuck-piston-rings.md"
+  },
+  {
+    "slug": "diesel-dpf-oil-intervals",
+    "title": "Дизель с сажевым фильтром: почему масло меняют чаще",
+    "date": "2026-11-14",
+    "rubric": "expert",
+    "tags": [
+      "дизель",
+      "сажевый фильтр",
+      "DPF",
+      "интервалы замены",
+      "SAPS"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-14/04-diesel-dpf-oil-intervals.md"
+  },
+  {
+    "slug": "import-oil-better-myth",
+    "title": "«Импортное масло лучше российского»: где стереотип устарел",
+    "date": "2026-11-14",
+    "rubric": "myth",
+    "tags": [
+      "рынок РФ",
+      "выбор масла",
+      "допуски",
+      "мифы",
+      "маркировка"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-14/05-import-oil-better-myth.md"
   }
 ]
