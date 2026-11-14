@@ -1657,20 +1657,6 @@
     "path": "docs/blog/posts/2026-11-13-soot-in-diesel-oil.md"
   },
   {
-    "slug": "rf-motor-oil-market-crpt",
-    "title": "Две трети рынка: оператор маркировки посчитал долю отечественных моторных масел",
-    "date": "2026-11-14",
-    "rubric": "news",
-    "tags": [
-      "рынок РФ",
-      "маркировка",
-      "Честный знак",
-      "цены"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-14/01-rf-motor-oil-market-crpt.md"
-  },
-  {
     "slug": "bio-lubricants-market-2030",
     "title": "Био-смазки дойдут до 4,34 млрд долларов к 2030 году",
     "date": "2026-11-14",
@@ -1682,23 +1668,8 @@
       "гидравлика",
       "экология"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-14/02-bio-lubricants-market-2030.md"
-  },
-  {
-    "slug": "stuck-piston-rings",
-    "title": "Закоксованные кольца: почему мотор начинает есть масло после 100 000 км",
-    "date": "2026-11-14",
-    "rubric": "deep",
-    "tags": [
-      "поршневые кольца",
-      "расход масла",
-      "закоксовка",
-      "лаки",
-      "ЦПГ"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-14/03-stuck-piston-rings.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-14-bio-lubricants-market-2030.md"
   },
   {
     "slug": "diesel-dpf-oil-intervals",
@@ -1712,8 +1683,8 @@
       "интервалы замены",
       "SAPS"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-14/04-diesel-dpf-oil-intervals.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-14-diesel-dpf-oil-intervals.md"
   },
   {
     "slug": "import-oil-better-myth",
@@ -1727,7 +1698,36 @@
       "мифы",
       "маркировка"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-14/05-import-oil-better-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-14-import-oil-better-myth.md"
+  },
+  {
+    "slug": "rf-motor-oil-market-crpt",
+    "title": "Две трети рынка: оператор маркировки посчитал долю отечественных моторных масел",
+    "date": "2026-11-14",
+    "rubric": "news",
+    "tags": [
+      "рынок РФ",
+      "маркировка",
+      "Честный знак",
+      "цены"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-14-rf-motor-oil-market-crpt.md"
+  },
+  {
+    "slug": "stuck-piston-rings",
+    "title": "Закоксованные кольца: почему мотор начинает есть масло после 100 000 км",
+    "date": "2026-11-14",
+    "rubric": "deep",
+    "tags": [
+      "поршневые кольца",
+      "расход масла",
+      "закоксовка",
+      "лаки",
+      "ЦПГ"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-14-stuck-piston-rings.md"
   }
 ]

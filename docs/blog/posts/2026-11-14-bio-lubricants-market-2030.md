@@ -1,15 +1,23 @@
 ---
-title: "Био-смазки дойдут до 4,34 млрд долларов к 2030 году"
+title: Био-смазки дойдут до 4,34 млрд долларов к 2030 году
 date: 2026-11-14
 rubric: news
 categories:
-  - Новости
-tags: [био-смазки, рынок, эфиры, гидравлика, экология]
-summary: "Мировой рынок биоразлагаемых смазочных материалов растёт примерно на 6% в год: с 3,41 млрд долларов в 2026-м до 4,34 млрд к 2030-му. Драйверы — экологические нормы и эфирные базы."
+- Новости
+tags:
+- био-смазки
+- рынок
+- эфиры
+- гидравлика
+- экология
+summary: 'Мировой рынок биоразлагаемых смазочных материалов растёт примерно на 6%
+  в год: с 3,41 млрд долларов в 2026-м до 4,34 млрд к 2030-му. Драйверы — экологические
+  нормы и эфирные базы.'
 sources:
-  - https://www.openpr.com/news/4687552/bio-lubricants-market-study-explores-industry-growth-toward
-  - https://www.grandviewresearch.com/press-release/bio-lubricants-market
-status: draft
+- https://www.openpr.com/news/4687552/bio-lubricants-market-study-explores-industry-growth-toward
+- https://www.grandviewresearch.com/press-release/bio-lubricants-market
+status: approved
+slug: bio-lubricants-market-2030
 ---
 
 По оценке исследовательской компании The Business Research Company, мировой рынок био-смазок вырастет с 3,41 млрд долларов в 2026 году до 4,34 млрд долларов к 2030-му — при среднегодовом темпе роста 6,2%. Пресс-релиз с прогнозом вышел 11 ноября на площадке openPR.
