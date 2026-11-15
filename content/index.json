@@ -1731,33 +1731,32 @@
     "path": "docs/blog/posts/2026-11-14-stuck-piston-rings.md"
   },
   {
-    "slug": "eia-brent-100-lubricant-prices",
-    "title": "EIA: Brent останется около $100 до конца 2026 года — что это значит для цен на масла",
+    "slug": "dark-oil-quality-myth",
+    "title": "«Хорошее масло не темнеет»: почему прозрачность не показатель качества",
     "date": "2026-11-15",
-    "rubric": "news",
+    "rubric": "myth",
     "tags": [
-      "базовые масла",
-      "цены",
-      "Brent",
-      "EIA",
-      "рынок"
+      "потемнение масла",
+      "моющие присадки",
+      "диспергенты",
+      "шлам"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-15/01-eia-brent-100-lubricant-prices.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-15-dark-oil-quality-myth.md"
   },
   {
-    "slug": "infineum-india-mumbai-office",
-    "title": "Поставщик присадок Infineum открыл новый офис в Мумбаи: индустрия делает ставку на Индию",
+    "slug": "drain-vs-extraction-oil-change",
+    "title": "Слив или отсос: какая замена масла полнее",
     "date": "2026-11-15",
-    "rubric": "news",
+    "rubric": "expert",
     "tags": [
-      "присадки",
-      "Индия",
-      "Infineum",
-      "рынок"
+      "замена масла",
+      "вакуумный отсос",
+      "слив",
+      "масляный фильтр"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-15/02-infineum-india-mumbai-office.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-15-drain-vs-extraction-oil-change.md"
   },
   {
     "slug": "egr-pcv-crankcase-gases",
@@ -1771,35 +1770,36 @@
       "дизель",
       "сажа"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-15/03-egr-pcv-crankcase-gases.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-15-egr-pcv-crankcase-gases.md"
   },
   {
-    "slug": "drain-vs-extraction-oil-change",
-    "title": "Слив или отсос: какая замена масла полнее",
+    "slug": "eia-brent-100-lubricant-prices",
+    "title": "EIA: Brent останется около $100 до конца 2026 года — что это значит для цен на масла",
     "date": "2026-11-15",
-    "rubric": "expert",
+    "rubric": "news",
     "tags": [
-      "замена масла",
-      "вакуумный отсос",
-      "слив",
-      "масляный фильтр"
+      "базовые масла",
+      "цены",
+      "Brent",
+      "EIA",
+      "рынок"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-15/04-drain-vs-extraction-oil-change.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-15-eia-brent-100-lubricant-prices.md"
   },
   {
-    "slug": "dark-oil-quality-myth",
-    "title": "«Хорошее масло не темнеет»: почему прозрачность не показатель качества",
+    "slug": "infineum-india-mumbai-office",
+    "title": "Поставщик присадок Infineum открыл новый офис в Мумбаи: индустрия делает ставку на Индию",
     "date": "2026-11-15",
-    "rubric": "myth",
+    "rubric": "news",
     "tags": [
-      "потемнение масла",
-      "моющие присадки",
-      "диспергенты",
-      "шлам"
+      "присадки",
+      "Индия",
+      "Infineum",
+      "рынок"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-15/05-dark-oil-quality-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-15-infineum-india-mumbai-office.md"
   }
 ]

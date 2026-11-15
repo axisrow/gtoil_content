@@ -1,15 +1,24 @@
 ---
-title: "Поставщик присадок Infineum открыл новый офис в Мумбаи: индустрия делает ставку на Индию"
+title: 'Поставщик присадок Infineum открыл новый офис в Мумбаи: индустрия делает ставку
+  на Индию'
 date: 2026-11-15
 rubric: news
 categories:
-  - Новости
-tags: [присадки, Индия, Infineum, рынок]
-summary: "Infineum — один из крупнейших мировых поставщиков присадок — открыл новый офис в Мумбаи. Компания называет Индию третьим рынком автомобилей и смазочных материалов в мире и ждёт роста спроса более 3% в год. Разбираем, почему присадочники переносят производство и офисы на восток."
+- Новости
+tags:
+- присадки
+- Индия
+- Infineum
+- рынок
+summary: Infineum — один из крупнейших мировых поставщиков присадок — открыл новый
+  офис в Мумбаи. Компания называет Индию третьим рынком автомобилей и смазочных материалов
+  в мире и ждёт роста спроса более 3% в год. Разбираем, почему присадочники переносят
+  производство и офисы на восток.
 sources:
-  - https://www.infineum.com/media-centre/news/infineum-expands-india-footprint-with-new-mumbai-office-as-demand-for-high-performance-lubricants-grows
-  - https://www.infineum.com/media-centre/news/infineum-inaugurates-new-blending-facility-in-india-to-support-the-countrys-growing-mobility-and-energy-needs/
-status: draft
+- https://www.infineum.com/media-centre/news/infineum-expands-india-footprint-with-new-mumbai-office-as-demand-for-high-performance-lubricants-grows
+- https://www.infineum.com/media-centre/news/infineum-inaugurates-new-blending-facility-in-india-to-support-the-countrys-growing-mobility-and-energy-needs/
+status: approved
+slug: infineum-india-mumbai-office
 ---
 
 Infineum — глобальный поставщик специализированных присадок для масел (компания уровня «B2B-поставщик для производителей смазочных материалов») — 2 ноября сообщила об открытии нового офиса в индийском Мумбаи, в районе Andheri East. Это не разовая новость: она продолжает расширение компании в Индии, начатое весной с запуска завода смешения присадок.
