@@ -1729,5 +1729,77 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-14-stuck-piston-rings.md"
+  },
+  {
+    "slug": "eia-brent-100-lubricant-prices",
+    "title": "EIA: Brent останется около $100 до конца 2026 года — что это значит для цен на масла",
+    "date": "2026-11-15",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "цены",
+      "Brent",
+      "EIA",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-15/01-eia-brent-100-lubricant-prices.md"
+  },
+  {
+    "slug": "infineum-india-mumbai-office",
+    "title": "Поставщик присадок Infineum открыл новый офис в Мумбаи: индустрия делает ставку на Индию",
+    "date": "2026-11-15",
+    "rubric": "news",
+    "tags": [
+      "присадки",
+      "Индия",
+      "Infineum",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-15/02-infineum-india-mumbai-office.md"
+  },
+  {
+    "slug": "egr-pcv-crankcase-gases",
+    "title": "EGR и вентиляция картера: как картерные газы старят масло",
+    "date": "2026-11-15",
+    "rubric": "deep",
+    "tags": [
+      "EGR",
+      "PCV",
+      "картерные газы",
+      "дизель",
+      "сажа"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-15/03-egr-pcv-crankcase-gases.md"
+  },
+  {
+    "slug": "drain-vs-extraction-oil-change",
+    "title": "Слив или отсос: какая замена масла полнее",
+    "date": "2026-11-15",
+    "rubric": "expert",
+    "tags": [
+      "замена масла",
+      "вакуумный отсос",
+      "слив",
+      "масляный фильтр"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-15/04-drain-vs-extraction-oil-change.md"
+  },
+  {
+    "slug": "dark-oil-quality-myth",
+    "title": "«Хорошее масло не темнеет»: почему прозрачность не показатель качества",
+    "date": "2026-11-15",
+    "rubric": "myth",
+    "tags": [
+      "потемнение масла",
+      "моющие присадки",
+      "диспергенты",
+      "шлам"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-15/05-dark-oil-quality-myth.md"
   }
 ]
