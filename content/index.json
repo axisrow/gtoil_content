@@ -1803,21 +1803,6 @@
     "path": "docs/blog/posts/2026-11-15-infineum-india-mumbai-office.md"
   },
   {
-    "slug": "pearl-gtl-partial-restart",
-    "title": "Pearl GTL частично перезапущена: нафта вернулась, базовые масла — нет",
-    "date": "2026-11-16",
-    "rubric": "news",
-    "tags": [
-      "базовые масла",
-      "GTL",
-      "Shell",
-      "Катар",
-      "поставки"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-16/01-pearl-gtl-partial-restart.md"
-  },
-  {
     "slug": "api-sq-gf7-transition",
     "title": "API SQ и ILSAC GF-7: новое поколение моторных масел уже в системе сертификации",
     "date": "2026-11-16",
@@ -1829,23 +1814,22 @@
       "0W-8",
       "моторное масло"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-16/02-api-sq-gf7-transition.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-16-api-sq-gf7-transition.md"
   },
   {
-    "slug": "marine-oils-and-eal",
-    "title": "Судовые масла: почему корабельный дизель не автомобильный",
+    "slug": "decoking-myth",
+    "title": "Раскоксовка вернёт мотору молодость: где химия работает, а где маркетинг",
     "date": "2026-11-16",
-    "rubric": "deep",
+    "rubric": "myth",
     "tags": [
-      "судовые масла",
-      "цилиндровое масло",
-      "системное масло",
-      "EAL",
-      "TBN"
+      "раскоксовка",
+      "нагар",
+      "закоксованные кольца",
+      "компрессия"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-16/03-marine-oils-and-eal.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-16-decoking-myth.md"
   },
   {
     "slug": "long-parking-prep",
@@ -1859,21 +1843,37 @@
       "моторное масло",
       "аккумулятор"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-16/04-long-parking-prep.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-16-long-parking-prep.md"
   },
   {
-    "slug": "decoking-myth",
-    "title": "Раскоксовка вернёт мотору молодость: где химия работает, а где маркетинг",
+    "slug": "marine-oils-and-eal",
+    "title": "Судовые масла: почему корабельный дизель не автомобильный",
     "date": "2026-11-16",
-    "rubric": "myth",
+    "rubric": "deep",
     "tags": [
-      "раскоксовка",
-      "нагар",
-      "закоксованные кольца",
-      "компрессия"
+      "судовые масла",
+      "цилиндровое масло",
+      "системное масло",
+      "EAL",
+      "TBN"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-16/05-decoking-myth.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-16-marine-oils-and-eal.md"
+  },
+  {
+    "slug": "pearl-gtl-partial-restart",
+    "title": "Pearl GTL частично перезапущена: нафта вернулась, базовые масла — нет",
+    "date": "2026-11-16",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "GTL",
+      "Shell",
+      "Катар",
+      "поставки"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-16-pearl-gtl-partial-restart.md"
   }
 ]
