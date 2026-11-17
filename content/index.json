@@ -1875,5 +1875,76 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-16-pearl-gtl-partial-restart.md"
+  },
+  {
+    "slug": "rf-oil-prices-2027-forecast",
+    "title": "Моторные масла в России могут подорожать на 20–50% в 2027 году: прогноз рынка",
+    "date": "2026-11-17",
+    "rubric": "news",
+    "tags": [
+      "цены",
+      "рынок РФ",
+      "базовые масла",
+      "маркировка"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-17/01-rf-oil-prices-2027-forecast.md"
+  },
+  {
+    "slug": "goldman-brent-2027-surplus",
+    "title": "Goldman Sachs: Brent откатится к $78 к концу 2027 года — рынок уходит в профицит",
+    "date": "2026-11-17",
+    "rubric": "news",
+    "tags": [
+      "Brent",
+      "Goldman Sachs",
+      "прогноз",
+      "базовые масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-17/02-goldman-brent-2027-surplus.md"
+  },
+  {
+    "slug": "compressor-oils-basics",
+    "title": "Компрессорные масла: почему моторное в компрессор не подходит",
+    "date": "2026-11-17",
+    "rubric": "deep",
+    "tags": [
+      "компрессорные масла",
+      "винтовой компрессор",
+      "DIN 51506",
+      "ISO VG"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-17/03-compressor-oils-basics.md"
+  },
+  {
+    "slug": "hours-based-oil-change",
+    "title": "Замена масла по моточасам: когда счётчик точнее одометра",
+    "date": "2026-11-17",
+    "rubric": "expert",
+    "tags": [
+      "моточасы",
+      "интервал замены",
+      "спецтехника",
+      "коммерческий транспорт"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-17/04-hours-based-oil-change.md"
+  },
+  {
+    "slug": "newer-spec-is-better-myth",
+    "title": "Самый новый класс масла — не значит лучший для вашего мотора",
+    "date": "2026-11-17",
+    "rubric": "myth",
+    "tags": [
+      "API SQ",
+      "ILSAC GF-7",
+      "классы масла",
+      "допуски",
+      "выбор масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-17/05-newer-spec-is-better-myth.md"
   }
 ]
