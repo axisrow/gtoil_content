@@ -1,14 +1,21 @@
 ---
-title: "Goldman Sachs: Brent откатится к $78 к концу 2027 года — рынок уходит в профицит"
+title: 'Goldman Sachs: Brent откатится к $78 к концу 2027 года — рынок уходит в профицит'
 date: 2026-11-17
 rubric: news
 categories:
-  - Новости
-tags: [Brent, Goldman Sachs, прогноз, базовые масла]
-summary: "Goldman Sachs в базовом сценарии ждёт Brent $88 за баррель в среднем в 2027-м и $78 к декабрю 2027-го: рынок уходит в профицит 2 млн барр./сут. Для цен на масла это в перспективе разгрузка, но geopolitical-сценарии дают развилку от $60 до $130."
+- Новости
+tags:
+- Brent
+- Goldman Sachs
+- прогноз
+- базовые масла
+summary: 'Goldman Sachs в базовом сценарии ждёт Brent $88 за баррель в среднем в 2027-м
+  и $78 к декабрю 2027-го: рынок уходит в профицит 2 млн барр./сут. Для цен на масла
+  это в перспективе разгрузка, но geopolitical-сценарии дают развилку от $60 до $130.'
 sources:
-  - https://www.moneycontrol.com/news/business/economy/goldman-sees-brent-easing-to-78-by-december-2027-as-oil-market-moves-into-surplus-14081550.html
-status: draft
+- https://www.moneycontrol.com/news/business/economy/goldman-sees-brent-easing-to-78-by-december-2027-as-oil-market-moves-into-surplus-14081550.html
+status: approved
+slug: goldman-brent-2027-surplus
 ---
 
 Goldman Sachs в свежем отчёте даёт Brent обратный ход: в базовом сценарии нефть будет в среднем $88 за баррель в 2027 году и откатится к $78 к декабрю 2027-го. Причина — рынок уходит в профицит около 2 млн баррелей в сутки. Об этом сообщает Moneycontrol (16 ноября 2026).
