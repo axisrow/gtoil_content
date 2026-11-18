@@ -1946,5 +1946,79 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-17-rf-oil-prices-2027-forecast.md"
+  },
+  {
+    "slug": "evro-3-motornoe-maslo",
+    "title": "Бензин Евро-3 разрешён до 1 июля 2027 года: что он делает с моторным маслом",
+    "date": "2026-11-18",
+    "rubric": "news",
+    "tags": [
+      "моторное масло",
+      "Евро-3",
+      "топливо",
+      "щелочное число",
+      "интервалы замены"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-18/01-evro-3-motornoe-maslo.md"
+  },
+  {
+    "slug": "kuda-sdat-otrabotannoe-maslo",
+    "title": "Отработанное масло нельзя выбрасывать: куда его сдать и какой штраф грозит",
+    "date": "2026-11-18",
+    "rubric": "news",
+    "tags": [
+      "отработанное масло",
+      "утилизация",
+      "экология",
+      "штрафы"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-18/02-kuda-sdat-otrabotannoe-maslo.md"
+  },
+  {
+    "slug": "zhidkost-reduktora-elektromobilya",
+    "title": "Жидкость для редуктора электромобиля: чем она отличается от трансмиссионки ДВС",
+    "date": "2026-11-18",
+    "rubric": "deep",
+    "tags": [
+      "электромобиль",
+      "редуктор",
+      "e-fluid",
+      "трансмиссионное масло",
+      "GL-5"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-18/03-zhidkost-reduktora-elektromobilya.md"
+  },
+  {
+    "slug": "maslo-v-mkpp-kogda-menyat",
+    "title": "Масло в механической коробке: когда менять, если в мануале написано «на весь срок службы»",
+    "date": "2026-11-18",
+    "rubric": "expert",
+    "tags": [
+      "МКПП",
+      "трансмиссионное масло",
+      "GL-4",
+      "интервалы замены",
+      "синхронизаторы"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-18/04-maslo-v-mkpp-kogda-menyat.md"
+  },
+  {
+    "slug": "polusintetika-mif",
+    "title": "Полусинтетика — это разбавленная минералка: разбираем миф о канистре с двойным именем",
+    "date": "2026-11-18",
+    "rubric": "myth",
+    "tags": [
+      "полусинтетика",
+      "минеральное масло",
+      "синтетика",
+      "базовые масла",
+      "выбор масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-18/05-polusintetika-mif.md"
   }
 ]
