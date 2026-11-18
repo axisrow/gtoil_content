@@ -1,15 +1,22 @@
 ---
-title: "Отработанное масло нельзя выбрасывать: куда его сдать и какой штраф грозит"
+title: 'Отработанное масло нельзя выбрасывать: куда его сдать и какой штраф грозит'
 date: 2026-11-18
 rubric: news
 categories:
-  - Новости
-tags: [отработанное масло, утилизация, экология, штрафы]
-summary: "Слитая в канаву или мусорный бак отработка — правонарушение по ст. 8.2 КоАП: штраф для организаций доходит до 400 тысяч рублей. Разбираем, куда легально сдать старое моторное масло и почему утилизируется лишь малая часть."
+- Новости
+tags:
+- отработанное масло
+- утилизация
+- экология
+- штрафы
+summary: 'Слитая в канаву или мусорный бак отработка — правонарушение по ст. 8.2 КоАП:
+  штраф для организаций доходит до 400 тысяч рублей. Разбираем, куда легально сдать
+  старое моторное масло и почему утилизируется лишь малая часть.'
 sources:
-  - https://www.kolesa.ru/article/les-musorka-i-400-tysiac-rublei-kuda-vybrasyvat-starye-siny-i-otrabotannoe-maslo
-  - https://5koleso.ru/vopros-otvet/kuda-esli-ne-na-pomojku-kak-utilizirovat-starye-shiny-otrabotannoe-maslo-i-akkumulyatory
-status: draft
+- https://www.kolesa.ru/article/les-musorka-i-400-tysiac-rublei-kuda-vybrasyvat-starye-siny-i-otrabotannoe-maslo
+- https://5koleso.ru/vopros-otvet/kuda-esli-ne-na-pomojku-kak-utilizirovat-starye-shiny-otrabotannoe-maslo-i-akkumulyatory
+status: approved
+slug: kuda-sdat-otrabotannoe-maslo
 ---
 
 Материал КОЛЕСА.ру от 16 ноября снова поднял бытовую, но неудобную тему: куда девать отработанное масло после самостоятельной замены. Вылить его в мусорный контейнер, канаву или лес — административное правонарушение. Разбираем, что грозит за сброс и где легально принимают отработку.

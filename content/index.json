@@ -1959,8 +1959,8 @@
       "щелочное число",
       "интервалы замены"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-18/01-evro-3-motornoe-maslo.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-18-evro-3-motornoe-maslo.md"
   },
   {
     "slug": "kuda-sdat-otrabotannoe-maslo",
@@ -1973,23 +1973,8 @@
       "экология",
       "штрафы"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-18/02-kuda-sdat-otrabotannoe-maslo.md"
-  },
-  {
-    "slug": "zhidkost-reduktora-elektromobilya",
-    "title": "Жидкость для редуктора электромобиля: чем она отличается от трансмиссионки ДВС",
-    "date": "2026-11-18",
-    "rubric": "deep",
-    "tags": [
-      "электромобиль",
-      "редуктор",
-      "e-fluid",
-      "трансмиссионное масло",
-      "GL-5"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-18/03-zhidkost-reduktora-elektromobilya.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-18-kuda-sdat-otrabotannoe-maslo.md"
   },
   {
     "slug": "maslo-v-mkpp-kogda-menyat",
@@ -2003,8 +1988,8 @@
       "интервалы замены",
       "синхронизаторы"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-18/04-maslo-v-mkpp-kogda-menyat.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-18-maslo-v-mkpp-kogda-menyat.md"
   },
   {
     "slug": "polusintetika-mif",
@@ -2018,7 +2003,22 @@
       "базовые масла",
       "выбор масла"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-18/05-polusintetika-mif.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-18-polusintetika-mif.md"
+  },
+  {
+    "slug": "zhidkost-reduktora-elektromobilya",
+    "title": "Жидкость для редуктора электромобиля: чем она отличается от трансмиссионки ДВС",
+    "date": "2026-11-18",
+    "rubric": "deep",
+    "tags": [
+      "электромобиль",
+      "редуктор",
+      "e-fluid",
+      "трансмиссионное масло",
+      "GL-5"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-18-zhidkost-reduktora-elektromobilya.md"
   }
 ]
