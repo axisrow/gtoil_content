@@ -2100,50 +2100,19 @@
     "path": "docs/blog/posts/2026-11-19-lsd-differential-ls-prisadka.md"
   },
   {
-    "slug": "moto-smazki-rynok-2033",
-    "title": "Мировой рынок мото-смазок вырастет до 24 млрд долларов к 2033 году",
+    "slug": "gibrid-menaat-maslo-reje",
+    "title": "Гибрид ездит на электротяге — значит, менять масло можно реже: почему это не так",
     "date": "2026-11-20",
-    "rubric": "news",
+    "rubric": "myth",
     "tags": [
-      "мото",
-      "мотоциклетное масло",
-      "рынок",
-      "двухтактные",
-      "четырёхтактные",
-      "электромото"
+      "гибрид",
+      "интервалы замены",
+      "короткие поездки",
+      "конденсат",
+      "городские условия"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-20/01-moto-smazki-rynok-2033.md"
-  },
-  {
-    "slug": "prisadki-import-lokalizaciya-2028",
-    "title": "Половина пакетов присадок — импорт: с 2028 года рынок масел ждёт балльная локализация",
-    "date": "2026-11-20",
-    "rubric": "news",
-    "tags": [
-      "пакет присадок",
-      "локализация",
-      "рынок масел",
-      "регуляторика",
-      "интервалы замены"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-20/02-prisadki-import-lokalizaciya-2028.md"
-  },
-  {
-    "slug": "nitrovanie-masla",
-    "title": "Нитрование масла: почему мотор старит масло азотом, а не только кислородом",
-    "date": "2026-11-20",
-    "rubric": "deep",
-    "tags": [
-      "нитрование",
-      "нитрация",
-      "окисление масла",
-      "картерные газы",
-      "анализ отработки"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-20/03-nitrovanie-masla.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-20-gibrid-menaat-maslo-reje.md"
   },
   {
     "slug": "lampa-davleniya-masla",
@@ -2157,22 +2126,53 @@
       "холодный пуск",
       "диагностика"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-20/04-lampa-davleniya-masla.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-20-lampa-davleniya-masla.md"
   },
   {
-    "slug": "gibrid-menaat-maslo-reje",
-    "title": "Гибрид ездит на электротяге — значит, менять масло можно реже: почему это не так",
+    "slug": "moto-smazki-rynok-2033",
+    "title": "Мировой рынок мото-смазок вырастет до 24 млрд долларов к 2033 году",
     "date": "2026-11-20",
-    "rubric": "myth",
+    "rubric": "news",
     "tags": [
-      "гибрид",
-      "интервалы замены",
-      "короткие поездки",
-      "конденсат",
-      "городские условия"
+      "мото",
+      "мотоциклетное масло",
+      "рынок",
+      "двухтактные",
+      "четырёхтактные",
+      "электромото"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-20/05-gibrid-menaat-maslo-reje.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-20-moto-smazki-rynok-2033.md"
+  },
+  {
+    "slug": "nitrovanie-masla",
+    "title": "Нитрование масла: почему мотор старит масло азотом, а не только кислородом",
+    "date": "2026-11-20",
+    "rubric": "deep",
+    "tags": [
+      "нитрование",
+      "нитрация",
+      "окисление масла",
+      "картерные газы",
+      "анализ отработки"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-20-nitrovanie-masla.md"
+  },
+  {
+    "slug": "prisadki-import-lokalizaciya-2028",
+    "title": "Половина пакетов присадок — импорт: с 2028 года рынок масел ждёт балльная локализация",
+    "date": "2026-11-20",
+    "rubric": "news",
+    "tags": [
+      "пакет присадок",
+      "локализация",
+      "рынок масел",
+      "регуляторика",
+      "интервалы замены"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-20-prisadki-import-lokalizaciya-2028.md"
   }
 ]
