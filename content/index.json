@@ -2188,24 +2188,38 @@
       "спецификации",
       "дефицит"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-23/01-dexos1-odobreniya-deficit.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-23-dexos1-odobreniya-deficit.md"
   },
   {
-    "slug": "ognestoikie-zhidkosti-rynok",
-    "title": "Огнестойкие гидравлические жидкости: зачем металлургии и шахтам особые масла",
+    "slug": "kapelnyi-test-masla",
+    "title": "Капельный тест масла на бумаге: что он показывает и чего не видит",
     "date": "2026-11-23",
-    "rubric": "news",
+    "rubric": "expert",
     "tags": [
-      "огнестойкие смазки",
-      "гидравлика",
-      "промышленные масла",
-      "рынок",
-      "HFC",
-      "HFD"
+      "капельный тест",
+      "диагностика масла",
+      "анализ отработки",
+      "щуп",
+      "домашняя диагностика"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-23/02-ognestoikie-zhidkosti-rynok.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-23-kapelnyi-test-masla.md"
+  },
+  {
+    "slug": "litol-universalnaya-smazka-mif",
+    "title": "Литол подойдёт всему: почему универсальной смазки не бывает",
+    "date": "2026-11-23",
+    "rubric": "myth",
+    "tags": [
+      "пластичные смазки",
+      "литол",
+      "NLGI",
+      "загустители",
+      "шприцевание"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-23-litol-universalnaya-smazka-mif.md"
   },
   {
     "slug": "maslo-i-salniki-uplotneniya",
@@ -2221,37 +2235,23 @@
       "совместимость масла",
       "течи"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-23/03-maslo-i-salniki-uplotneniya.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-23-maslo-i-salniki-uplotneniya.md"
   },
   {
-    "slug": "kapelnyi-test-masla",
-    "title": "Капельный тест масла на бумаге: что он показывает и чего не видит",
+    "slug": "ognestoikie-zhidkosti-rynok",
+    "title": "Огнестойкие гидравлические жидкости: зачем металлургии и шахтам особые масла",
     "date": "2026-11-23",
-    "rubric": "expert",
+    "rubric": "news",
     "tags": [
-      "капельный тест",
-      "диагностика масла",
-      "анализ отработки",
-      "щуп",
-      "домашняя диагностика"
+      "огнестойкие смазки",
+      "гидравлика",
+      "промышленные масла",
+      "рынок",
+      "HFC",
+      "HFD"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-23/04-kapelnyi-test-masla.md"
-  },
-  {
-    "slug": "litol-universalnaya-smazka-mif",
-    "title": "Литол подойдёт всему: почему универсальной смазки не бывает",
-    "date": "2026-11-23",
-    "rubric": "myth",
-    "tags": [
-      "пластичные смазки",
-      "литол",
-      "NLGI",
-      "загустители",
-      "шприцевание"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-23/05-litol-universalnaya-smazka-mif.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-23-ognestoikie-zhidkosti-rynok.md"
   }
 ]
