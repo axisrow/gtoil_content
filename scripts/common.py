@@ -13,7 +13,8 @@ def read_frontmatter(path: Path) -> tuple[dict, str]:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
         raise ValueError(f"{path}: no front-matter")
-    _, fm, body = text.split("---", 2)
+    # ponytail: split on fence LINES only — a `---` inside a value (e.g. URL) must not cut the front-matter
+    _, fm, body = re.split(r"^---\s*$", text, maxsplit=2, flags=re.M)
     return yaml.safe_load(fm) or {}, body
 
 

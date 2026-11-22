@@ -2174,5 +2174,84 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-20-prisadki-import-lokalizaciya-2028.md"
+  },
+  {
+    "slug": "dexos1-odobreniya-deficit",
+    "title": "Дефицит базовых масел ставит под удар одобрения dexos1",
+    "date": "2026-11-23",
+    "rubric": "news",
+    "tags": [
+      "dexos1",
+      "GM",
+      "базовые масла",
+      "группа III",
+      "спецификации",
+      "дефицит"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-23/01-dexos1-odobreniya-deficit.md"
+  },
+  {
+    "slug": "ognestoikie-zhidkosti-rynok",
+    "title": "Огнестойкие гидравлические жидкости: зачем металлургии и шахтам особые масла",
+    "date": "2026-11-23",
+    "rubric": "news",
+    "tags": [
+      "огнестойкие смазки",
+      "гидравлика",
+      "промышленные масла",
+      "рынок",
+      "HFC",
+      "HFD"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-23/02-ognestoikie-zhidkosti-rynok.md"
+  },
+  {
+    "slug": "maslo-i-salniki-uplotneniya",
+    "title": "Масло и сальники: почему уплотнения не вечные и при чём тут выбор масла",
+    "date": "2026-11-23",
+    "rubric": "deep",
+    "tags": [
+      "уплотнения",
+      "сальники",
+      "эластомеры",
+      "NBR",
+      "FKM",
+      "совместимость масла",
+      "течи"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-23/03-maslo-i-salniki-uplotneniya.md"
+  },
+  {
+    "slug": "kapelnyi-test-masla",
+    "title": "Капельный тест масла на бумаге: что он показывает и чего не видит",
+    "date": "2026-11-23",
+    "rubric": "expert",
+    "tags": [
+      "капельный тест",
+      "диагностика масла",
+      "анализ отработки",
+      "щуп",
+      "домашняя диагностика"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-23/04-kapelnyi-test-masla.md"
+  },
+  {
+    "slug": "litol-universalnaya-smazka-mif",
+    "title": "Литол подойдёт всему: почему универсальной смазки не бывает",
+    "date": "2026-11-23",
+    "rubric": "myth",
+    "tags": [
+      "пластичные смазки",
+      "литол",
+      "NLGI",
+      "загустители",
+      "шприцевание"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-23/05-litol-universalnaya-smazka-mif.md"
   }
 ]
