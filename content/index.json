@@ -2176,6 +2176,80 @@
     "path": "docs/blog/posts/2026-11-20-prisadki-import-lokalizaciya-2028.md"
   },
   {
+    "slug": "kanada-zavod-bazovyh-masel",
+    "title": "Канада может потерять крупнейшее производство базовых масел: профсоюз борется за завод",
+    "date": "2026-11-22",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "Канада",
+      "HF Sinclair",
+      "дефицит",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-22/01-kanada-zavod-bazovyh-masel.md"
+  },
+  {
+    "slug": "kazahstan-markirovka-6-6-mln",
+    "title": "Казахстан нанёс 6,6 млн кодов маркировки на моторные масла",
+    "date": "2026-11-22",
+    "rubric": "news",
+    "tags": [
+      "маркировка",
+      "Казахстан",
+      "контрафакт",
+      "ЕАЭС",
+      "Честный знак"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-22/02-kazahstan-markirovka-6-6-mln.md"
+  },
+  {
+    "slug": "otkrytye-shesterni-smazka",
+    "title": "Смазка открытых шестерён: почему открытой передаче нужна своя химия",
+    "date": "2026-11-22",
+    "rubric": "deep",
+    "tags": [
+      "открытые шестерни",
+      "редукторные масла",
+      "пластичные смазки",
+      "адгезия",
+      "индустриальные смазки"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-22/03-otkrytye-shesterni-smazka.md"
+  },
+  {
+    "slug": "analiz-masla-chastniku",
+    "title": "Анализ масла для частника: как заказать, что в отчёте и на что смотреть",
+    "date": "2026-11-22",
+    "rubric": "expert",
+    "tags": [
+      "анализ отработки",
+      "лаборатория",
+      "диагностика масла",
+      "интервалы замены"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-22/04-analiz-masla-chastniku.md"
+  },
+  {
+    "slug": "tolko-zavodskaya-marka-mif",
+    "title": "Можно лить только заводскую марку масла: почему это не так",
+    "date": "2026-11-22",
+    "rubric": "myth",
+    "tags": [
+      "оригинальное масло",
+      "допуски",
+      "бренды",
+      "замена марки",
+      "гарантия"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-22/05-tolko-zavodskaya-marka-mif.md"
+  },
+  {
     "slug": "dexos1-odobreniya-deficit",
     "title": "Дефицит базовых масел ставит под удар одобрения dexos1",
     "date": "2026-11-23",
