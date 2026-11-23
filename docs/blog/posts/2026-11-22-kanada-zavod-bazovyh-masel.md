@@ -1,17 +1,25 @@
 ---
-title: "Канада может потерять крупнейшее производство базовых масел: профсоюз борется за завод"
+title: 'Канада может потерять крупнейшее производство базовых масел: профсоюз борется
+  за завод'
 date: 2026-11-22
 rubric: news
 categories:
-  - Новости
-tags: [базовые масла, Канада, HF Sinclair, дефицит, рынок]
-summary: "HF Sinclair планирует к 2027 году свернуть производство базовых масел на площадке в Миссиссоге — крупнейшем в Канаде. Профсоюз Unifor бьёт тревогу: потеря мощностей в разгар мирового дефицита групп III усилит давление на цены."
+- Новости
+tags:
+- базовые масла
+- Канада
+- HF Sinclair
+- дефицит
+- рынок
+summary: 'HF Sinclair планирует к 2027 году свернуть производство базовых масел на
+  площадке в Миссиссоге — крупнейшем в Канаде. Профсоюз Unifor бьёт тревогу: потеря
+  мощностей в разгар мирового дефицита групп III усилит давление на цены.'
 sources:
-  - https://jobbersworld.com/2026/11/19/unifor-steps-up-fight-to-save-hf-sinclairs-mississauga-base-oil-refinery
-  - https://www.unifor.org/news/all-news/unifor-condemns-hf-sinclair-decision-shut-canadas-largest-base-oil-refinery
-status: draft
+- https://jobbersworld.com/2026/11/19/unifor-steps-up-fight-to-save-hf-sinclairs-mississauga-base-oil-refinery
+- https://www.unifor.org/news/all-news/unifor-condemns-hf-sinclair-decision-shut-canadas-largest-base-oil-refinery
+status: approved
+slug: kanada-zavod-bazovyh-masel
 ---
-
 HF Sinclair объявила летом 2026 года, что к 2027 году сворачивает производство базовых масел на площадке Миссиссога Лубрикантс Центр (Онтарио) — крупнейшем заводе базовых масел в Канаде. Профсоюз Unifor осудил решение и наращивает кампанию за сохранение производства: 13 ноября руководство профсоюза посетило завод и встретилось с работниками, 19 ноября отраслевой портал JobbersWorld сообщил, что борьба обостряется — к переговорам подключаются и государственные деятели.
 
 <!-- more -->

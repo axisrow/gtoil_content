@@ -2176,6 +2176,20 @@
     "path": "docs/blog/posts/2026-11-20-prisadki-import-lokalizaciya-2028.md"
   },
   {
+    "slug": "analiz-masla-chastniku",
+    "title": "Анализ масла для частника: как заказать, что в отчёте и на что смотреть",
+    "date": "2026-11-22",
+    "rubric": "expert",
+    "tags": [
+      "анализ отработки",
+      "лаборатория",
+      "диагностика масла",
+      "интервалы замены"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-22-analiz-masla-chastniku.md"
+  },
+  {
     "slug": "kanada-zavod-bazovyh-masel",
     "title": "Канада может потерять крупнейшее производство базовых масел: профсоюз борется за завод",
     "date": "2026-11-22",
@@ -2187,8 +2201,8 @@
       "дефицит",
       "рынок"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-22/01-kanada-zavod-bazovyh-masel.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-22-kanada-zavod-bazovyh-masel.md"
   },
   {
     "slug": "kazahstan-markirovka-6-6-mln",
@@ -2202,8 +2216,8 @@
       "ЕАЭС",
       "Честный знак"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-22/02-kazahstan-markirovka-6-6-mln.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-22-kazahstan-markirovka-6-6-mln.md"
   },
   {
     "slug": "otkrytye-shesterni-smazka",
@@ -2217,22 +2231,8 @@
       "адгезия",
       "индустриальные смазки"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-22/03-otkrytye-shesterni-smazka.md"
-  },
-  {
-    "slug": "analiz-masla-chastniku",
-    "title": "Анализ масла для частника: как заказать, что в отчёте и на что смотреть",
-    "date": "2026-11-22",
-    "rubric": "expert",
-    "tags": [
-      "анализ отработки",
-      "лаборатория",
-      "диагностика масла",
-      "интервалы замены"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-22/04-analiz-masla-chastniku.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-22-otkrytye-shesterni-smazka.md"
   },
   {
     "slug": "tolko-zavodskaya-marka-mif",
@@ -2246,8 +2246,8 @@
       "замена марки",
       "гарантия"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-22/05-tolko-zavodskaya-marka-mif.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-22-tolko-zavodskaya-marka-mif.md"
   },
   {
     "slug": "dexos1-odobreniya-deficit",
