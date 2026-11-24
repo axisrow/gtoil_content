@@ -2327,5 +2327,81 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-23-ognestoikie-zhidkosti-rynok.md"
+  },
+  {
+    "slug": "akpp-neobsluzhivaemaya-mif",
+    "title": "«Необслуживаемая» АКПП: почему надпись «на весь срок службы» — не гарантия",
+    "date": "2026-11-24",
+    "rubric": "news",
+    "tags": [
+      "АКПП",
+      "ATF",
+      "интервалы замены",
+      "миф",
+      "трансмиссия"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-24/01-akpp-neobsluzhivaemaya-mif.md"
+  },
+  {
+    "slug": "trakovye-masla-15w40",
+    "title": "Почему грузовику нужно 15W-40: чем траковое масло отличается от легкового",
+    "date": "2026-11-24",
+    "rubric": "deep",
+    "tags": [
+      "коммерческий транспорт",
+      "дизель",
+      "15W-40",
+      "CK-4",
+      "траковые масла"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-24/02-trakovye-masla-15w40.md"
+  },
+  {
+    "slug": "gur-zhidkost",
+    "title": "Масло в гидроусилителе руля: чем ГУР отличается от мотора и когда менять жидкость",
+    "date": "2026-11-24",
+    "rubric": "deep",
+    "tags": [
+      "ГУР",
+      "гидроусилитель",
+      "PSF",
+      "ATF",
+      "гидравлика",
+      "рулевое управление"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-24/03-gur-zhidkost.md"
+  },
+  {
+    "slug": "na-goryachuyu-ili-holodnuyu",
+    "title": "На горячую или холодную: при какой температуре менять масло",
+    "date": "2026-11-24",
+    "rubric": "expert",
+    "tags": [
+      "замена масла",
+      "горячий двигатель",
+      "холодный пуск",
+      "слив",
+      "безопасность"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-24/04-na-goryachuyu-ili-holodnuyu.md"
+  },
+  {
+    "slug": "gidrokompensatory-zhidkoe-maslo-mif",
+    "title": "Стук гидрокомпенсаторов лечится более жидким маслом: почему это не так",
+    "date": "2026-11-24",
+    "rubric": "myth",
+    "tags": [
+      "гидрокомпенсаторы",
+      "стук",
+      "вязкость",
+      "клапанный механизм",
+      "диагностика"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-24/05-gidrokompensatory-zhidkoe-maslo-mif.md"
   }
 ]
