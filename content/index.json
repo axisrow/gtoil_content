@@ -2403,5 +2403,78 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-24-trakovye-masla-15w40.md"
+  },
+  {
+    "slug": "bazovye-masla-q3-2026",
+    "title": "Рынок базовых масел разбежался: в США +20% за квартал, в Индонезии −13%",
+    "date": "2026-11-25",
+    "rubric": "news",
+    "tags": [
+      "базовые масла",
+      "Group I",
+      "Group II",
+      "цены",
+      "рынок"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-25/01-bazovye-masla-q3-2026.md"
+  },
+  {
+    "slug": "gidravlicheskoe-maslo-ne-tolko-vyazkost",
+    "title": "Гидравлическое масло: почему системе важна не только вязкость",
+    "date": "2026-11-25",
+    "rubric": "deep",
+    "tags": [
+      "гидравлика",
+      "индустриальные масла",
+      "ISO VG",
+      "HM",
+      "HV"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-25/02-gidravlicheskoe-maslo-ne-tolko-vyazkost.md"
+  },
+  {
+    "slug": "modifikatory-vyazkosti-sdvig",
+    "title": "Вязкость проседает: как работают модификаторы вязкости и почему масло худеет с пробегом",
+    "date": "2026-11-25",
+    "rubric": "deep",
+    "tags": [
+      "модификаторы вязкости",
+      "полимеры",
+      "SAE",
+      "сдвиг",
+      "всесезонное масло"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-25/03-modifikatory-vyazkosti-sdvig.md"
+  },
+  {
+    "slug": "zamena-masla-cvt-variator",
+    "title": "Замена масла в вариаторе: чем CVT отличается от классической АКПП",
+    "date": "2026-11-25",
+    "rubric": "expert",
+    "tags": [
+      "CVT",
+      "вариатор",
+      "трансмиссионные жидкости",
+      "АКПП"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-25/04-zamena-masla-cvt-variator.md"
+  },
+  {
+    "slug": "progrev-dvigatelya-zimoy-mif",
+    "title": "Зимой мотор нужно греть до рабочей температуры: почему это миф из эпохи карбюратора",
+    "date": "2026-11-25",
+    "rubric": "myth",
+    "tags": [
+      "прогрев",
+      "зимняя эксплуатация",
+      "холодный запуск",
+      "расход топлива"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-25/05-progrev-dvigatelya-zimoy-mif.md"
   }
 ]
