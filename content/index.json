@@ -2416,8 +2416,8 @@
       "цены",
       "рынок"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-25/01-bazovye-masla-q3-2026.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-25-bazovye-masla-q3-2026.md"
   },
   {
     "slug": "gidravlicheskoe-maslo-ne-tolko-vyazkost",
@@ -2431,8 +2431,8 @@
       "HM",
       "HV"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-25/02-gidravlicheskoe-maslo-ne-tolko-vyazkost.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-25-gidravlicheskoe-maslo-ne-tolko-vyazkost.md"
   },
   {
     "slug": "modifikatory-vyazkosti-sdvig",
@@ -2446,22 +2446,8 @@
       "сдвиг",
       "всесезонное масло"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-25/03-modifikatory-vyazkosti-sdvig.md"
-  },
-  {
-    "slug": "zamena-masla-cvt-variator",
-    "title": "Замена масла в вариаторе: чем CVT отличается от классической АКПП",
-    "date": "2026-11-25",
-    "rubric": "expert",
-    "tags": [
-      "CVT",
-      "вариатор",
-      "трансмиссионные жидкости",
-      "АКПП"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-25/04-zamena-masla-cvt-variator.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-25-modifikatory-vyazkosti-sdvig.md"
   },
   {
     "slug": "progrev-dvigatelya-zimoy-mif",
@@ -2474,7 +2460,21 @@
       "холодный запуск",
       "расход топлива"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-25/05-progrev-dvigatelya-zimoy-mif.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-25-progrev-dvigatelya-zimoy-mif.md"
+  },
+  {
+    "slug": "zamena-masla-cvt-variator",
+    "title": "Замена масла в вариаторе: чем CVT отличается от классической АКПП",
+    "date": "2026-11-25",
+    "rubric": "expert",
+    "tags": [
+      "CVT",
+      "вариатор",
+      "трансмиссионные жидкости",
+      "АКПП"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-25-zamena-masla-cvt-variator.md"
   }
 ]
