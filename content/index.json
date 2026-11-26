@@ -2476,5 +2476,75 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-25-zamena-masla-cvt-variator.md"
+  },
+  {
+    "slug": "avtoservisy-dokumentaciya-2027",
+    "title": "С 1 марта 2027 года автосервисы получат доступ к документации автопроизводителей",
+    "date": "2026-11-26",
+    "rubric": "news",
+    "tags": [
+      "регуляторика",
+      "СТО",
+      "ремонт",
+      "закон"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-26/01-avtoservisy-dokumentaciya-2027.md"
+  },
+  {
+    "slug": "rynok-ev-zhidkostei-2034",
+    "title": "Рынок жидкостей для электромобилей вырастет почти втрое к 2034 году",
+    "date": "2026-11-26",
+    "rubric": "news",
+    "tags": [
+      "электромобили",
+      "e-fluids",
+      "рынок",
+      "охлаждение"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-26/02-rynok-ev-zhidkostei-2034.md"
+  },
+  {
+    "slug": "tbn-shchelochnoe-chislo",
+    "title": "Щелочное число: что такое TBN и когда масло теряет запас щёлочности",
+    "date": "2026-11-26",
+    "rubric": "deep",
+    "tags": [
+      "TBN",
+      "щелочное число",
+      "анализ масла",
+      "дизель"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-26/03-tbn-shchelochnoe-chislo.md"
+  },
+  {
+    "slug": "maslyanyi-filtr-zamena-s-maslom",
+    "title": "Почему масляный фильтр меняют вместе с маслом — и что внутри него происходит",
+    "date": "2026-11-26",
+    "rubric": "expert",
+    "tags": [
+      "масляный фильтр",
+      "замена масла",
+      "ТО",
+      "клапаны"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-26/04-maslyanyi-filtr-zamena-s-maslom.md"
+  },
+  {
+    "slug": "magnit-na-filtr-mif",
+    "title": "Магнит на масляный фильтр спасёт мотор: почему народный хак не работает",
+    "date": "2026-11-26",
+    "rubric": "myth",
+    "tags": [
+      "масляный фильтр",
+      "магнит",
+      "износ",
+      "народные методы"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-26/05-magnit-na-filtr-mif.md"
   }
 ]
