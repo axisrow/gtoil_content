@@ -1,17 +1,23 @@
 ---
-title: "С 1 марта 2027 года автосервисы получат доступ к документации автопроизводителей"
+title: С 1 марта 2027 года автосервисы получат доступ к документации автопроизводителей
 date: 2026-11-26
 rubric: news
 categories:
-  - Новости
-tags: [регуляторика, СТО, ремонт, закон]
-summary: "С 1 марта 2027 года автопроизводители обязаны передавать независимым СТО руководства по ремонту, электросхемы и диагностическое ПО — наравне с официальными дилерами. Что это меняет для владельцев машин."
+- Новости
+tags:
+- регуляторика
+- СТО
+- ремонт
+- закон
+summary: С 1 марта 2027 года автопроизводители обязаны передавать независимым СТО
+  руководства по ремонту, электросхемы и диагностическое ПО — наравне с официальными
+  дилерами. Что это меняет для владельцев машин.
 sources:
-  - https://auto.ru/mag/article/avtoproizvoditeley-obyazhut-delitsya-sekretami-remonta-chto-pomenyaetsya-s-2027-goda
-  - https://auto.rambler.ru/news/56829282-s-1-marta-2027-goda-u-proizvoditeley-tehnicheskih-tovarov-poyavyatsya-novye-obyazannosti-poryadok-ispolneniya-kotoryh-opredelit-pravitelstvo
-status: draft
+- https://auto.ru/mag/article/avtoproizvoditeley-obyazhut-delitsya-sekretami-remonta-chto-pomenyaetsya-s-2027-goda
+- https://auto.rambler.ru/news/56829282-s-1-marta-2027-goda-u-proizvoditeley-tehnicheskih-tovarov-poyavyatsya-novye-obyazannosti-poryadok-ispolneniya-kotoryh-opredelit-pravitelstvo
+status: approved
+slug: avtoservisy-dokumentaciya-2027
 ---
-
 С 1 марта 2027 года автопроизводители обязаны делиться с независимыми сервисами ремонтной документацией: руководствами по ремонту, электросхемами, технологическими картами, диагностическим ПО и прошивками. Поправки в закон «О защите прав потребителей» вступают в силу этой датой; обязанность ляжет на производителей автомобилей.
 
 <!-- more -->
