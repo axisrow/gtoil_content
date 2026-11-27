@@ -2546,5 +2546,76 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-26-tbn-shchelochnoe-chislo.md"
+  },
+  {
+    "slug": "rynok-masel-probeg-marketplaces",
+    "title": "Онлайн-продажи масел для машин с пробегом выросли почти втрое за год",
+    "date": "2026-11-27",
+    "rubric": "news",
+    "tags": [
+      "рынок",
+      "маркетплейсы",
+      "масла",
+      "e-commerce"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-27/01-rynok-masel-probeg-marketplaces.md"
+  },
+  {
+    "slug": "okislenie-masla-predel-resursa",
+    "title": "Окисление масла: почему у моторного масла есть предел ресурса",
+    "date": "2026-11-27",
+    "rubric": "deep",
+    "tags": [
+      "окисление",
+      "антиоксиданты",
+      "старение масла",
+      "ресурс"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-27/02-okislenie-masla-predel-resursa.md"
+  },
+  {
+    "slug": "gruppy-bazovyh-masel-i-v",
+    "title": "Группы базовых масел: чем отличаются I, II, III, IV и V",
+    "date": "2026-11-27",
+    "rubric": "deep",
+    "tags": [
+      "базовые масла",
+      "группы",
+      "гидрокрекинг",
+      "ПАО",
+      "эстеры"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-27/03-gruppy-bazovyh-masel-i-v.md"
+  },
+  {
+    "slug": "vyazkost-rashod-topliva",
+    "title": "Как вязкость масла влияет на расход топлива",
+    "date": "2026-11-27",
+    "rubric": "expert",
+    "tags": [
+      "вязкость",
+      "расход топлива",
+      "экономичность",
+      "0W-20"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-27/04-vyazkost-rashod-topliva.md"
+  },
+  {
+    "slug": "staree-motor-guschee-maslo-mif",
+    "title": "Чем старше мотор, тем гуще масло: почему эта логика вредит",
+    "date": "2026-11-27",
+    "rubric": "myth",
+    "tags": [
+      "мотор с пробегом",
+      "вязкость",
+      "угар масла",
+      "износ"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-27/05-staree-motor-guschee-maslo-mif.md"
   }
 ]
