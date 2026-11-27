@@ -2548,18 +2548,19 @@
     "path": "docs/blog/posts/2026-11-26-tbn-shchelochnoe-chislo.md"
   },
   {
-    "slug": "rynok-masel-probeg-marketplaces",
-    "title": "Онлайн-продажи масел для машин с пробегом выросли почти втрое за год",
+    "slug": "gruppy-bazovyh-masel-i-v",
+    "title": "Группы базовых масел: чем отличаются I, II, III, IV и V",
     "date": "2026-11-27",
-    "rubric": "news",
+    "rubric": "deep",
     "tags": [
-      "рынок",
-      "маркетплейсы",
-      "масла",
-      "e-commerce"
+      "базовые масла",
+      "группы",
+      "гидрокрекинг",
+      "ПАО",
+      "эстеры"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-27/01-rynok-masel-probeg-marketplaces.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-27-gruppy-bazovyh-masel-i-v.md"
   },
   {
     "slug": "okislenie-masla-predel-resursa",
@@ -2572,37 +2573,22 @@
       "старение масла",
       "ресурс"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-27/02-okislenie-masla-predel-resursa.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-27-okislenie-masla-predel-resursa.md"
   },
   {
-    "slug": "gruppy-bazovyh-masel-i-v",
-    "title": "Группы базовых масел: чем отличаются I, II, III, IV и V",
+    "slug": "rynok-masel-probeg-marketplaces",
+    "title": "Онлайн-продажи масел для машин с пробегом выросли почти втрое за год",
     "date": "2026-11-27",
-    "rubric": "deep",
+    "rubric": "news",
     "tags": [
-      "базовые масла",
-      "группы",
-      "гидрокрекинг",
-      "ПАО",
-      "эстеры"
+      "рынок",
+      "маркетплейсы",
+      "масла",
+      "e-commerce"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-27/03-gruppy-bazovyh-masel-i-v.md"
-  },
-  {
-    "slug": "vyazkost-rashod-topliva",
-    "title": "Как вязкость масла влияет на расход топлива",
-    "date": "2026-11-27",
-    "rubric": "expert",
-    "tags": [
-      "вязкость",
-      "расход топлива",
-      "экономичность",
-      "0W-20"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-27/04-vyazkost-rashod-topliva.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-27-rynok-masel-probeg-marketplaces.md"
   },
   {
     "slug": "staree-motor-guschee-maslo-mif",
@@ -2615,7 +2601,21 @@
       "угар масла",
       "износ"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-27/05-staree-motor-guschee-maslo-mif.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-27-staree-motor-guschee-maslo-mif.md"
+  },
+  {
+    "slug": "vyazkost-rashod-topliva",
+    "title": "Как вязкость масла влияет на расход топлива",
+    "date": "2026-11-27",
+    "rubric": "expert",
+    "tags": [
+      "вязкость",
+      "расход топлива",
+      "экономичность",
+      "0W-20"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-27-vyazkost-rashod-topliva.md"
   }
 ]
