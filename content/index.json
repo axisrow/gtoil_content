@@ -2619,19 +2619,18 @@
     "path": "docs/blog/posts/2026-11-27-vyazkost-rashod-topliva.md"
   },
   {
-    "slug": "maslo-iz-pvh-othodov",
-    "title": "Старые окна, трубы и банковские карты: учёные делают основу моторных масел из ПВХ",
+    "slug": "dizel-v-benzin-mif",
+    "title": "Дизельное масло в бензиновый мотор: почему «оно же универсальное» — опасная логика",
     "date": "2026-11-28",
-    "rubric": "news",
+    "rubric": "myth",
     "tags": [
-      "ПВХ",
-      "переработка",
-      "ПАО",
-      "синтетика",
-      "наука"
+      "дизельные масла",
+      "API",
+      "допуски",
+      "миф"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-28/01-maslo-iz-pvh-othodov.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-28-dizel-v-benzin-mif.md"
   },
   {
     "slug": "indiya-zavod-smeshivaniya",
@@ -2644,22 +2643,8 @@
       "базовые масла",
       "мощности"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-28/02-indiya-zavod-smeshivaniya.md"
-  },
-  {
-    "slug": "nizkotemperaturnye-svoistva-masla",
-    "title": "Почему моторное масло не замерзает: низкотемпературные свойства по-настоящему",
-    "date": "2026-11-28",
-    "rubric": "deep",
-    "tags": [
-      "низкотемпературные свойства",
-      "SAE",
-      "прокачиваемость",
-      "депрессаторы"
-    ],
-    "status": "draft",
-    "path": "drafts/2026-11-28/03-nizkotemperaturnye-svoistva-masla.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-28-indiya-zavod-smeshivaniya.md"
   },
   {
     "slug": "kak-chitat-etiketku-masla",
@@ -2673,21 +2658,36 @@
       "ACEA",
       "допуски"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-28/04-kak-chitat-etiketku-masla.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-28-kak-chitat-etiketku-masla.md"
   },
   {
-    "slug": "dizel-v-benzin-mif",
-    "title": "Дизельное масло в бензиновый мотор: почему «оно же универсальное» — опасная логика",
+    "slug": "maslo-iz-pvh-othodov",
+    "title": "Старые окна, трубы и банковские карты: учёные делают основу моторных масел из ПВХ",
     "date": "2026-11-28",
-    "rubric": "myth",
+    "rubric": "news",
     "tags": [
-      "дизельные масла",
-      "API",
-      "допуски",
-      "миф"
+      "ПВХ",
+      "переработка",
+      "ПАО",
+      "синтетика",
+      "наука"
     ],
-    "status": "draft",
-    "path": "drafts/2026-11-28/05-dizel-v-benzin-mif.md"
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-28-maslo-iz-pvh-othodov.md"
+  },
+  {
+    "slug": "nizkotemperaturnye-svoistva-masla",
+    "title": "Почему моторное масло не замерзает: низкотемпературные свойства по-настоящему",
+    "date": "2026-11-28",
+    "rubric": "deep",
+    "tags": [
+      "низкотемпературные свойства",
+      "SAE",
+      "прокачиваемость",
+      "депрессаторы"
+    ],
+    "status": "approved",
+    "path": "docs/blog/posts/2026-11-28-nizkotemperaturnye-svoistva-masla.md"
   }
 ]

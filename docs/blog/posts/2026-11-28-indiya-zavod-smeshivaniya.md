@@ -1,17 +1,23 @@
 ---
-title: "Индия запустила новый завод смешивания масел и терминал базовых масел"
+title: Индия запустила новый завод смешивания масел и терминал базовых масел
 date: 2026-11-28
 rubric: news
 categories:
-  - Новости
-tags: [Индия, производство, базовые масла, мощности]
-summary: "Индийская государственная BPCL открыла в штате Махараштра интегрированный комплекс: завод смешивания смазок плюс терминал базовых масел. Инвестиция — около 100 кроров рупий."
+- Новости
+tags:
+- Индия
+- производство
+- базовые масла
+- мощности
+summary: 'Индийская государственная BPCL открыла в штате Махараштра интегрированный
+  комплекс: завод смешивания смазок плюс терминал базовых масел. Инвестиция — около
+  100 кроров рупий.'
 sources:
-  - https://www.business-standard.com/companies/news/bpcl-commissions-integrated-lube-blending-plant-base-oil-terminal-in-maha-126112700862_1.html
-  - https://energy.economictimes.indiatimes.com/news/oil-and-gas/bpcl-inaugurates-new-lube-oil-blending-plant-base-oil-terminal-in-maharashtra/136217651
-status: draft
+- https://www.business-standard.com/companies/news/bpcl-commissions-integrated-lube-blending-plant-base-oil-terminal-in-maha-126112700862_1.html
+- https://energy.economictimes.indiatimes.com/news/oil-and-gas/bpcl-inaugurates-new-lube-oil-blending-plant-base-oil-terminal-in-maharashtra/136217651
+status: approved
+slug: indiya-zavod-smeshivaniya
 ---
-
 Индийская государственная нефтяная компания BPCL ввела в строй интегрированный комплекс в Расаяни (штат Махараштра): завод смешивания смазочных материалов и терминал базовых масел на одной площадке. Открытие состоялось 27 ноября; инвестиция оценивается примерно в 100 кроров рупий (порядка 12 миллионов долларов).
 
 <!-- more -->
