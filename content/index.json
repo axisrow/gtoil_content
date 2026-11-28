@@ -2617,5 +2617,77 @@
     ],
     "status": "approved",
     "path": "docs/blog/posts/2026-11-27-vyazkost-rashod-topliva.md"
+  },
+  {
+    "slug": "maslo-iz-pvh-othodov",
+    "title": "Старые окна, трубы и банковские карты: учёные делают основу моторных масел из ПВХ",
+    "date": "2026-11-28",
+    "rubric": "news",
+    "tags": [
+      "ПВХ",
+      "переработка",
+      "ПАО",
+      "синтетика",
+      "наука"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-28/01-maslo-iz-pvh-othodov.md"
+  },
+  {
+    "slug": "indiya-zavod-smeshivaniya",
+    "title": "Индия запустила новый завод смешивания масел и терминал базовых масел",
+    "date": "2026-11-28",
+    "rubric": "news",
+    "tags": [
+      "Индия",
+      "производство",
+      "базовые масла",
+      "мощности"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-28/02-indiya-zavod-smeshivaniya.md"
+  },
+  {
+    "slug": "nizkotemperaturnye-svoistva-masla",
+    "title": "Почему моторное масло не замерзает: низкотемпературные свойства по-настоящему",
+    "date": "2026-11-28",
+    "rubric": "deep",
+    "tags": [
+      "низкотемпературные свойства",
+      "SAE",
+      "прокачиваемость",
+      "депрессаторы"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-28/03-nizkotemperaturnye-svoistva-masla.md"
+  },
+  {
+    "slug": "kak-chitat-etiketku-masla",
+    "title": "Как читать этикетку моторного масла: вязкость, спецификации и допуски",
+    "date": "2026-11-28",
+    "rubric": "expert",
+    "tags": [
+      "этикетка",
+      "SAE",
+      "API",
+      "ACEA",
+      "допуски"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-28/04-kak-chitat-etiketku-masla.md"
+  },
+  {
+    "slug": "dizel-v-benzin-mif",
+    "title": "Дизельное масло в бензиновый мотор: почему «оно же универсальное» — опасная логика",
+    "date": "2026-11-28",
+    "rubric": "myth",
+    "tags": [
+      "дизельные масла",
+      "API",
+      "допуски",
+      "миф"
+    ],
+    "status": "draft",
+    "path": "drafts/2026-11-28/05-dizel-v-benzin-mif.md"
   }
 ]
